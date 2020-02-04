@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be21de2-d9cc-4f89-b151-561ac156ad6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/maanaimApp/src/main/res/drawable-hdpi/shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maanaimApp/src/main/res/drawable-hdpi/shape.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maanaimApp/src/main/res/menu/activity_screen_slide.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maanaimApp/src/main/res/menu/activity_screen_slide.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/maanaimApp/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="295">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -56,6 +56,8 @@
       <find>back</find>
       <find>gms</find>
       <find>enter code here</find>
+      <find>android:imeActionId=&quot;@+id/nome&quot;</find>
+      <find>&lt;dimen name=&quot;fab_margin&quot;&gt;16dp&lt;/dimen&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -89,6 +91,9 @@
         <option value="$PROJECT_DIR$/maanaimApp/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/maanaimApp/build.gradle" />
         <option value="$PROJECT_DIR$/maanaimApp/src/main/res/drawable-hdpi/shape.xml" />
+        <option value="$PROJECT_DIR$/maanaimApp/src/main/res/layout/editar_membro.xml" />
+        <option value="$PROJECT_DIR$/maanaimApp/src/main/res/values-w820dp/dimens.xml" />
+        <option value="$PROJECT_DIR$/maanaimApp/src/main/res/menu/activity_screen_slide.xml" />
       </list>
     </option>
   </component>
@@ -237,7 +242,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33476394" />
@@ -518,10 +522,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/maanaimApp/src/main/res/values-w820dp/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/maanaimApp/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="295">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>
