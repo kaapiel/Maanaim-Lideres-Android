@@ -8,10 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -22,6 +18,11 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 
 import com.facebook.Session;
 import com.facebook.SessionState;
@@ -39,7 +40,7 @@ import br.com.igreja.cellapp.util.Parametros;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class Inicio extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+public class Inicio extends AppCompatActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
     @BindView(R.id.textConexao)
     TextView textConexao;

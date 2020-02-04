@@ -2,7 +2,8 @@ package br.com.igreja.cellapp.maps;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
+
 import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;

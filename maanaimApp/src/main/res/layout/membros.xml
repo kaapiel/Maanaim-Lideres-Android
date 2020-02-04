@@ -29,7 +29,6 @@
         android:layout_gravity="bottom|end"
         android:src="@android:drawable/ic_input_add"
         android:tint="@color/white"
-        app:backgroundTint="@color/OrangeRed"
         android:layout_marginRight="45dp"
         android:layout_marginBottom="39dp"
         android:layout_alignParentBottom="true"

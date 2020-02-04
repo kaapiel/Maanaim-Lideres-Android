@@ -21,7 +21,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.core.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.facebook.internal.AttributionIdentifiers;
@@ -404,7 +404,7 @@ public class AppEventsLogger {
     /**
      * The action used to indicate that a flush of app events has occurred. This should
      * be used as an action in an IntentFilter and BroadcastReceiver registered with
-     * the {@link android.support.v4.content.LocalBroadcastManager}.
+     * the {@link androidx.core.content.LocalBroadcastManager}.
      */
     public static final String ACTION_APP_EVENTS_FLUSHED = "com.facebook.sdk.APP_EVENTS_FLUSHED";
 

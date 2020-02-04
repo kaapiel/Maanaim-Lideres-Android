@@ -6,7 +6,6 @@
     <item
         android:id="@+id/menuPrincipal"
         android:title="Voltar ao Menu"
-        app:showAsAction="withText|ifRoom"
         tools:ignore="HardcodedText" />
 
 </menu>
