@@ -7,4 +7,5 @@
     <string name="google_app_id" translatable="false">1:949488255080:android:29cc4140a6e5255f</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4in6HkHNYXVk8vb4kp0j4E1nbFzT3vfU</string>
     <string name="google_storage_bucket" translatable="false">maanaim-lideres.appspot.com</string>
+    <string name="project_id" translatable="false">maanaim-lideres</string>
 </resources>

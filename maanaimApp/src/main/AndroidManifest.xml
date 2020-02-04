@@ -138,13 +138,6 @@
             android:name="br.com.igreja.cellapp.listagens.EditarMembro"
             android:screenOrientation="portrait"></activity>
 
-        <BaseAdapter
-            android:name="br.com.igreja.cellapp.adapter.ListaMembrosPresencaAdapter"
-            android:screenOrientation="portrait"
-            android:theme="@style/MyTheme"
-            android:windowSoftInputMode="adjustPan"></BaseAdapter>
-
-
         <service android:name="br.com.igreja.cellapp.util.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
