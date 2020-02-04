@@ -40,7 +40,6 @@
             android:hint="Nome"
             android:textColor="@color/branco"
             android:textColorHint="@color/OrangeRed"
-            android:imeActionId="@+id/nome"
             android:imeOptions="actionUnspecified"
             android:inputType="text"
             android:maxLines="1"

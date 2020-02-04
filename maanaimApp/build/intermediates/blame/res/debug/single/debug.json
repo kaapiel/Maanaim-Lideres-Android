@@ -32,12 +32,12 @@
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/layout/fragment_navigation_drawer.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_imagem_evento.xml.flat",
-        "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/layout/imagem_evento.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_mtrl_calendar_month_navigation.xml.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/mtrl_calendar_month_navigation.xml"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_imagem_evento.xml.flat",
+        "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/layout/imagem_evento.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/menu_activity_screen_slide.xml.flat",
@@ -60,12 +60,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/color/mtrl_extended_fab_bg_color_selector.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_test_toolbar_surface.xml.flat",
@@ -84,12 +84,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_com_facebook_picker_list_pressed.9.png.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/362152a428f82e6e497829a417fb8a0e/jetified-facebook-3.17.2/res/drawable/com_facebook_picker_list_pressed.9.png"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_agenda.png.flat",
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/drawable-xxhdpi/ic_action_agenda.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_com_facebook_picker_list_pressed.9.png.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/362152a428f82e6e497829a417fb8a0e/jetified-facebook-3.17.2/res/drawable/com_facebook_picker_list_pressed.9.png"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/color_material_on_background_emphasis_medium.xml.flat",
@@ -148,12 +148,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/design_text_input_end_icon.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_test_design_checkbox.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/test_design_checkbox.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_mapp_ok_entendi.png.flat",
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/drawable-hdpi/mapp_ok_entendi.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_test_design_checkbox.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/test_design_checkbox.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xhdpi_loading11.png.flat",
@@ -268,12 +268,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_ic_clear_black_24dp.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable/ic_clear_black_24dp.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_ic_clear_black_24dp.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable/ic_clear_black_24dp.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/color_mtrl_btn_text_btn_ripple_color.xml.flat",
@@ -304,12 +304,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/362152a428f82e6e497829a417fb8a0e/jetified-facebook-3.17.2/res/drawable-hdpi-v4/com_facebook_tooltip_black_bottomnub.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_btn_radio_on_to_off_mtrl_animation.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_fundo9.png.flat",
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/drawable-hdpi/fundo9.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_btn_radio_on_to_off_mtrl_animation.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_toast_layout.xml.flat",
@@ -380,20 +380,20 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_left_black_24dp.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable/ic_keyboard_arrow_left_black_24dp.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_ic_keyboard_arrow_left_black_24dp.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable/ic_keyboard_arrow_left_black_24dp.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/color_mtrl_fab_ripple_color.xml.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/color/mtrl_fab_ripple_color.xml"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_yt.png.flat",
@@ -432,12 +432,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/2de56d537bf9461d628f3e727cedcfe0/play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_mapp_ic_grafico.png.flat",
@@ -516,16 +516,16 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable/tooltip_frame_light.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/color_mtrl_filled_background_color.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/color/mtrl_filled_background_color.xml"
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_mtrl_calendar_vertical.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/mtrl_calendar_vertical.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_mtrl_calendar_vertical.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/mtrl_calendar_vertical.xml"
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/color_mtrl_filled_background_color.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/color/mtrl_filled_background_color.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_play.png.flat",
@@ -540,12 +540,12 @@
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/layout/mana.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_mtrl_dialog_background.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable/mtrl_dialog_background.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_mapp_ic_sol2.png.flat",
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/drawable-hdpi/mapp_ic_sol2.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable_mtrl_dialog_background.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable/mtrl_dialog_background.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -676,12 +676,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/animator/mtrl_chip_state_list_anim.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi_mapp_ic_bandeira_africa.png.flat",
@@ -764,16 +764,16 @@
         "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/xml/searchable.xml"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable-v21/avd_show_password.xml"
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xhdpi_loading27.png.flat",
+        "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/drawable-xhdpi/loading27.png"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/1ebc0976257b877341618f4cc21505da/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xhdpi_loading27.png.flat",
-        "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/drawable-xhdpi/loading27.png"
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-v21_avd_show_password.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/drawable-v21/avd_show_password.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-xhdpi_loading14.png.flat",
@@ -912,12 +912,12 @@
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/362152a428f82e6e497829a417fb8a0e/jetified-facebook-3.17.2/res/drawable-mdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
-        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_mtrl_calendar_day.xml.flat",
-        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/mtrl_calendar_day.xml"
-    },
-    {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/layout_mtrl_calendar_day.xml.flat",
+        "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/7a88cb57b7045d878eab452a8f2edea5/material-1.1.0/res/layout/mtrl_calendar_day.xml"
     },
     {
         "merged": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",

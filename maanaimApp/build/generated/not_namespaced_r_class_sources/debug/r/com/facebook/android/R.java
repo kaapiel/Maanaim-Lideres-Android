@@ -45,20 +45,20 @@ public final class R {
     public static final class dimen {
         private dimen() {}
 
-        public static final int com_facebook_loginview_compound_drawable_padding = 0x7f070064;
-        public static final int com_facebook_loginview_padding_bottom = 0x7f070065;
-        public static final int com_facebook_loginview_padding_left = 0x7f070066;
-        public static final int com_facebook_loginview_padding_right = 0x7f070067;
-        public static final int com_facebook_loginview_padding_top = 0x7f070068;
-        public static final int com_facebook_loginview_text_size = 0x7f070069;
-        public static final int com_facebook_picker_divider_width = 0x7f07006a;
-        public static final int com_facebook_picker_place_image_size = 0x7f07006b;
-        public static final int com_facebook_profilepictureview_preset_size_large = 0x7f07006c;
-        public static final int com_facebook_profilepictureview_preset_size_normal = 0x7f07006d;
-        public static final int com_facebook_profilepictureview_preset_size_small = 0x7f07006e;
-        public static final int com_facebook_tooltip_horizontal_padding = 0x7f07006f;
-        public static final int com_facebook_usersettingsfragment_profile_picture_height = 0x7f070070;
-        public static final int com_facebook_usersettingsfragment_profile_picture_width = 0x7f070071;
+        public static final int com_facebook_loginview_compound_drawable_padding = 0x7f07005d;
+        public static final int com_facebook_loginview_padding_bottom = 0x7f07005e;
+        public static final int com_facebook_loginview_padding_left = 0x7f07005f;
+        public static final int com_facebook_loginview_padding_right = 0x7f070060;
+        public static final int com_facebook_loginview_padding_top = 0x7f070061;
+        public static final int com_facebook_loginview_text_size = 0x7f070062;
+        public static final int com_facebook_picker_divider_width = 0x7f070063;
+        public static final int com_facebook_picker_place_image_size = 0x7f070064;
+        public static final int com_facebook_profilepictureview_preset_size_large = 0x7f070065;
+        public static final int com_facebook_profilepictureview_preset_size_normal = 0x7f070066;
+        public static final int com_facebook_profilepictureview_preset_size_small = 0x7f070067;
+        public static final int com_facebook_tooltip_horizontal_padding = 0x7f070068;
+        public static final int com_facebook_usersettingsfragment_profile_picture_height = 0x7f070069;
+        public static final int com_facebook_usersettingsfragment_profile_picture_width = 0x7f07006a;
     }
     public static final class drawable {
         private drawable() {}
@@ -134,9 +134,9 @@ public final class R {
         public static final int com_facebook_usersettingsfragment_logo_image = 0x7f09009b;
         public static final int com_facebook_usersettingsfragment_profile_name = 0x7f09009c;
         public static final int large = 0x7f090125;
-        public static final int normal = 0x7f09016b;
-        public static final int picker_subtitle = 0x7f090179;
-        public static final int small = 0x7f0901ba;
+        public static final int normal = 0x7f09016a;
+        public static final int picker_subtitle = 0x7f090178;
+        public static final int small = 0x7f0901b9;
     }
     public static final class layout {
         private layout() {}

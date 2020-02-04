@@ -1178,16 +1178,9 @@ dimen activate_account_footer
 dimen activate_account_header
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
-dimen album_cover_height
-dimen album_title
-dimen album_title_padding
 dimen appcompat_dialog_background_inset
-dimen backdrop_subtitle
-dimen backdrop_title
 dimen banner_error
 dimen branding_bank_title_text_size
-dimen card_album_radius
-dimen card_margin
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -1263,7 +1256,6 @@ dimen design_tab_scrollable_min_width
 dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
-dimen detail_backdrop_height
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
 dimen extract_clean_description_text_size
@@ -1279,7 +1271,6 @@ dimen extract_tablayout_text_size
 dimen extract_top_minimized_month_text_size
 dimen extract_top_minimized_points_text_size
 dimen extract_top_minimized_pts_text_size
-dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1293,10 +1284,6 @@ dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
 dimen historic_extract_title_month_text_size
 dimen home_navigationview_text_size
-dimen ic_album_overflow_height
-dimen ic_album_overflow_margin_top
-dimen ic_album_overflow_width
-dimen item_offset
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1491,9 +1478,6 @@ dimen register_user_subtitle
 dimen register_user_switch_desciption
 dimen register_user_title
 dimen rescued_status_text_size
-dimen songs_count
-dimen songs_count_padding_bottom
-dimen songs_value
 dimen subtitle_corner_radius
 dimen subtitle_outline_width
 dimen subtitle_shadow_offset
@@ -2260,7 +2244,6 @@ id navigation_drawer
 id navigation_header_container
 id never
 id noScroll
-id nome
 id nomeAuxiliar
 id nomeDaCelula
 id nomeDaRegiao
