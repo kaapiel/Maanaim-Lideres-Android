@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="androidcolors">
+        <item>@color/DodgerBlue</item>
+        <item>@color/GreenYellow</item>
+        <item>@color/holo_red_dark</item>
+        <item>@color/OrangeRed</item>
+        <item>@color/yellow</item>
+        <item>@color/white</item>
+    </integer-array>
+
+
+    <string-array name="array_regioes">
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Vermelha</item>
+        <item>Laranja</item>
+        <item>Amarela</item>
+        <item>Branca</item>
+    </string-array>
+
+    </resources>

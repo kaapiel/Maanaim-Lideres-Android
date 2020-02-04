@@ -1,0 +1,482 @@
+[
+    {
+        "outputFile": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 88,
+                        "endColumn": 57,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 55,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 50,
+                    "endOffset": 215
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 50,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 220,
+                    "endColumn": 42,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 42,
+                        "endOffset": 667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 263,
+                    "endColumn": 50,
+                    "endOffset": 309
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 50,
+                        "endOffset": 624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 314,
+                    "endColumn": 48,
+                    "endOffset": 358
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 388,
+                        "endColumn": 48,
+                        "endOffset": 432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 363,
+                    "endColumn": 45,
+                    "endOffset": 404
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 342,
+                        "endColumn": 45,
+                        "endOffset": 383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 409,
+                    "endColumn": 47,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 479,
+                        "endColumn": 47,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endColumn": 41,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 41,
+                        "endOffset": 474
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endColumn": 54,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 54,
+                        "endOffset": 337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 554,
+                    "endColumn": 41,
+                    "endOffset": 591
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 41,
+                        "endOffset": 239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 596,
+                    "endColumn": 55,
+                    "endOffset": 647
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 870,
+                        "endColumn": 55,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 652,
+                    "endColumn": 59,
+                    "endOffset": 707
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 926,
+                        "endColumn": 59,
+                        "endOffset": 981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 712,
+                    "endColumn": 54,
+                    "endOffset": 762
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 815,
+                        "endColumn": 54,
+                        "endOffset": 865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 767,
+                    "endColumn": 42,
+                    "endOffset": 805
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 244,
+                        "endColumn": 42,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 810,
+                    "endColumn": 42,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 729,
+                        "endColumn": 42,
+                        "endOffset": 767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endColumn": 56,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 672,
+                        "endColumn": 56,
+                        "endOffset": 724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 910,
+                    "endColumn": 42,
+                    "endOffset": 948
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 772,
+                        "endColumn": 42,
+                        "endOffset": 810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 953,
+                    "endColumn": 97,
+                    "endOffset": 1046
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 427,
+                        "endColumn": 97,
+                        "endOffset": 520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1051,
+                    "endColumn": 112,
+                    "endOffset": 1159
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 112,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1164,
+                    "endColumn": 62,
+                    "endOffset": 1222
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 363,
+                        "endColumn": 62,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1227,
+                    "endColumn": 47,
+                    "endOffset": 1270
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 47,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1275,
+                    "endColumn": 51,
+                    "endOffset": 1322
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 51,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1327,
+                    "endColumn": 39,
+                    "endOffset": 1362
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1367,
+                    "endColumn": 47,
+                    "endOffset": 1410
+                },
+                "from": {
+                    "file": "C:\\Developer\\SourceTree\\Maanaim Lideres\\MaanaimApp-Lideres\\MaanaimApp\\maanaimApp\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 47,
+                        "endOffset": 243
+                    }
+                }
+            }
+        ]
+    }
+]

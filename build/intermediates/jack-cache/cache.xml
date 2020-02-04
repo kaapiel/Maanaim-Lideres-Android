@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\libs\androidasync-2.0.8.jar"
+        revision="24.0.0 rc4"
+        sha1="a306709c5e2373ced6f3a622af4f696f2a1b7e20">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\androidasync-2.0.8-cf9c2ec6e059b91970988551f8121ac03dbfcb7c.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\MaanaimApp\facebook\unspecified\jars\libs\bolts-android-1.1.2.jar"
+        revision="24.0.0 rc4"
+        sha1="648979e049f3c35310a62cd3351cb5351e1e2800">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\bolts-android-1.1.2-e1b3dee19055bfe7997f708000869ee4e92a81ba.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-fc524d4bc919c7959afb4b534a4c731f7891b4b3.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-core\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="edffd94aa4aa93756c5489fcdbfa93475a008d7c">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-5f996ea2284b8604f8a05a9b4ec6da82e3bbe2cf.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-1f8480410507592462232904fe10ac9e2fe60d62.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        revision="24.0.0 rc4"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\internal_impl-24.2.0-3c6b879f6c2dd9c18921e518a356de13c602f265.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.0.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-2a1aada1d51404254eeb37c83f28ef35d691f261.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-e9e748cded31bf5dccf9bbce33f1945885e2af6d.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-4076be6d7667e6c64f249ff9ffbd0e9d863b010a.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-f0d8cb4d0fa79352da7ba48894704bb8cd99e02a.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        revision="24.0.0 rc4"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\internal_impl-24.2.0-126ad4d24504f5dd9704a01916aef5114d275b59.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-47fa720a5eb0c8621271a9c5a4759bf1da76ea12.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.0.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="5f0f6913a208a126269aaa68004ed0329a832c5b">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-01398f488d5c08a0621c6b20b878d209e65cb5cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\AppData\Local\Android\sdk\platforms\android-24\optional\org.apache.http.legacy.jar"
+        revision="24.0.0 rc4"
+        sha1="fb7023e781abb70ed1b0442eb611fbed295cae84">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\runtime\org.apache.http.legacy-a19d5413a960fa5b73ca35116c38fb76170eaff7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\AppData\Local\Android\sdk\platforms\android-24\android.jar"
+        revision="24.0.0 rc4"
+        sha1="d49cc0972df7adf495d3ad3d0cf71c0ec517ace4">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\runtime\android-5bb11544e65808f967eef693529d64ece14aa2ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        revision="24.0.0 rc4"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\gson-2.4-6fddd9ba15da5e7d3dcccf81509675753443bfe2.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.0.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-29eb88b9665743cd72aecdd9f6e35bb1e9a8c2c1.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-8dda985249998585b4cb47c5895b0c4673162855.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-226d1fa35b22adacfdb4f36b6b02243b5a653f2d.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-95d0518be223bef4f634454c08f8ad08594e3646.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\libs\YoutubeModel.jar"
+        revision="24.0.0 rc4"
+        sha1="41bf95f7d37040f4e4964c1944bb007ba45b73f1">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\YoutubeModel-ae940de7cc9554f56bcec785aa9f8abbbd334a57.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.0.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="24536a7b97926a9c155c88425da6875adeb11b51">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-9183f2a72fcf0a4153c08a2376c9d729ee900449.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-876782e74f186c6a9804a8ef052771cdbc7fd16a.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\libs\YouTubeAndroidPlayerApi.jar"
+        revision="24.0.0 rc4"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\YouTubeAndroidPlayerApi-56bbfc50bfb815ef45f502f3c847a1f675cc7706.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-fd206e1c6f70e042f0ac4d1b1b015f88dc21c488.jar" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        revision="24.0.0 rc4"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\support-annotations-24.2.0-9cfba065dba95a742a444aff580c074f711695b2.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        revision="24.0.0 rc4"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\internal_impl-24.2.0-550634c5bb56c9486778d5471d75434cce6db03d.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-857ea90ef741bf2b28cfff5256785ea0e97065d0.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-92889d257e558057a506cda7c2cb5d6308fe5bd0.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        revision="24.0.0 rc4"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\internal_impl-24.2.0-ec3175084945fc5789df0d5532d62f55fd8d8509.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\MaanaimApp\facebook\unspecified\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="b3e8fc1ceb5dad6313538dc5d3bc4be9fdca7ce2">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-4ab5ecf1b8ef40fa8e8e89340b780178385addbd.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.0.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="70ddab48594608953b20164b82f1f890a9a8174a">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-fc4bbb684022cd97d86e4123a7ba48d9c1b604ca.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        revision="24.0.0 rc4"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\internal_impl-24.2.0-f2d4c76491070a5c43248842a55a690e2c6b8ddb.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-0e61b9b4c5621a1b11d8ca1859c8730c8b598077.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-a7fd380ea802c85647a5fcb415e71a36a66eba61.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-ff9f4ec34f7473a686f9969e3d126a3f3a4f9135.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-432ac536a062c0ac92ab678d7ed391a3002e9458.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-b8e4463d9145f8d0bd2b323c54fc21b1a66b6cda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Inmetrics\.gradle\caches\modules-2\files-2.1\javax.annotation\jsr250-api\1.0\5025422767732a1ab45d93abfea846513d742dcf\jsr250-api-1.0.jar"
+        revision="24.0.0 rc4"
+        sha1="5025422767732a1ab45d93abfea846513d742dcf">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\jsr250-api-1.0-80234ffb4c35519b58093d3ef445722731f283f2.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\libs\Parse-1.9.4.jar"
+        revision="24.0.0 rc4"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\Parse-1.9.4-79d9b6ee202bd65edddc2a9423ee28fc768555d7.jar" />
+    </item>
+    <item
+        jar="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        revision="24.0.0 rc4"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\jill\debug\packaged\classes-4e5e0cdcd225f29d542e844302c54a3bc9644a1e.jar" />
+    </item>
+
+</items>

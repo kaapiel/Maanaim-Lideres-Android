@@ -1,0 +1,248 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".mainMenu.Relatorios"
+    android:id="@+id/relativeLayout"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#1C1C1C"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/OrangeRed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Célula"
+                android:id="@+id/textView26" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editarMembro_spinnerCelula"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:id="@+id/editarMembro_editNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:imeActionId="@+id/nome"
+                android:imeOptions="actionUnspecified"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editarMembro_editApelido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Apelido"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editarMembro_editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editarMembro_editCPF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CPF"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/editarMembro_editRG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="RG"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/OrangeRed"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Data de Nascimento"
+                android:id="@+id/textView25" />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editarMembro_dataNasc"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sexo"
+                android:textColor="@color/OrangeRed"
+                android:id="@+id/textView28" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editarMembro_spinnerSexo"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:id="@+id/editarMembro_editNumeroCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Número celular"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editDataBatismo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data Batismo mm/dd/aaaa"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/branco"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Endereço"
+                android:textColor="@color/OrangeRed"
+                android:id="@+id/textView29"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editCEP"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:hint="CEP"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:textColor="@color/branco"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                style="?android:textAppearanceSmall"
+                android:id="@+id/editarMembro_botaoBuscarCEP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Buscar CEP"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editRua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rua"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editNumeroEndereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editComplemento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Complemento"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editBairro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bairro"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editCidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cidade"
+                android:textColor="@color/branco"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editarMembro_editEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Estado"
+                android:textColorHint="@color/OrangeRed"
+                android:maxLines="1"
+                android:textColor="@color/branco"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/editarMembro_botaoCadastrar"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Cadastrar"
+                android:textStyle="bold" />
+
+            <include layout="@layout/loading" />
+        </LinearLayout>
+</ScrollView>

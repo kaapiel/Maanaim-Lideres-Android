@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="hdpi"
+    format="7"
+    timestamp="8188098047421"
+    token="8163187467266260543" >
+
+    <task
+        name="javac"
+        duration="2067" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="86" />
+    <task
+        name="verifier"
+        duration="9" />
+
+    <artifact
+        location="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+        type="DEX" />
+
+    <build timestamp="8019913799240" >
+        <artifact
+            location="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\outputs\apk\maanaimApp-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="8188098047421" >
+        <artifact
+            location="C:\Developer\SourceTree\Maanaim Lideres\MaanaimApp-Lideres\MaanaimApp\maanaimApp\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
