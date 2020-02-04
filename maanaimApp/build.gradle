@@ -12,11 +12,6 @@ android {
         minSdkVersion 13
         targetSdkVersion 19
         multiDexEnabled true
-
-        jackOptions {
-            enabled false
-        }
-
     }
 
     buildTypes {
