@@ -1,6 +1,5 @@
 package br.com.igreja.cellapp.listagens;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.net.Uri;
@@ -8,7 +7,6 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Menu;
@@ -16,8 +14,6 @@ import android.view.MenuItem;
 import android.view.MenuItem.OnMenuItemClickListener;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SearchView;
@@ -34,13 +30,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.igreja.cellapp.R;
-import br.com.igreja.cellapp.adapter.ListaCelulasAdapter;
 import br.com.igreja.cellapp.adapter.ListaMembrosAdapter;
 import br.com.igreja.cellapp.mainMenu.Inicio;
 import br.com.igreja.cellapp.model.Celula;
 import br.com.igreja.cellapp.model.Endereco;
 import br.com.igreja.cellapp.model.Membro;
-import br.com.igreja.cellapp.model.Regiao;
 import br.com.igreja.cellapp.util.Mensagens;
 import br.com.igreja.cellapp.util.Parametros;
 import br.com.igreja.cellapp.util.WebClientCellApp;

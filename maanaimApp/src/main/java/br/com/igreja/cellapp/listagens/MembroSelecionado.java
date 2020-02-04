@@ -1,21 +1,16 @@
 package br.com.igreja.cellapp.listagens;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Base64;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,7 +22,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import br.com.igreja.cellapp.R;
-import br.com.igreja.cellapp.mainMenu.Inicio;
 import br.com.igreja.cellapp.model.Celula;
 import br.com.igreja.cellapp.model.Membro;
 import br.com.igreja.cellapp.util.Mensagens;

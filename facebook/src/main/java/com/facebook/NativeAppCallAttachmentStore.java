@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,10 +19,10 @@ package com.facebook;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Log;
+
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 
-import java.io.*;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
@@ -113,7 +113,7 @@ public final class NativeAppCallAttachmentStore implements NativeAppCallContentP
     }
 
     private <T> void addAttachments(Context context, UUID callId, Map<String, T> attachments,
-            ProcessAttachment<T> processor) {
+                                    ProcessAttachment<T> processor) {
         if (attachments.size() == 0) {
             return;
         }

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal" >
+    android:orientation="horizontal">
 
     <!-- Nome da Célula -->
 
@@ -28,7 +27,7 @@
         android:layout_marginTop="4dip"
         android:textColor="#040404"
         android:textSize="12sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <!-- Data de Criação da Célula -->
 
@@ -40,7 +39,6 @@
         android:layout_marginTop="17dip"
         android:layout_centerHorizontal="true"
         android:textColor="#343434"
-        android:textSize="12sp"
-         />
+        android:textSize="12sp" />
 
 </RelativeLayout>

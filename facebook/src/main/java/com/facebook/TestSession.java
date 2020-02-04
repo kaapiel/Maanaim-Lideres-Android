@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -20,14 +20,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+
 import com.facebook.internal.Logger;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 import com.facebook.model.GraphObject;
 import com.facebook.model.GraphObjectList;
 import com.facebook.model.GraphUser;
-
-import java.util.*;
 
 /**
  * Implements an subclass of Session that knows about test users for a particular
@@ -81,7 +80,7 @@ public class TestSession extends Session {
     private boolean wasAskedToExtendAccessToken;
 
     TestSession(Activity activity, List<String> permissions, TokenCachingStrategy tokenCachingStrategy,
-            String sessionUniqueUserTag, Mode mode) {
+                String sessionUniqueUserTag, Mode mode) {
         super(activity, TestSession.testApplicationId, tokenCachingStrategy);
 
         Validate.notNull(permissions, "permissions");
@@ -143,7 +142,7 @@ public class TestSession extends Session {
      * @return a new TestSession that is in the CREATED state, ready to be opened
      */
     public static TestSession createSessionWithSharedUser(Activity activity, List<String> permissions,
-            String sessionUniqueUserTag) {
+                                                          String sessionUniqueUserTag) {
         return createTestSession(activity, permissions, Mode.SHARED, sessionUniqueUserTag);
     }
 
@@ -211,7 +210,7 @@ public class TestSession extends Session {
 
 
     private static synchronized TestSession createTestSession(Activity activity, List<String> permissions, Mode mode,
-            String sessionUniqueUserTag) {
+                                                              String sessionUniqueUserTag) {
         if (Utility.isNullOrEmpty(testApplicationId) || Utility.isNullOrEmpty(testApplicationSecret)) {
             throw new FacebookException("Must provide app ID and secret");
         }
@@ -256,7 +255,7 @@ public class TestSession extends Session {
             throw new FacebookException("Unexpected number of results from TestUsers batch query");
         }
 
-        TestAccountsResponse testAccountsResponse  = responses.get(0).getGraphObjectAs(TestAccountsResponse.class);
+        TestAccountsResponse testAccountsResponse = responses.get(0).getGraphObjectAs(TestAccountsResponse.class);
         GraphObjectList<TestAccount> testAccounts = testAccountsResponse.getData();
 
         // Response should contain a map of test accounts: { id's => { GraphUser } }
@@ -420,7 +419,7 @@ public class TestSession extends Session {
         if (error != null) {
             Log.w(LOG_TAG, String.format("Could not delete test account %s: %s", testAccountId, error.getException().toString()));
         } else if (graphObject.getProperty(Response.NON_JSON_RESPONSE_PROPERTY) == (Boolean) false
-                   || graphObject.getProperty(Response.SUCCESS_KEY) == (Boolean) false) {
+                || graphObject.getProperty(Response.SUCCESS_KEY) == (Boolean) false) {
             Log.w(LOG_TAG, String.format("Could not delete test account %s: unknown reason", testAccountId));
         }
     }

@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,6 +18,7 @@ package com.facebook;
 
 import android.content.Context;
 import android.os.Bundle;
+
 import com.facebook.internal.Logger;
 
 import java.math.BigDecimal;
@@ -28,10 +29,10 @@ import java.util.Currency;
  */
 @Deprecated
 public class InsightsLogger {
-    private static final String EVENT_PARAMETER_PIXEL_ID         = "fb_offsite_pixel_id";
-    private static final String EVENT_PARAMETER_PIXEL_VALUE      = "fb_offsite_pixel_value";
+    private static final String EVENT_PARAMETER_PIXEL_ID = "fb_offsite_pixel_id";
+    private static final String EVENT_PARAMETER_PIXEL_VALUE = "fb_offsite_pixel_value";
 
-    private static final String EVENT_NAME_LOG_CONVERSION_PIXEL  = "fb_log_offsite_pixel";
+    private static final String EVENT_NAME_LOG_CONVERSION_PIXEL = "fb_log_offsite_pixel";
 
     private AppEventsLogger appEventsLogger;
 

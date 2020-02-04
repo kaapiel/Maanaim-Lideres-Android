@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -29,16 +29,17 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
+
 import com.facebook.FacebookException;
 import com.facebook.Request;
 import com.facebook.Settings;
 import com.facebook.model.GraphObject;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
@@ -46,7 +47,6 @@ import java.net.URLConnection;
 import java.net.URLDecoder;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -74,7 +74,7 @@ public final class Utility {
 
     private final static String UTF8 = "UTF-8";
 
-    private static final String[] APP_SETTING_FIELDS = new String[] {
+    private static final String[] APP_SETTING_FIELDS = new String[]{
             APP_SETTING_SUPPORTS_ATTRIBUTION,
             APP_SETTING_SUPPORTS_IMPLICIT_SDK_LOGGING,
             APP_SETTING_NUX_CONTENT,
@@ -293,9 +293,9 @@ public final class Utility {
             }
 
             if (newRangeLower != Integer.MIN_VALUE) {
-                outputRange[outputIndex ++] = newRangeLower;
+                outputRange[outputIndex++] = newRangeLower;
                 if (newRangeUpper != Integer.MAX_VALUE) {
-                    outputRange[outputIndex ++] = newRangeUpper;
+                    outputRange[outputIndex++] = newRangeUpper;
                 } else {
                     // If we reach an unbounded/open range, then we know we're done.
                     break;
@@ -640,14 +640,14 @@ public final class Utility {
                             APP_SETTINGS_PREFS_STORE,
                             Context.MODE_PRIVATE);
                     sharedPrefs.edit()
-                        .putString(settingsKey, resultJSON.toString())
-                        .apply();
+                            .putString(settingsKey, resultJSON.toString())
+                            .apply();
                 }
 
                 initialAppSettingsLoadTask = null;
             }
         };
-        initialAppSettingsLoadTask.execute((Void[])null);
+        initialAppSettingsLoadTask.execute((Void[]) null);
 
         // Also see if we had a cached copy and use that immediately.
         SharedPreferences sharedPrefs = context.getSharedPreferences(

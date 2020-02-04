@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,6 +32,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.facebook.android.R;
 import com.facebook.internal.*;
 
@@ -81,6 +82,7 @@ public class LikeView extends FrameLayout {
 
         private String stringValue;
         private int intValue;
+
         private Style(String stringValue, int value) {
             this.stringValue = stringValue;
             this.intValue = value;
@@ -133,6 +135,7 @@ public class LikeView extends FrameLayout {
 
         private String stringValue;
         private int intValue;
+
         private HorizontalAlignment(String stringValue, int value) {
             this.stringValue = stringValue;
             this.intValue = value;
@@ -188,6 +191,7 @@ public class LikeView extends FrameLayout {
 
         private String stringValue;
         private int intValue;
+
         private AuxiliaryViewPosition(String stringValue, int value) {
             this.stringValue = stringValue;
             this.intValue = value;
@@ -464,7 +468,7 @@ public class LikeView extends FrameLayout {
 
     private void toggleLike() {
         if (likeActionController != null) {
-            Activity activity = (Activity)getContext();
+            Activity activity = (Activity) getContext();
             likeActionController.toggleLike(activity, getAnalyticsParameters());
         }
     }
@@ -544,8 +548,8 @@ public class LikeView extends FrameLayout {
 
     private void updateLayout() {
         // Make sure the container is horizontally aligned according to specifications.
-        LayoutParams containerViewLayoutParams = (LayoutParams)containerView.getLayoutParams();
-        LinearLayout.LayoutParams buttonLayoutParams = (LinearLayout.LayoutParams)likeButton.getLayoutParams();
+        LayoutParams containerViewLayoutParams = (LayoutParams) containerView.getLayoutParams();
+        LinearLayout.LayoutParams buttonLayoutParams = (LinearLayout.LayoutParams) likeButton.getLayoutParams();
         int viewGravity =
                 horizontalAlignment == HorizontalAlignment.LEFT ? Gravity.LEFT :
                         horizontalAlignment == HorizontalAlignment.CENTER ? Gravity.CENTER_HORIZONTAL : Gravity.RIGHT;
@@ -574,7 +578,7 @@ public class LikeView extends FrameLayout {
         auxView.setVisibility(VISIBLE);
 
         // Now position the auxiliary view properly
-        LinearLayout.LayoutParams auxViewLayoutParams = (LinearLayout.LayoutParams)auxView.getLayoutParams();
+        LinearLayout.LayoutParams auxViewLayoutParams = (LinearLayout.LayoutParams) auxView.getLayoutParams();
         auxViewLayoutParams.gravity = viewGravity;
 
         containerView.setOrientation(

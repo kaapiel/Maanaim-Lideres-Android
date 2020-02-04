@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textSelecione"
@@ -26,7 +26,7 @@
         android:layout_gravity="right"
         android:layout_marginTop="18dp"
         android:inputType="text"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/ARC"
@@ -37,8 +37,8 @@
             android:drawableRight="@android:drawable/btn_radio"
             android:gravity="center_vertical"
             android:text="\tARC - Almeida revista e corrigida"
-            android:textSize="20sp" 
-            tools:ignore="HardcodedText"/>
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
 
         <RadioButton
             android:id="@+id/ARA"
@@ -49,8 +49,8 @@
             android:drawableRight="@android:drawable/btn_radio"
             android:gravity="center_vertical"
             android:text="\tARA - Almeida revista e atualizada"
-            android:textSize="20sp" 
-            tools:ignore="HardcodedText"/>
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
 
         <RadioButton
             android:id="@+id/ACF"
@@ -61,8 +61,8 @@
             android:drawableRight="@android:drawable/btn_radio"
             android:gravity="center_vertical"
             android:text="\tACF - Almeida corrigida fiel "
-            android:textSize="20sp" 
-            tools:ignore="HardcodedText"/>
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
 
         <RadioButton
             android:id="@+id/NVI"

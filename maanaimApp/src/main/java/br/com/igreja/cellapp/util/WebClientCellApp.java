@@ -1,14 +1,5 @@
 package br.com.igreja.cellapp.util;
 
-import android.util.Log;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -135,7 +126,7 @@ public class WebClientCellApp {
     public Celula getCelulaPorId(ArrayList<Celula> celulas, Integer idCelula) {
 
         for (Celula c : celulas) {
-            if(c.getIdCelula().equals(idCelula)){
+            if (c.getIdCelula().equals(idCelula)) {
                 return c;
             }
         }

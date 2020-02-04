@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -42,7 +42,7 @@ import java.net.MalformedURLException;
  * @see RequestListener
  *        The callback interface.
  *
- * @author  Jim Brusstar (jimbru@fb.com),
+ * @author Jim Brusstar (jimbru@fb.com),
  *          Yariv Sadan (yariv@fb.com),
  *          Luke Shepard (lshepard@fb.com)
  */
@@ -84,10 +84,11 @@ public class AsyncFacebookRunner {
                        final RequestListener listener,
                        final Object state) {
         new Thread() {
-            @Override public void run() {
+            @Override
+            public void run() {
                 try {
                     String response = fb.logoutImpl(context);
-                    if (response.length() == 0 || response.equals("false")){
+                    if (response.length() == 0 || response.equals("false")) {
                         listener.onFacebookError(new FacebookError(
                                 "auth.expireSession failed"), state);
                         return;
@@ -270,7 +271,8 @@ public class AsyncFacebookRunner {
                         final RequestListener listener,
                         final Object state) {
         new Thread() {
-            @Override public void run() {
+            @Override
+            public void run() {
                 try {
                     String resp = fb.requestImpl(graphPath, parameters, httpMethod);
                     listener.onComplete(resp, state);

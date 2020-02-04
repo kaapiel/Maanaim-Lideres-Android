@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -28,6 +28,7 @@ public interface GraphUser extends GraphObject {
      * @return the ID of the user
      */
     public String getId();
+
     /**
      * Sets the ID of the user.
      * @param id the ID of the user
@@ -39,6 +40,7 @@ public interface GraphUser extends GraphObject {
      * @return the name of the user
      */
     public String getName();
+
     /**
      * Sets the name of the user.
      * @param name the name of the user
@@ -50,6 +52,7 @@ public interface GraphUser extends GraphObject {
      * @return the first name of the user
      */
     public String getFirstName();
+
     /**
      * Sets the first name of the user.
      * @param firstName the first name of the user
@@ -61,6 +64,7 @@ public interface GraphUser extends GraphObject {
      * @return the middle name of the user
      */
     public String getMiddleName();
+
     /**
      * Sets the middle name of the user.
      * @param middleName the middle name of the user
@@ -72,6 +76,7 @@ public interface GraphUser extends GraphObject {
      * @return the last name of the user
      */
     public String getLastName();
+
     /**
      * Sets the last name of the user.
      * @param lastName the last name of the user
@@ -83,6 +88,7 @@ public interface GraphUser extends GraphObject {
      * @return the Facebook URL of the user
      */
     public String getLink();
+
     /**
      * Sets the Facebook URL of the user.
      * @param link the Facebook URL of the user
@@ -94,6 +100,7 @@ public interface GraphUser extends GraphObject {
      * @return the Facebook username of the user
      */
     public String getUsername();
+
     /**
      * Sets the Facebook username of the user.
      * @param username the Facebook username of the user
@@ -105,6 +112,7 @@ public interface GraphUser extends GraphObject {
      * @return the birthday of the user
      */
     public String getBirthday();
+
     /**
      * Sets the birthday of the user.
      * @param birthday the birthday of the user

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".Mana" >
+    tools:context=".Mana">
 
     <WebView
         android:id="@+id/webManaView"
@@ -12,5 +12,5 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
-    
+
 </RelativeLayout>

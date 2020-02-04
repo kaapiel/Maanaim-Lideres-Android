@@ -21,86 +21,86 @@ import br.com.igreja.cellapp.model.Celula;
 import br.com.igreja.cellapp.model.Membro;
 import br.com.igreja.cellapp.util.WebClientCellApp;
 
-public class ListaMembrosAdapter extends BaseAdapter{
+public class ListaMembrosAdapter extends BaseAdapter {
 
-	private List<Membro> listaDeMembros = new ArrayList<>();
-	private List<Celula> listaCelula = new ArrayList<>();
-	private Activity activity;
-	
-	public ListaMembrosAdapter(List<Membro> listaDeMembros, Activity activity, List<Celula> listaCelula) {
-		this.listaCelula = listaCelula;
-		this.listaDeMembros = listaDeMembros;
-		this.activity = activity;
-	}
+    private List<Membro> listaDeMembros = new ArrayList<>();
+    private List<Celula> listaCelula = new ArrayList<>();
+    private Activity activity;
 
-	@Override
-	public int getCount() {
-		return listaDeMembros.size();
-	}
+    public ListaMembrosAdapter(List<Membro> listaDeMembros, Activity activity, List<Celula> listaCelula) {
+        this.listaCelula = listaCelula;
+        this.listaDeMembros = listaDeMembros;
+        this.activity = activity;
+    }
 
-	@Override
-	public Object getItem(int position) {
-		return listaDeMembros.get(position);
-	}
+    @Override
+    public int getCount() {
+        return listaDeMembros.size();
+    }
 
-	@Override
-	public long getItemId(int position) {
-		Membro membro = listaDeMembros.get(position);
-		return membro.getIdMembro();
-	}
+    @Override
+    public Object getItem(int position) {
+        return listaDeMembros.get(position);
+    }
 
-	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		
-		final Membro membro = listaDeMembros.get(position);
-		LayoutInflater inflater = activity.getLayoutInflater();
-		View listagem = inflater.inflate(R.layout.lista_membros_layout, null);
-		
-		TextView nomeDoMembro = (TextView) listagem.findViewById(R.id.nomeDoMembro);
-		nomeDoMembro.setText(membro.getNome());
-		
-		TextView dataNasc = (TextView) listagem.findViewById(R.id.dataNasc);
-		dataNasc.setText(membro.getDataNasc());
-		
-		final ImageView foto = (ImageView) listagem.findViewById(R.id.fotoDoMembro);
+    @Override
+    public long getItemId(int position) {
+        Membro membro = listaDeMembros.get(position);
+        return membro.getIdMembro();
+    }
 
-		String fotoByte = membro.getFoto();
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
 
-		if (fotoByte.equals("")){
-					
-			AlphaAnimation fadeIn = new AlphaAnimation(0.0f, 1.0f);
-			fadeIn.setDuration(700);
-			fadeIn.setFillAfter(true);
-			
-			foto.startAnimation(fadeIn);
-			foto.setImageResource(R.drawable.ic_semfoto);
-							
-		} else {
+        final Membro membro = listaDeMembros.get(position);
+        LayoutInflater inflater = activity.getLayoutInflater();
+        View listagem = inflater.inflate(R.layout.lista_membros_layout, null);
 
-				byte[] decode = Base64.decode(fotoByte, Base64.DEFAULT);
-				Bitmap bm = BitmapFactory.decodeByteArray(decode, 0, decode.length);
-				Options op = new BitmapFactory.Options();
-				op.inScaled = false;
-				Bitmap createScaledBitmap = Bitmap.createScaledBitmap(bm, 500, 500, true);
+        TextView nomeDoMembro = (TextView) listagem.findViewById(R.id.nomeDoMembro);
+        nomeDoMembro.setText(membro.getNome());
 
-				AlphaAnimation fadeIn = new AlphaAnimation(0.0f, 1.0f);
-				fadeIn.setDuration(700);
-				fadeIn.setFillAfter(true);
+        TextView dataNasc = (TextView) listagem.findViewById(R.id.dataNasc);
+        dataNasc.setText(membro.getDataNasc());
 
-				foto.startAnimation(fadeIn);
-				foto.setImageBitmap(createScaledBitmap);
-		}
-		
-		TextView celulaDoMembro = (TextView) listagem.findViewById(R.id.nomeDaCelula);
-		Celula celulaAssociada = new WebClientCellApp().getCelulaAssociadaComMembro(listaCelula, membro);
+        final ImageView foto = (ImageView) listagem.findViewById(R.id.fotoDoMembro);
 
-		try{
-			celulaDoMembro.setText(celulaAssociada.getNome());
-		}catch (NullPointerException npe){
-			celulaDoMembro.setText("Sem célula");
-		}
+        String fotoByte = membro.getFoto();
 
-		return listagem;
-	}
+        if (fotoByte.equals("")) {
+
+            AlphaAnimation fadeIn = new AlphaAnimation(0.0f, 1.0f);
+            fadeIn.setDuration(700);
+            fadeIn.setFillAfter(true);
+
+            foto.startAnimation(fadeIn);
+            foto.setImageResource(R.drawable.ic_semfoto);
+
+        } else {
+
+            byte[] decode = Base64.decode(fotoByte, Base64.DEFAULT);
+            Bitmap bm = BitmapFactory.decodeByteArray(decode, 0, decode.length);
+            Options op = new BitmapFactory.Options();
+            op.inScaled = false;
+            Bitmap createScaledBitmap = Bitmap.createScaledBitmap(bm, 500, 500, true);
+
+            AlphaAnimation fadeIn = new AlphaAnimation(0.0f, 1.0f);
+            fadeIn.setDuration(700);
+            fadeIn.setFillAfter(true);
+
+            foto.startAnimation(fadeIn);
+            foto.setImageBitmap(createScaledBitmap);
+        }
+
+        TextView celulaDoMembro = (TextView) listagem.findViewById(R.id.nomeDaCelula);
+        Celula celulaAssociada = new WebClientCellApp().getCelulaAssociadaComMembro(listaCelula, membro);
+
+        try {
+            celulaDoMembro.setText(celulaAssociada.getNome());
+        } catch (NullPointerException npe) {
+            celulaDoMembro.setText("Sem célula");
+        }
+
+        return listagem;
+    }
 
 }

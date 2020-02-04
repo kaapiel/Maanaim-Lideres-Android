@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,6 +18,7 @@ package com.facebook;
 
 import com.facebook.android.R;
 import com.facebook.internal.Utility;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -111,9 +112,9 @@ public final class FacebookRequestError {
     private final FacebookException exception;
 
     private FacebookRequestError(int requestStatusCode, int errorCode,
-            int subErrorCode, String errorType, String errorMessage, String errorUserTitle, String errorUserMessage,
-            boolean errorIsTransient, JSONObject requestResultBody, JSONObject requestResult, Object batchRequestResult,
-            HttpURLConnection connection, FacebookException exception) {
+                                 int subErrorCode, String errorType, String errorMessage, String errorUserTitle, String errorUserMessage,
+                                 boolean errorIsTransient, JSONObject requestResultBody, JSONObject requestResult, Object batchRequestResult,
+                                 HttpURLConnection connection, FacebookException exception) {
         this.requestStatusCode = requestStatusCode;
         this.errorCode = errorCode;
         this.subErrorCode = subErrorCode;
@@ -130,7 +131,7 @@ public final class FacebookRequestError {
         boolean isLocalException = false;
         if (exception != null) {
             this.exception = exception;
-            isLocalException =  true;
+            isLocalException = true;
         } else {
             this.exception = new FacebookServiceException(this, errorMessage);
         }
@@ -182,7 +183,7 @@ public final class FacebookRequestError {
         }
 
         // Notify user when error_user_msg is present
-        shouldNotify = errorUserMessage!= null && errorUserMessage.length() > 0;
+        shouldNotify = errorUserMessage != null && errorUserMessage.length() > 0;
 
         this.category = errorCategory;
         this.userActionMessageId = messageId;
@@ -190,9 +191,9 @@ public final class FacebookRequestError {
     }
 
     private FacebookRequestError(int requestStatusCode, int errorCode,
-            int subErrorCode, String errorType, String errorMessage, String errorUserTitle, String errorUserMessage,
-            boolean errorIsTransient, JSONObject requestResultBody, JSONObject requestResult, Object batchRequestResult,
-            HttpURLConnection connection) {
+                                 int subErrorCode, String errorType, String errorMessage, String errorUserTitle, String errorUserMessage,
+                                 boolean errorIsTransient, JSONObject requestResultBody, JSONObject requestResult, Object batchRequestResult,
+                                 HttpURLConnection connection) {
         this(requestStatusCode, errorCode, subErrorCode, errorType, errorMessage, errorUserTitle, errorUserMessage,
                 errorIsTransient, requestResultBody, requestResult, batchRequestResult, connection, null);
     }
@@ -389,7 +390,7 @@ public final class FacebookRequestError {
     }
 
     static FacebookRequestError checkResponseAndCreateError(JSONObject singleResult,
-            Object batchResult, HttpURLConnection connection) {
+                                                            Object batchResult, HttpURLConnection connection) {
         try {
             if (singleResult.has(CODE_KEY)) {
                 int responseCode = singleResult.getInt(CODE_KEY);
@@ -417,8 +418,8 @@ public final class FacebookRequestError {
                         errorMessage = error.optString(ERROR_MESSAGE_FIELD_KEY, null);
                         errorCode = error.optInt(ERROR_CODE_FIELD_KEY, INVALID_ERROR_CODE);
                         errorSubCode = error.optInt(ERROR_SUB_CODE_KEY, INVALID_ERROR_CODE);
-                        errorUserMessage =  error.optString(ERROR_USER_MSG_KEY, null);
-                        errorUserTitle =  error.optString(ERROR_USER_TITLE_KEY, null);
+                        errorUserMessage = error.optString(ERROR_USER_MSG_KEY, null);
+                        errorUserTitle = error.optString(ERROR_USER_TITLE_KEY, null);
                         errorIsTransient = error.optBoolean(ERROR_IS_TRANSIENT_KEY, false);
                         hasError = true;
                     } else if (jsonBody.has(ERROR_CODE_KEY) || jsonBody.has(ERROR_MSG_KEY)
@@ -498,6 +499,8 @@ public final class FacebookRequestError {
          * not limited to, JSON parsing errors or {@link java.io.IOException}s.
          */
         CLIENT
-    };
+    }
+
+    ;
 
 }

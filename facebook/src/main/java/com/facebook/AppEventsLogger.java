@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,12 +23,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
-import bolts.AppLinks;
+
 import com.facebook.internal.AttributionIdentifiers;
 import com.facebook.internal.Logger;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 import com.facebook.model.GraphObject;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -51,6 +52,8 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+
+import bolts.AppLinks;
 
 
 /**
@@ -276,10 +279,10 @@ public class AppEventsLogger {
         if ((context instanceof Activity)) {
             setSourceApplication((Activity) context);
         } else {
-          // If context is not an Activity, we cannot get intent nor calling activity.
-          resetSourceApplication();
-          Log.d(AppEventsLogger.class.getName(),
-              "To set source application the context of activateApp must be an instance of Activity");
+            // If context is not an Activity, we cannot get intent nor calling activity.
+            resetSourceApplication();
+            Log.d(AppEventsLogger.class.getName(),
+                    "To set source application the context of activateApp must be an instance of Activity");
         }
 
         // activateApp supercedes publishInstall in the public API, so we need to explicitly invoke it, since the server
@@ -623,7 +626,7 @@ public class AppEventsLogger {
         // If we have a session and the appId passed is null or matches the session's app ID:
         if (session != null &&
                 (applicationId == null || applicationId.equals(session.getApplicationId()))
-                ) {
+        ) {
             accessTokenAppId = new AccessTokenAppIdPair(session);
         } else {
             // If no app ID passed, get it from the manifest:
@@ -1292,7 +1295,7 @@ public class AppEventsLogger {
                     identifier = "<None Provided>";
                 }
                 throw new FacebookException(
-                    String.format("Identifier '%s' must be less than %d characters", identifier, MAX_IDENTIFIER_LENGTH)
+                        String.format("Identifier '%s' must be less than %d characters", identifier, MAX_IDENTIFIER_LENGTH)
                 );
             }
 

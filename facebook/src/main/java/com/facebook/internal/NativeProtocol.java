@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,12 +25,11 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
+
 import com.facebook.FacebookException;
 import com.facebook.FacebookOperationCanceledException;
 import com.facebook.SessionDefaultAudience;
 import com.facebook.Settings;
-
-import java.util.*;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for Android. Use of
@@ -82,14 +81,14 @@ public final class NativeProtocol {
     public static final String BRIDGE_ARG_ERROR_BUNDLE = "error";
 
     // Messages supported by PlatformService:
-    public static final int MESSAGE_GET_ACCESS_TOKEN_REQUEST    = 0x10000;
-    public static final int MESSAGE_GET_ACCESS_TOKEN_REPLY      = 0x10001;
-    static final int MESSAGE_GET_PROTOCOL_VERSIONS_REQUEST      = 0x10002;
-    static final int MESSAGE_GET_PROTOCOL_VERSIONS_REPLY        = 0x10003;
-    public static final int MESSAGE_GET_INSTALL_DATA_REQUEST    = 0x10004;
-    public static final int MESSAGE_GET_INSTALL_DATA_REPLY      = 0x10005;
-    public static final int MESSAGE_GET_LIKE_STATUS_REQUEST     = 0x10006;
-    public static final int MESSAGE_GET_LIKE_STATUS_REPLY       = 0x10007;
+    public static final int MESSAGE_GET_ACCESS_TOKEN_REQUEST = 0x10000;
+    public static final int MESSAGE_GET_ACCESS_TOKEN_REPLY = 0x10001;
+    static final int MESSAGE_GET_PROTOCOL_VERSIONS_REQUEST = 0x10002;
+    static final int MESSAGE_GET_PROTOCOL_VERSIONS_REPLY = 0x10003;
+    public static final int MESSAGE_GET_INSTALL_DATA_REQUEST = 0x10004;
+    public static final int MESSAGE_GET_INSTALL_DATA_REPLY = 0x10005;
+    public static final int MESSAGE_GET_LIKE_STATUS_REQUEST = 0x10006;
+    public static final int MESSAGE_GET_LIKE_STATUS_REPLY = 0x10007;
 
     // MESSAGE_ERROR_REPLY data keys:
     // See STATUS_*
@@ -371,7 +370,7 @@ public final class NativeProtocol {
     }
 
     public static Intent createProxyAuthIntent(Context context, String applicationId, List<String> permissions,
-            String e2e, boolean isRerequest, SessionDefaultAudience defaultAudience) {
+                                               String e2e, boolean isRerequest, SessionDefaultAudience defaultAudience) {
         for (NativeAppInfo appInfo : facebookAppInfoList) {
             Intent intent = new Intent()
                     .setClassName(appInfo.getPackage(), FACEBOOK_PROXY_AUTH_ACTIVITY)
@@ -605,7 +604,7 @@ public final class NativeProtocol {
 
     public static int getLatestAvailableProtocolVersionForService(Context context, final int minimumVersion) {
         // Services are currently always against the Facebook App
-        return getLatestAvailableProtocolVersionForAppInfoList(context, facebookAppInfoList, new int[] {minimumVersion});
+        return getLatestAvailableProtocolVersionForAppInfoList(context, facebookAppInfoList, new int[]{minimumVersion});
     }
 
     public static int getLatestAvailableProtocolVersionForAction(Context context, String action, int[] versionSpec) {
@@ -614,7 +613,7 @@ public final class NativeProtocol {
     }
 
     private static int getLatestAvailableProtocolVersionForAppInfoList(Context context, List<NativeAppInfo> appInfoList,
-            int[] versionSpec) {
+                                                                       int[] versionSpec) {
         if (appInfoList == null) {
             return NO_PROTOCOL_AVAILABLE;
         }
@@ -645,7 +644,7 @@ public final class NativeProtocol {
 
         ContentResolver contentResolver = context.getContentResolver();
 
-        String [] projection = new String[]{ PLATFORM_PROVIDER_VERSION_COLUMN };
+        String[] projection = new String[]{PLATFORM_PROVIDER_VERSION_COLUMN};
         Uri uri = buildPlatformProviderVersionURI(appInfo);
         Cursor c = null;
         try {

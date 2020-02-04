@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-w820dp/strings.xml",
+                    "from": {
+                        "startLines": "8,6,7,3,4,2,5",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "419,243,356,95,143,55,195",
+                        "endColumns": "97,112,62,47,51,39,47",
+                        "endOffsets": "512,351,414,138,190,90,238"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "953,1051,1164,1227,1275,1327,1367",
+                        "endColumns": "97,112,62,47,51,39,47",
+                        "endOffsets": "1046,1159,1222,1270,1322,1362,1410"
+                    }
+                },
+                {
+                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "2,3,11,13,12,8,7,10,9,6,4,18,19,17,5,15,14,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "88,146,527,629,578,388,342,479,437,287,202,870,926,815,244,729,672,772",
+                        "endColumns": "57,55,50,42,50,48,45,47,41,54,41,55,59,54,42,42,56,42",
+                        "endOffsets": "141,197,573,667,624,432,383,522,474,337,239,921,981,865,282,767,724,810"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,220,263,314,363,409,457,499,554,596,652,712,767,810,853,910",
+                        "endColumns": "57,55,50,42,50,48,45,47,41,54,41,55,59,54,42,42,56,42",
+                        "endOffsets": "108,164,215,258,309,358,404,452,494,549,591,647,707,762,805,848,905,948"
+                    }
+                }
+            ]
+        }
+    ]
+}

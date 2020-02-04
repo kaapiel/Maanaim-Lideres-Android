@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,6 +32,7 @@ import android.view.ViewGroup;
 import android.view.ViewStub;
 import android.view.animation.AlphaAnimation;
 import android.widget.*;
+
 import com.facebook.FacebookException;
 import com.facebook.Request;
 import com.facebook.Session;
@@ -39,8 +40,6 @@ import com.facebook.SessionState;
 import com.facebook.android.R;
 import com.facebook.internal.SessionTracker;
 import com.facebook.model.GraphObject;
-
-import java.util.*;
 
 /**
  * Provides functionality common to SDK UI elements that allow the user to pick one or more
@@ -532,8 +531,8 @@ public abstract class PickerFragment<T extends GraphObject> extends Fragment {
     }
 
     void setSelectedGraphObjects(List<String> objectIds) {
-        for(String objectId : objectIds) {
-            if(!this.selectionStrategy.isSelected(objectId)) {
+        for (String objectId : objectIds) {
+            if (!this.selectionStrategy.isSelected(objectId)) {
                 this.selectionStrategy.toggleSelection(objectId);
             }
         }
@@ -889,7 +888,7 @@ public abstract class PickerFragment<T extends GraphObject> extends Fragment {
 
                         @Override
                         public void onLoadFinished(Loader<SimpleGraphObjectCursor<T>> loader,
-                                SimpleGraphObjectCursor<T> data) {
+                                                   SimpleGraphObjectCursor<T> data) {
                             if (loader != LoadingStrategy.this.loader) {
                                 throw new FacebookException("Received callback for unknown loader.");
                             }

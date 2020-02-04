@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:id="@+id/login_activity"
-    tools:context="br.com.igreja.cellapp.activities.Login" >
+    tools:context="br.com.igreja.cellapp.activities.Login">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imgFundoLogin"
@@ -30,7 +30,7 @@
             android:layout_alignRight="@+id/BotaoLogin"
             android:layout_marginTop="240dp"
             android:ems="10"
-            android:inputType="textPersonName" >
+            android:inputType="textPersonName">
 
             <requestFocus />
         </EditText>
@@ -138,5 +138,6 @@
             android:layout_alignStart="@+id/BotaoLogin" />
 
     </RelativeLayout>
+
     <include layout="@layout/loading" />
 </RelativeLayout>

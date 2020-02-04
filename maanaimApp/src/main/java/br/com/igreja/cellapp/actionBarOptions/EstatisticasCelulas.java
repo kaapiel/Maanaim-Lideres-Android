@@ -1,15 +1,7 @@
 package br.com.igreja.cellapp.actionBarOptions;
 
-import java.util.ArrayList;
-
-import br.com.igreja.cellapp.R;
-import br.com.igreja.cellapp.model.Celula;
-import butterknife.BindView;
-import butterknife.ButterKnife;
-
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -19,6 +11,13 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+
+import br.com.igreja.cellapp.R;
+import br.com.igreja.cellapp.model.Celula;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class EstatisticasCelulas extends Activity {
 

@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,11 +30,13 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Base64;
 import android.util.Log;
+
 import com.facebook.android.BuildConfig;
 import com.facebook.internal.AttributionIdentifiers;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 import com.facebook.model.GraphObject;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -45,7 +47,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -115,7 +116,7 @@ public final class Settings {
      */
     public static synchronized void sdkInitialize(Context context) {
         if (sdkInitialized == true) {
-          return;
+            return;
         }
 
         // Make sure we've loaded default settings if we haven't already.
@@ -317,7 +318,7 @@ public final class Settings {
     }
 
     static void publishInstallAsync(final Context context, final String applicationId,
-        final Request.Callback callback) {
+                                    final Request.Callback callback) {
         // grab the application context ahead of time, since we will return to the caller immediately.
         final Context applicationContext = context.getApplicationContext();
         Settings.getExecutor().execute(new Runnable() {
@@ -372,8 +373,8 @@ public final class Settings {
             }
             AttributionIdentifiers identifiers = AttributionIdentifiers.getAttributionIdentifiers(context);
             SharedPreferences preferences = context.getSharedPreferences(ATTRIBUTION_PREFERENCES, Context.MODE_PRIVATE);
-            String pingKey = applicationId+"ping";
-            String jsonKey = applicationId+"json";
+            String pingKey = applicationId + "ping";
+            String jsonKey = applicationId + "json";
             long lastPing = preferences.getLong(pingKey, 0);
             String lastResponseJSON = preferences.getString(jsonKey, null);
 
@@ -401,8 +402,7 @@ public final class Settings {
                     if (lastResponseJSON != null) {
                         graphObject = GraphObject.Factory.create(new JSONObject(lastResponseJSON));
                     }
-                }
-                catch (JSONException je) {
+                } catch (JSONException je) {
                     // return the default graph object if there is any problem reading the data.
                 }
                 if (graphObject == null) {
@@ -411,7 +411,7 @@ public final class Settings {
                     return new Response(null, null, null, graphObject, true);
                 }
             } else if (identifiers == null ||
-                       (identifiers.getAndroidAdvertiserId() == null && identifiers.getAttributionId() == null)) {
+                    (identifiers.getAndroidAdvertiserId() == null && identifiers.getAttributionId() == null)) {
                 throw new FacebookException("No attribution id available to send to server.");
             } else {
                 if (!Utility.queryAppSettings(applicationId, false).supportsAttribution()) {
@@ -427,7 +427,7 @@ public final class Settings {
 
                 // if we got an object response back, cache the string of the JSON.
                 if (publishResponse.getGraphObject() != null &&
-                    publishResponse.getGraphObject().getInnerJSONObject() != null) {
+                        publishResponse.getGraphObject().getInnerJSONObject() != null) {
                     editor.putString(jsonKey, publishResponse.getGraphObject().getInnerJSONObject().toString());
                 }
                 editor.apply();
@@ -447,7 +447,7 @@ public final class Settings {
      */
     public static String getAttributionId(ContentResolver contentResolver) {
         try {
-            String [] projection = {ATTRIBUTION_ID_COLUMN_NAME};
+            String[] projection = {ATTRIBUTION_ID_COLUMN_NAME};
             Cursor c = contentResolver.query(ATTRIBUTION_ID_CONTENT_URI, projection, null, null, null);
             if (c == null || !c.moveToFirst()) {
                 return null;
@@ -511,9 +511,9 @@ public final class Settings {
      */
     public static void setLimitEventAndDataUsage(Context context, boolean limitEventUsage) {
         context.getSharedPreferences(APP_EVENT_PREFERENCES, Context.MODE_PRIVATE)
-            .edit()
-            .putBoolean("limitEventUsage", limitEventUsage)
-            .apply();
+                .edit()
+                .putBoolean("limitEventUsage", limitEventUsage)
+                .apply();
     }
 
     /**
@@ -623,7 +623,7 @@ public final class Settings {
         }
 
         md.update(pInfo.signatures[0].toByteArray());
-        return Base64.encodeToString(md.digest(),  Base64.URL_SAFE | Base64.NO_PADDING);
+        return Base64.encodeToString(md.digest(), Base64.URL_SAFE | Base64.NO_PADDING);
     }
 
     /**

@@ -7,15 +7,14 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:id="@+id/infos"
         android:src="@drawable/splash5"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:scaleType="fitXY"
-        />
+        android:scaleType="fitXY" />
 
     <ImageView
         android:id="@+id/progresso"
@@ -24,7 +23,7 @@
         android:layout_height="43dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:paddingBottom="30dp"/>
+        android:paddingBottom="30dp" />
 
     <ImageButton
         android:id="@+id/botaoAnterior"
@@ -34,7 +33,7 @@
         android:paddingLeft="10dp"
         android:background="@android:color/transparent"
         android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"/>
+        android:layout_alignParentLeft="true" />
 
     <ImageButton
         android:id="@+id/botaoProximo"
@@ -44,7 +43,7 @@
         android:paddingRight="10dp"
         android:background="@android:color/transparent"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true" />
 
     <ImageView
         android:src="@drawable/mapp_ic_pesquisar_direita"

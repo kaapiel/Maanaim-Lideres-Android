@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -26,6 +26,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.webkit.CookieSyncManager;
+
 import com.facebook.android.R;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.internal.NativeProtocol;
@@ -33,6 +34,7 @@ import com.facebook.internal.ServerProtocol;
 import com.facebook.internal.Utility;
 import com.facebook.model.GraphUser;
 import com.facebook.widget.WebDialog;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -482,7 +484,7 @@ class AuthorizationClient implements Serializable {
     }
 
     private void logAuthorizationMethodComplete(String method, String result, String errorMessage, String errorCode,
-            Map<String, String> loggingExtras) {
+                                                Map<String, String> loggingExtras) {
         Bundle bundle = null;
         if (pendingRequest == null) {
             // We don't expect this to happen, but if it does, log an event for diagnostic purposes.
@@ -531,6 +533,7 @@ class AuthorizationClient implements Serializable {
         Map<String, String> methodLoggingExtras;
 
         abstract boolean tryAuthorize(AuthorizationRequest request);
+
         abstract String getNameForLogging();
 
         boolean onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -636,7 +639,7 @@ class AuthorizationClient implements Serializable {
         }
 
         void onWebDialogComplete(AuthorizationRequest request, Bundle values,
-                FacebookException error) {
+                                 FacebookException error) {
             Result outcome;
             if (values != null) {
                 // Actual e2e we got from the dialog should be used for logging.
@@ -664,7 +667,7 @@ class AuthorizationClient implements Serializable {
                     String errorCode = null;
                     String errorMessage = error.getMessage();
                     if (error instanceof FacebookServiceException) {
-                        FacebookRequestError requestError = ((FacebookServiceException)error).getRequestError();
+                        FacebookRequestError requestError = ((FacebookServiceException) error).getRequestError();
                         errorCode = String.format("%d", requestError.getErrorCode());
                         errorMessage = requestError.toString();
                     }
@@ -684,9 +687,9 @@ class AuthorizationClient implements Serializable {
             context.getSharedPreferences(
                     WEB_VIEW_AUTH_HANDLER_STORE,
                     Context.MODE_PRIVATE)
-                .edit()
-                .putString(WEB_VIEW_AUTH_HANDLER_TOKEN_KEY, token)
-                .apply();
+                    .edit()
+                    .putString(WEB_VIEW_AUTH_HANDLER_TOKEN_KEY, token)
+                    .apply();
         }
 
         private String loadCookieToken() {
@@ -948,8 +951,8 @@ class AuthorizationClient implements Serializable {
         private boolean isRerequest = false;
 
         AuthorizationRequest(SessionLoginBehavior loginBehavior, int requestCode, boolean isLegacy,
-                List<String> permissions, SessionDefaultAudience defaultAudience, String applicationId,
-                String validateSameFbidAsToken, StartActivityDelegate startActivityDelegate, String authId) {
+                             List<String> permissions, SessionDefaultAudience defaultAudience, String applicationId,
+                             String validateSameFbidAsToken, StartActivityDelegate startActivityDelegate, String authId) {
             this.loginBehavior = loginBehavior;
             this.requestCode = requestCode;
             this.isLegacy = isLegacy;
@@ -1047,7 +1050,7 @@ class AuthorizationClient implements Serializable {
         Map<String, String> loggingExtras;
 
         private Result(AuthorizationRequest request, Code code, AccessToken token, String errorMessage,
-                String errorCode) {
+                       String errorCode) {
             this.request = request;
             this.token = token;
             this.errorMessage = errorMessage;
@@ -1068,7 +1071,7 @@ class AuthorizationClient implements Serializable {
         }
 
         static Result createErrorResult(AuthorizationRequest request, String errorType, String errorDescription,
-                String errorCode) {
+                                        String errorCode) {
             String message = TextUtils.join(": ", Utility.asListNoNulls(errorType, errorDescription));
             return new Result(request, Code.ERROR, null, message, errorCode);
         }

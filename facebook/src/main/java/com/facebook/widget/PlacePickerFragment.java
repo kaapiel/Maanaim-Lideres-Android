@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,14 +32,13 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ListView;
+
 import com.facebook.*;
 import com.facebook.android.R;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.internal.Logger;
 import com.facebook.internal.Utility;
 import com.facebook.model.GraphPlace;
-
-import java.util.*;
 
 public class PlacePickerFragment extends PickerFragment<GraphPlace> {
     /**
@@ -280,7 +279,7 @@ public class PlacePickerFragment extends PickerFragment<GraphPlace> {
         super.onAttach(activity);
 
         if (searchBox != null) {
-            InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+            InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.showSoftInput(searchBox, InputMethodManager.SHOW_IMPLICIT);
         }
     }
@@ -290,7 +289,7 @@ public class PlacePickerFragment extends PickerFragment<GraphPlace> {
         super.onDetach();
 
         if (searchBox != null) {
-            InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+            InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(searchBox.getWindowToken(), 0);
         }
     }
@@ -383,8 +382,8 @@ public class PlacePickerFragment extends PickerFragment<GraphPlace> {
     }
 
     private Request createRequest(Location location, int radiusInMeters, int resultsLimit, String searchText,
-            Set<String> extraFields,
-            Session session) {
+                                  Set<String> extraFields,
+                                  Session session) {
         Request request = Request.newPlacesSearchRequest(session, location, radiusInMeters, resultsLimit, searchText,
                 null);
 
@@ -490,7 +489,7 @@ public class PlacePickerFragment extends PickerFragment<GraphPlace> {
 
         @Override
         protected void onLoadFinished(GraphObjectPagingLoader<GraphPlace> loader,
-                SimpleGraphObjectCursor<GraphPlace> data) {
+                                      SimpleGraphObjectCursor<GraphPlace> data) {
             super.onLoadFinished(loader, data);
 
             // We could be called in this state if we are clearing data or if we are being re-attached

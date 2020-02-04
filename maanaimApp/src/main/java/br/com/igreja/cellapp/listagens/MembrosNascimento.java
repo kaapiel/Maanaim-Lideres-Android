@@ -14,8 +14,6 @@ import android.view.MenuItem;
 import android.view.MenuItem.OnMenuItemClickListener;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SearchView;
@@ -45,7 +43,6 @@ import br.com.igreja.cellapp.util.Parametros;
 import br.com.igreja.cellapp.util.WebClientCellApp;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 import butterknife.OnItemClick;
 import butterknife.OnItemLongClick;
 
@@ -257,7 +254,7 @@ public class MembrosNascimento extends Activity {
 
                 listaDeMembros = new ArrayList<>();
 
-                for (DataSnapshot membro: dataSnapshot.getChildren()) {
+                for (DataSnapshot membro : dataSnapshot.getChildren()) {
 
                     Membro m = new Membro();
                     m.setApelido(membro.child("apelido").getValue().toString());
@@ -304,7 +301,7 @@ public class MembrosNascimento extends Activity {
 
                 listaDeCelulas = new ArrayList<>();
 
-                for (DataSnapshot celula: dataSnapshot.getChildren()) {
+                for (DataSnapshot celula : dataSnapshot.getChildren()) {
 
                     Celula c = new Celula();
                     c.setAtivo(Boolean.valueOf(celula.child("ativa").getValue().toString()));
@@ -365,7 +362,7 @@ public class MembrosNascimento extends Activity {
     }
 
     @OnItemClick(R.id.listaDeMembros)
-    public void onItemClickListaDeMembros(AdapterView<?> adapter, View view, int posicao, long id){
+    public void onItemClickListaDeMembros(AdapterView<?> adapter, View view, int posicao, long id) {
 
         Membro membroClicado = (Membro) adapter.getItemAtPosition(posicao);
         Intent irParaMembroSelecionado = new Intent(MembrosNascimento.this, MembroSelecionado.class);
@@ -375,7 +372,7 @@ public class MembrosNascimento extends Activity {
     }
 
     @OnItemLongClick(R.id.listaDeMembros)
-    public boolean onItemLongClickListaDeMembros(AdapterView<?> adapter, View view, int posicao, long id){
+    public boolean onItemLongClickListaDeMembros(AdapterView<?> adapter, View view, int posicao, long id) {
         membro = (Membro) adapter.getItemAtPosition(posicao);
         nomes.add(membro.getNome());
         return false;

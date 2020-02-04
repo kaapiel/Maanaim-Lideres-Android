@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal" >
+    android:orientation="horizontal">
 
     <!-- Lista com imagem à esquerda -->
 
@@ -12,22 +12,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginRight="1dip" >
+        android:layout_marginRight="1dip">
 
         <br.com.igreja.cellapp.adapter.FotoArredondada
             android:id="@+id/fotoDoMembro"
-           	android:layout_width="50dip"
-		    android:layout_height="50dip"
-		    android:layout_marginBottom="8dp"
-		    android:layout_marginLeft="8dp"
-		    android:layout_marginTop="8dp"
-		    android:layout_marginRight="8dp"
-		    android:adjustViewBounds="true"
-		    android:maxHeight="70dp"
-		    android:maxWidth="70dp"
-		    android:minHeight="70dp"
-		    android:minWidth="70dp"
-		    android:background="@drawable/foto_arredondada"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="70dp"
+            android:maxWidth="70dp"
+            android:minHeight="70dp"
+            android:minWidth="70dp"
+            android:background="@drawable/foto_arredondada"
             android:contentDescription="Foto do Membro"
             tools:ignore="HardcodedText" />
     </LinearLayout>

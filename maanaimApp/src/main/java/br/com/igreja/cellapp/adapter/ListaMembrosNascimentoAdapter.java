@@ -80,7 +80,7 @@ public class ListaMembrosNascimentoAdapter extends BaseAdapter {
 
         foto.setImageResource(imagens[new Random().nextInt(imagens.length)]);
 
-       if (dia.equals(membro.getDataNasc().split("/")[0])) {
+        if (dia.equals(membro.getDataNasc().split("/")[0])) {
             TextView celulaDoMembro = (TextView) listagem.findViewById(R.id.nomeDaCelula);
             celulaDoMembro.setText("HOJE !!!");
             celulaDoMembro.setTextColor(activity.getResources().getColor(R.color.verde));

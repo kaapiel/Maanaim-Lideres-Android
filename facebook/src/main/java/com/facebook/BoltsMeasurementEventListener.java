@@ -22,13 +22,13 @@ public class BoltsMeasurementEventListener extends BroadcastReceiver {
     }
 
     private void open() {
-      LocalBroadcastManager broadcastManager = LocalBroadcastManager.getInstance(applicationContext);
-      broadcastManager.registerReceiver(this, new IntentFilter(MEASUREMENT_EVENT_NOTIFICATION_NAME));
+        LocalBroadcastManager broadcastManager = LocalBroadcastManager.getInstance(applicationContext);
+        broadcastManager.registerReceiver(this, new IntentFilter(MEASUREMENT_EVENT_NOTIFICATION_NAME));
     }
 
     private void close() {
-      LocalBroadcastManager broadcastManager = LocalBroadcastManager.getInstance(applicationContext);
-      broadcastManager.unregisterReceiver(this);
+        LocalBroadcastManager broadcastManager = LocalBroadcastManager.getInstance(applicationContext);
+        broadcastManager.unregisterReceiver(this);
     }
 
     static BoltsMeasurementEventListener getInstance(Context context) {
@@ -54,9 +54,9 @@ public class BoltsMeasurementEventListener extends BroadcastReceiver {
         String eventName = BOLTS_MEASUREMENT_EVENT_PREFIX + intent.getStringExtra(MEASUREMENT_EVENT_NAME_KEY);
         Bundle eventArgs = intent.getBundleExtra(MEASUREMENT_EVENT_ARGS_KEY);
         Bundle logData = new Bundle();
-        for(String key : eventArgs.keySet()) {
-           String safeKey = key.replaceAll("[^0-9a-zA-Z _-]", "-").replaceAll("^[ -]*", "").replaceAll("[ -]*$", "");
-           logData.putString(safeKey, (String)eventArgs.get(key));
+        for (String key : eventArgs.keySet()) {
+            String safeKey = key.replaceAll("[^0-9a-zA-Z _-]", "-").replaceAll("^[ -]*", "").replaceAll("[ -]*$", "");
+            logData.putString(safeKey, (String) eventArgs.get(key));
         }
         appEventsLogger.logEvent(eventName, logData);
     }

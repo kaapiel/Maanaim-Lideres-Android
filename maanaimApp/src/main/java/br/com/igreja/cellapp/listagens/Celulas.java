@@ -1,7 +1,6 @@
 package br.com.igreja.cellapp.listagens;
 
 import android.annotation.TargetApi;
-import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -199,7 +198,7 @@ public class Celulas extends AppCompatActivity {
 
                 listaCelulas = new ArrayList<>();
 
-                for (DataSnapshot celula: dataSnapshot.getChildren()) {
+                for (DataSnapshot celula : dataSnapshot.getChildren()) {
                     Celula c = new Celula();
                     c.setAtivo(Boolean.valueOf(celula.child("ativa").getValue().toString()));
                     c.setDataCriacao(celula.child("dataCriacao").getValue().toString());
@@ -232,7 +231,7 @@ public class Celulas extends AppCompatActivity {
 
                 listaRegioes = new ArrayList<>();
 
-                for (DataSnapshot regiao: dataSnapshot.getChildren()) {
+                for (DataSnapshot regiao : dataSnapshot.getChildren()) {
 
                     Regiao r = new Regiao();
                     r.setCor(regiao.child("cor").getValue().toString());
@@ -253,7 +252,7 @@ public class Celulas extends AppCompatActivity {
     }
 
     @OnItemClick(R.id.listaDeCelulas)
-    public void onItemClickDaLista(AdapterView<?> adapter, View view, int posicao, long id){
+    public void onItemClickDaLista(AdapterView<?> adapter, View view, int posicao, long id) {
         Celula celulaSelecionada = (Celula) adapter.getItemAtPosition(posicao);
         Intent irParaCelulaSelecionada = new Intent(Celulas.this, CelulaSelecionada.class);
         Bundle extras = new Bundle();
@@ -263,7 +262,7 @@ public class Celulas extends AppCompatActivity {
     }
 
     @OnItemLongClick(R.id.listaDeCelulas)
-    public boolean onItemLongClickDaLista(AdapterView<?> adapter, View view, int posicao, long id){
+    public boolean onItemLongClickDaLista(AdapterView<?> adapter, View view, int posicao, long id) {
         celula = (Celula) adapter.getItemAtPosition(posicao);
         return false;
     }

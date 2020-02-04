@@ -20,41 +20,41 @@ public class SpinnerAdapter extends BaseAdapter {
     ArrayList<String> regioes;
     Context context;
 
-    public SpinnerAdapter(Context context){
-        this.context=context;
+    public SpinnerAdapter(Context context) {
+        this.context = context;
 
         colors = new ArrayList<Integer>();
         regioes = new ArrayList<String>();
         int retrieve[] = context.getResources().getIntArray(R.array.androidcolors);
         String retrieve2[] = context.getResources().getStringArray(R.array.array_regioes);
 
-        for(int re:retrieve){
+        for (int re : retrieve) {
             colors.add(re);
         }
 
-        for(String re:retrieve2){
+        for (String re : retrieve2) {
             regioes.add(re);
         }
     }
 
     @Override
-    public int getCount(){
+    public int getCount() {
         return colors.size();
     }
 
     @Override
-    public Object getItem(int arg0){
+    public Object getItem(int arg0) {
         return colors.get(arg0);
     }
 
     @Override
-    public long getItemId(int arg0){
+    public long getItemId(int arg0) {
         return arg0;
     }
 
     @Override
-    public View getView(int pos, View view, ViewGroup parent){
-        LayoutInflater inflater= LayoutInflater.from(context);
+    public View getView(int pos, View view, ViewGroup parent) {
+        LayoutInflater inflater = LayoutInflater.from(context);
         view = inflater.inflate(android.R.layout.simple_spinner_dropdown_item, null);
         TextView txv = (TextView) view.findViewById(android.R.id.text1);
         txv.setBackgroundColor(colors.get(pos));

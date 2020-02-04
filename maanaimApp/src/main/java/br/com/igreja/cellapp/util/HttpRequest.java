@@ -39,7 +39,7 @@ public class HttpRequest {
     HttpPost httpPost = null;
     HttpGet httpGet = null;
 
-    public HttpRequest(){
+    public HttpRequest() {
         HttpParams myParams = new BasicHttpParams();
 
         HttpConnectionParams.setConnectionTimeout(myParams, 10000);
@@ -93,9 +93,9 @@ public class HttpRequest {
         }
 
         try {
-            tmp = new StringEntity(data,"UTF-8");
+            tmp = new StringEntity(data, "UTF-8");
         } catch (UnsupportedEncodingException e) {
-            Log.e("GoogleFormUploadExample", "HttpUtils : UnsupportedEncodingException : "+e);
+            Log.e("GoogleFormUploadExample", "HttpUtils : UnsupportedEncodingException : " + e);
         }
 
         httpPost.setEntity(tmp);
@@ -103,7 +103,7 @@ public class HttpRequest {
         Log.d("GoogleFormUploadExample", url + "?" + data);
 
         try {
-            response = httpClient.execute(httpPost,localContext);
+            response = httpClient.execute(httpPost, localContext);
 
             if (response != null) {
                 ret = EntityUtils.toString(response.getEntity());
@@ -121,7 +121,7 @@ public class HttpRequest {
         httpGet = new HttpGet(url);
 
         try {
-            response = httpClient.execute(httpGet);  
+            response = httpClient.execute(httpGet);
         } catch (Exception e) {
             Log.e("GoogleFormUploadExample", e.getMessage());
         }
@@ -148,22 +148,22 @@ public class HttpRequest {
         if (!(conn instanceof HttpURLConnection))
             throw new IOException("Not an HTTP connection");
 
-        try{
+        try {
             HttpURLConnection httpConn = (HttpURLConnection) conn;
             httpConn.setAllowUserInteraction(false);
             httpConn.setInstanceFollowRedirects(true);
             httpConn.setRequestMethod("GET");
-            httpConn.connect(); 
+            httpConn.connect();
 
-            response = httpConn.getResponseCode();                 
+            response = httpConn.getResponseCode();
 
             if (response == HttpURLConnection.HTTP_OK) {
-                in = httpConn.getInputStream();                                 
-            }                     
+                in = httpConn.getInputStream();
+            }
         } catch (Exception e) {
             throw new IOException("Error connecting");
         } // end try-catch
 
-        return in;     
+        return in;
     }
 }

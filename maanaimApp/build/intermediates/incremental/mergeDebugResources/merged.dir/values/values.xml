@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/apk/res-auto">
+    <color name="AliceBlue">#F0F8FF</color>
+    <color name="AntiqueWhite">#FAEBD7</color>
+    <color name="Aquamarine">#7FFFD4</color>
+    <color name="Azure">#F0FFFF</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Bisque">#FFE4C4</color>
+    <color name="BlanchedAlmond">#FFEBCD</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="Brown">#A52A2A</color>
+    <color name="BurlyWood">#DEB887</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="Chartreuse">#7FFF00</color>
+    <color name="Chocolate">#D2691E</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="CornflowerBlue">#6495ED</color>
+    <color name="Cornsilk">#FFF8DC</color>
+    <color name="Crimson">#DC143C</color>
+    <color name="DarkBlue">#00008B</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="DarkGoldenrod">#B8860B</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="DarkGreen">#006400</color>
+    <color name="DarkKhaki">#BDB76B</color>
+    <color name="DarkMagenta">#8B008B</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="DarkOrchid">#9932CC</color>
+    <color name="DarkRed">#8B0000</color>
+    <color name="DarkSalmon">#E9967A</color>
+    <color name="DarkSeaGreen">#8FBC8F</color>
+    <color name="DarkSlateBlue">#483D8B</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+    <color name="DarkTurquoise">#00CED1</color>
+    <color name="DarkViolet">#9400D3</color>
+    <color name="DeepPink">#FF1493</color>
+    <color name="DeepSkyBlue">#00BFFF</color>
+    <color name="DimGray">#696969</color>
+    <color name="DodgerBlue">#1E90FF</color>
+    <color name="FireBrick">#B22222</color>
+    <color name="FloralWhite">#FFFAF0</color>
+    <color name="ForestGreen">#228B22</color>
+    <color name="Fuchsia">#FF00FF</color>
+    <color name="Gainsboro">#DCDCDC</color>
+    <color name="GhostWhite">#F8F8FF</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Goldenrod">#DAA520</color>
+    <color name="GreenYellow">#ADFF2F</color>
+    <color name="Honeydew">#F0FFF0</color>
+    <color name="HotPink">#FF69B4</color>
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="Indigo">#4B0082</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="LavenderBlush">#FFF0F5</color>
+    <color name="LawnGreen">#7CFC00</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="LightBlue">#ADD8E6</color>
+    <color name="LightCoral">#F08080</color>
+    <color name="LightCyan">#E0FFFF</color>
+    <color name="LightGoldenrodYellow">#FAFAD2</color>
+    <color name="LightGreen">#90EE90</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="LightSeaGreen">#20B2AA</color>
+    <color name="LightSkyBlue">#87CEFA</color>
+    <color name="LightSlateGray">#778899</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="LimeGreen">#32CD32</color>
+    <color name="Linen">#FAF0E6</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Maroon">#800000</color>
+    <color name="MediumAquamarine">#66CDAA</color>
+    <color name="MediumBlue">#0000CD</color>
+    <color name="MediumOrchid">#BA55D3</color>
+    <color name="MediumPurple">#9370DB</color>
+    <color name="MediumSeaGreen">#3CB371</color>
+    <color name="MediumSlateBlue">#7B68EE</color>
+    <color name="MediumSpringGreen">#00FA9A</color>
+    <color name="MediumTurquoise">#48D1CC</color>
+    <color name="MediumVioletRed">#C71585</color>
+    <color name="MidnightBlue">#191970</color>
+    <color name="MintCream">#F5FFFA</color>
+    <color name="MistyRose">#FFE4E1</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="NavajoWhite">#FFDEAD</color>
+    <color name="OldLace">#FDF5E6</color>
+    <color name="OliveDrab">#6B8E23</color>
+    <color name="Orange">#FFA500</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="Orchid">#DA70D6</color>
+    <color name="PaleGoldenrod">#EEE8AA</color>
+    <color name="PaleGreen">#98FB98</color>
+    <color name="PaleTurquoise">#AFEEEE</color>
+    <color name="PaleVioletRed">#DB7093</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="PeachPuff">#FFDAB9</color>
+    <color name="Peru">#CD853F</color>
+    <color name="Pink">#FFC0CB</color>
+    <color name="Plum">#DDA0DD</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="RosyBrown">#BC8F8F</color>
+    <color name="RoyalBlue">#4169E1</color>
+    <color name="SaddleBrown">#8B4513</color>
+    <color name="Salmon">#FA8072</color>
+    <color name="SandyBrown">#F4A460</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="Seashell">#FFF5EE</color>
+    <color name="Sienna">#A0522D</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="SlateBlue">#6A5ACD</color>
+    <color name="SlateGray">#708090</color>
+    <color name="Snow">#FFFAFA</color>
+    <color name="SpringGreen">#00FF7F</color>
+    <color name="SteelBlue">#4682B4</color>
+    <color name="Tan">#D2B48C</color>
+    <color name="Thistle">#D8BFD8</color>
+    <color name="Tomato">#FF6347</color>
+    <color name="Turquoise">#40E0D0</color>
+    <color name="Violet">#EE82EE</color>
+    <color name="Wheat">#F5DEB3</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="YellowGreen">#9ACD32</color>
+    <color name="amarelo">#FFD700</color>
+    <color name="android_green">#A4C639</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="branco">#CFCFCF</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_light_default">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="laranja">#FF4500</color>
+    <color name="lime">#00FF00</color>
+    <color name="maroon">#800000</color>
+    <color name="navy">#000080</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="teal">#008080</color>
+    <color name="verde">#00CD00</color>
+    <color name="vermelho">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="win8_blue">#1BA1E2</color>
+    <color name="win8_brown">#A05000</color>
+    <color name="win8_green">#339933</color>
+    <color name="win8_lime">#8CBF26</color>
+    <color name="win8_magenta">#FF0097</color>
+    <color name="win8_orange">#F09609</color>
+    <color name="win8_pink">#E671B8</color>
+    <color name="win8_purple">#A200FF</color>
+    <color name="win8_red">#E51400</color>
+    <color name="win8_teal">#00ABA9</color>
+    <color name="yellow">#FFFF00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="action_flip" type="id"/>
+    <item name="action_next" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="google_play_services_version">9080000</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Facebook_share">Compartilhar App</string>
+    <string name="Senha">Senha</string>
+    <string name="accept">Accept</string>
+    <string name="acessar_site">Acesse o site Maanaim</string>
+    <string name="action_example">Atualizar infos</string>
+    <string name="action_exit">Sair</string>
+    <string name="action_settings">Configurações</string>
+    <string name="ag_reuniao">"Relatório da célula"</string>
+    <string name="ag_reuniao_solicitacao">agendando reunião...</string>
+    <string name="ag_reuniao_sucesso">Relatório enviado com sucesso !</string>
+    <string name="agendar">Agendar</string>
+    <string name="ageu">Ageu</string>
+    <string name="aguarde">Aguarde...</string>
+    <string name="alterando_celula">Aguarde, a célula está sendo alterada.</string>
+    <string name="alterando_membro">Aguarde, o membro está sendo alterado.</string>
+    <string name="alterar_celula_pergunta">Você tem certeza que deseja alterar célula ?</string>
+    <string name="alterar_membro_pergunta">Você tem certeza que deseja alterar membro ?</string>
+    <string name="alterar_reunioes">Para alterar ou deletar reuniões já agendadas, acessse o sistema web através do site http://maanaim-osasco.sytes.net/celula .Não é possível alterar reuniões pelo seu dispositivo.</string>
+    <string name="amos">Amós</string>
+    <string name="aniversariantes">Aniversariantes do mês</string>
+    <string name="anterior">Anterior</string>
+    <string name="ao_app">ao app das células !</string>
+    <string name="api_key">AIzaSyA4in6HkHNYXVk8vb4kp0j4E1nbFzT3vfU</string>
+    <string name="aplicando_celulas">Aplicando alterações de células no dispositivo</string>
+    <string name="aplicando_lideres">Aplicando alterações de líderes no dispositivo</string>
+    <string name="aplicando_membros">Aplicando alterações de membros no dispositivo</string>
+    <string name="aplicando_noticias">Aplicando alterações de notícias e eventos no dispositivo</string>
+    <string name="aplicando_usuarios">Aplicando alterações de usuários no dispositivo</string>
+    <string name="apocalipse">Apocalipse</string>
+    <string name="app_atualizado">Aplicativo Atualizado !</string>
+    <string name="app_name">Maanaim App</string>
+    <string name="app_travar">Se o seu aplicativo travar, na mensagem que aparecer, clique em "informar", e em "detalhe", descreva o que aconteceu. Trabalharemos para que o app esteja em suas mãos na melhor forma possível !</string>
+    <string name="application_json">application/json</string>
+    <string name="associacao_membro_celula">Associando membros às células...</string>
+    <string name="atos">Atos</string>
+    <string name="atualizacao_sinc">Atualização/Sincronização de dados.</string>
+    <string name="atualizando_sistma">Atualizando o sistema...</string>
+    <string name="aviso">Aviso</string>
+    <string name="aviso_internet">Atenção: é recomendado uma conexão wi-fi para esta operação. Para conexões 3g/4g esta operação pode demorar.</string>
+    <string name="aviso_vers_acf">Você não tem a versão ACF instalada em seu dispositivo.</string>
+    <string name="aviso_vers_ara">Você não tem a versão ARA instalada em seu dispositivo.</string>
+    <string name="aviso_vers_arc">Você não tem a versão ARC instalada em seu dispositivo.</string>
+    <string name="aviso_vers_ntlh">Você não tem a versão NTLH instalada em seu dispositivo.</string>
+    <string name="aviso_vers_nvi">Você não tem a versão NVI instalada em seu dispositivo.</string>
+    <string name="baixe_android">Baixe o aplicativo para dispositivos Android!</string>
+    <string name="bem_vindo">Bem-vindo</string>
+    <string name="biblia">Bíblia Maanaim</string>
+    <string name="biblia_instalada">Bíblia instalada. Você poderá utilizá-la através do menu de opções da tela principal.</string>
+    <string name="biblia_ja_instalada">Você ja tem a bíblia instalada em seu dispositivo</string>
+    <string name="boas_vindas_visitante_membro">Bem-vindo visitante/membro ao app das células !</string>
+    <string name="buffer">Armazenando áudio na memória (Buffer) ...</string>
+    <string name="button_text">Enviar</string>
+    <string name="campos_obrigatorios">Campos com * são obrigatórios!</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cantares">Cantares</string>
+    <string name="cap">CAPíTULO </string>
+    <string name="carregando_cap">Carregando capítulo...</string>
+    <string name="ceia">Todo 3º Domingo do mês: Celebração da ceia do Senhor; No mesmo dia da ceia, não esqueça da nossa tonelada do Amor</string>
+    <string name="celula">Célula </string>
+    <string name="celula_maps">Células no google maps</string>
+    <string name="cep_nao_encontrado">Cep não encontrado. Seu CEP é de São Paulo?</string>
+    <string name="certeza_excluir_celula">Você tem certeza que deseja excluir a célula selecionada ?</string>
+    <string name="certeza_sair">"Visitante/membro, você tem certeza que deseja sair do aplicativo ?"</string>
+    <string name="certeza_sair_membro">Você tem certeza que deseja sair do aplicativo ?</string>
+    <string name="colossenses">Colossenses</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_resolution_required_text">Please complete action required by <ns1:g id="app_name">%1$s</ns1:g>.</string>
+    <string name="common_google_play_services_resolution_required_title">Google Play services requires an action</string>
+    <string name="common_google_play_services_restricted_profile_text">Accessing accounts from a restricted profile is not supported.</string>
+    <string name="common_google_play_services_restricted_profile_title">Restricted Profile</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="concluido">Concluído</string>
+    <string name="conexao_internet">Conexão com a internet</string>
+    <string name="configurar_celulas">Configurando células recebidas</string>
+    <string name="configurar_lideres">Configurando líderes recebidas</string>
+    <string name="configurar_membros">Configurando membros recebidas</string>
+    <string name="configurar_noticias">Configurando avisos/notícias recebidas</string>
+    <string name="configurar_usuarios">Configurando usuarios recebidas</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="confirme_dados">Confirme os dados</string>
+    <string name="confirme_membros">São estes os membros da célula ?</string>
+    <string name="content_type">Content-type</string>
+    <string name="converter_celulas">Convertendo células recebidos da base de dados</string>
+    <string name="converter_lideres">Convertendo líderes recebidos da base de dados</string>
+    <string name="converter_membros">Convertendo membros recebidos da base de dados</string>
+    <string name="converter_noticias">Convertendo avisos/notícias recebidos da base de dados</string>
+    <string name="converter_usuarios">Convertendo usuários recebidos da base de dados</string>
+    <string name="cor_amarela">Amarela</string>
+    <string name="cor_azul">Azul</string>
+    <string name="cor_branca">Branca</string>
+    <string name="cor_laranja">Laranja</string>
+    <string name="cor_verde">Verde</string>
+    <string name="cor_vermelha">Vermelha</string>
+    <string name="criacao">Criação </string>
+    <string name="ctl">Todo Domingo: CTL - As 8:00Hrs</string>
+    <string name="culto_vitoria">Toda Quinta-feira: Culto da vitória - As 20:00Hrs</string>
+    <string name="daniel">Daniel</string>
+    <string name="data">Data</string>
+    <string name="default_web_client_id" translatable="false">949488255080-mfljh6m5326kspk58dhpssc5troktl3s.apps.googleusercontent.com</string>
+    <string name="deletando_membro">Aguarde, o membro está sendo deletado.</string>
+    <string name="deletar_celula_pergunta">Você tem certeza que deseja deletar célula ?</string>
+    <string name="deletar_membro_pergunta">Você tem certeza que deseja deletar membro do app ?</string>
+    <string name="delete_membro_success">Membro deletado com sucesso</string>
+    <string name="desc"> DESC</string>
+    <string name="desculpe_visitante_opcao">Desculpe visitante, mas você não pode acessar esta opção</string>
+    <string name="deuteronomio">Deuteronômio</string>
+    <string name="digite_cep">"Digite um CEP"</string>
+    <string name="eclesiastes">Eclesiastes</string>
+    <string name="editar_celula">Editar Célula</string>
+    <string name="efesios">Efésios</string>
+    <string name="email">E-mail</string>
+    <string name="email_admin">gabriel_aguido@hotmail.com</string>
+    <string name="endereco">Endereço</string>
+    <string name="entrando_sistema">Entrando no sistema...</string>
+    <string name="enviar_email">Enviar e-mail...</string>
+    <string name="erro_ag_internet">Não foi possível agendar a reunião. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_ag_reuniao_campos">Não foi possível agendar a reunião. Os campos de endereço precisam estar todos preenchidos.</string>
+    <string name="erro_alterar_algum_membro">Não foi possível alterar algum dos membros. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_alterar_celula">Não foi possível alterar célula. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_alterar_membro">Não foi possível alterar membro. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_associacao">Não foi possível associar os membros à célula. Verifique se há erros e tente novamente</string>
+    <string name="erro_conexao">Erro de conexão. Sua conexão com a internet está desativada ou o sinal de sua conexão está fraco ?</string>
+    <string name="erro_conexao_banco">Não foi possível se conectar ao banco de dados local do dispositivo. Contate o Administrador do sistema.</string>
+    <string name="erro_delete_membro">Não foi possível deletar membro. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_eventos_internet">Você não está conectado a internet. Conecte-se a internet para obter as noticias atualizadas.</string>
+    <string name="erro_inesperado">Erro inesperado</string>
+    <string name="erro_insert_membro">Não foi possível inserir novo membro. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_instalar_biblia">Não foi possível instalar a bíblia. Tente novamente mais tarde.</string>
+    <string name="erro_mana">Não foi encontrado o maná nesta data !</string>
+    <string name="erro_nao_lider">"Você não é o líder desta célula !"</string>
+    <string name="erro_obter_celula">Não foi possível obter célula do servidor. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_obter_membro">Não foi possível obter membro do servidor. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_obter_reunioes">Erro ao obter Reuniões do servidor.</string>
+    <string name="erro_parse_cep">"Erro no parse do cep."</string>
+    <string name="erro_sem_conexao_site">Sem conexão com a Internet. Para visualizar o site da igreja, conecte-se a internet.</string>
+    <string name="erro_servidor_internet">Não foi possível se conectar ao servidor. Verifique sua conexão com a internet ou tente novamente mais tarde.</string>
+    <string name="erro_tente_novamente">Tente novamente !</string>
+    <string name="erro_vinculacao">Seu usuário não está vinculado a ninguém. Solicite ao administrador que vincule seu usuário à um membro !</string>
+    <string name="escolha_data_mana">Escolha a data do maná desejado</string>
+    <string name="escolha_livro_cap">Escolha um livro e um capítulo.</string>
+    <string name="escolha_versao">Escolha uma versão</string>
+    <string name="esdras">Esdras</string>
+    <string name="ester">Ester</string>
+    <string name="excluir_celula">Excluir Célula</string>
+    <string name="exodo">Êxodo</string>
+    <string name="ezequiel">Ezequiel</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_app_id">1573250786222998</string>
+    <string name="filemon">Filemon</string>
+    <string name="filipenses">Filipenses</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="firebase_database_url" translatable="false">https://maanaim-lideres.firebaseio.com</string>
+    <string name="galatas">Gálatas</string>
+    <string name="gcm_defaultSenderId" translatable="false">949488255080</string>
+    <string name="genesis">Gênesis</string>
+    <string name="google_api_key" translatable="false">AIzaSyA4in6HkHNYXVk8vb4kp0j4E1nbFzT3vfU</string>
+    <string name="google_app_id" translatable="false">1:949488255080:android:29cc4140a6e5255f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4in6HkHNYXVk8vb4kp0j4E1nbFzT3vfU</string>
+    <string name="google_storage_bucket" translatable="false">maanaim-lideres.appspot.com</string>
+    <string name="habacuque">Habacuque</string>
+    <string name="hebreus">Hebreus</string>
+    <string name="hora">Hora</string>
+    <string name="i_corintios">I_Coríntios</string>
+    <string name="i_cronicas">I_Crônicas</string>
+    <string name="i_joao">I_João</string>
+    <string name="i_pedro">I_Pedro</string>
+    <string name="i_reis">I_Reis</string>
+    <string name="i_samuel">I_Samuel</string>
+    <string name="i_tessalonicenses">I_Tessalonicenses</string>
+    <string name="i_timoteo">I_Timóteo</string>
+    <string name="id_video">ZScw3gSvBS4</string>
+    <string name="ii_corintios">II_Coríntios</string>
+    <string name="ii_cronicas">II_Crônicas</string>
+    <string name="ii_joao">II_João</string>
+    <string name="ii_pedro">II_Pedro</string>
+    <string name="ii_reis">II_Reis</string>
+    <string name="ii_samuel">II_Samuel</string>
+    <string name="ii_tessalonicenses">II_Tessalonicenses</string>
+    <string name="ii_timoteo">II_Timóteo</string>
+    <string name="iii_joao">III_João</string>
+    <string name="info_instalacao_biblia">Instalar a bíblia não requer uma conexão com a internet, mas é necessário cerca de 5 minutos para instalá-la. Deseja instalar a bíblia versão Offline ?</string>
+    <string name="inserindo_membro">Aguarde, o membro está sendo criado.</string>
+    <string name="inserir_celula_pergunta">Você tem certeza que deseja criar célula ?</string>
+    <string name="inserir_membro_pergunta">Você tem certeza que deseja criar membro ?</string>
+    <string name="insert_membro_success">Membro inserido com sucesso</string>
+    <string name="instalacao_da">Instalação da</string>
+    <string name="instalando">Instalando a bíblia...</string>
+    <string name="install_bible">Instalação da bíblia</string>
+    <string name="isaias">Isaías</string>
+    <string name="jeremias">Jeremias</string>
+    <string name="jo">Jó</string>
+    <string name="joao">João</string>
+    <string name="joel">Joel</string>
+    <string name="jonas">Jonas</string>
+    <string name="josue">Josué</string>
+    <string name="json_avisos">avisosAndroid</string>
+    <string name="json_celula">celulaAndroid</string>
+    <string name="json_lider">liderAndroid</string>
+    <string name="json_membro">membroAndroid</string>
+    <string name="json_usuario">usuarioAndroid</string>
+    <string name="judas">Judas</string>
+    <string name="juizes">Juízes</string>
+    <string name="lamentacoes">Lamentações</string>
+    <string name="letras_com_acento">ÄÅÁÂÀÃäáâàãÉÊËÈéêëèÍÎÏÌíîïìÖÓÔÒÕöóôòõÜÚÛüúûùÇç</string>
+    <string name="letras_sem_acento">AAAAAAaaaaaEEEEeeeeIIIIiiiiOOOOOoooooUUUuuuuCc</string>
+    <string name="levitico">Levítico</string>
+    <string name="ligar">Ligar</string>
+    <string name="link_app">https://play.google.com/store/apps/details?id=br.com.igreja.cellapp</string>
+    <string name="livro">Livro</string>
+    <string name="lucas">Lucas</string>
+    <string name="malaquias">Malaquias</string>
+    <string name="mana">Maná da semana</string>
+    <string name="mandar_email">Mandar e-mail</string>
+    <string name="mandar_sms">Mandar SMS</string>
+    <string name="manutencao">Manutenção de sistema</string>
+    <string name="marcos">Marcos</string>
+    <string name="marque_presenca">Marque a presença dos membros.</string>
+    <string name="mateus">Mateus</string>
+    <string name="membro_visitante">Membro/Visitante</string>
+    <string name="membros_cadastrados">"Membros presentes cadastrados</string>
+    <string name="miqueias">Miquéias</string>
+    <string name="mural">Mural de Notícias</string>
+    <string name="nao">não</string>
+    <string name="nao_ha_aniversariantes">Nao há aniversariantes neste mês</string>
+    <string name="nao_ha_app_email">Não há nenhum aplicativo de e-mail instalado em seu dispositivo</string>
+    <string name="nao_lider">Você não é o líder desta célula !</string>
+    <string name="nao_lider_membro">Você não é o líder deste membro !</string>
+    <string name="nao_possui_biblia">Você não possui a biblia instalada em seu dispositivo. Acesse a barra de menus para baixar a bíblia.</string>
+    <string name="nao_tem_email"> não tem um endereço de e-mail cadastrado.</string>
+    <string name="nao_tem_numero_ligacao"> não tem um numero para receber Ligações.</string>
+    <string name="nao_tem_numero_sms"> não tem um numero para receber SMS.</string>
+    <string name="nao_tem_numero_whats"> não tem um numero para receber mensagens via WhatsApp.</string>
+    <string name="naum">Naum</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="neemias">Neemias</string>
+    <string name="numeros">Números</string>
+    <string name="obadias">Obadias</string>
+    <string name="obtendo_celula">Aguarde, a célula está sendo obtida do servidor.</string>
+    <string name="obtendo_membro">Aguarde, o membro está sendo obtido do servidor.</string>
+    <string name="obtendo_ministracoes">"Obtendo vídeos do Youtube"</string>
+    <string name="obter_celulas">Obtendo células</string>
+    <string name="obter_lideres">Obtendo líderes</string>
+    <string name="obter_membros">Obtendo membros</string>
+    <string name="obter_noticias">Obtendo eventos e notícias</string>
+    <string name="obter_reunioes">"Obtendo reuniões..."</string>
+    <string name="obter_usuarios">Obtendo usuários</string>
+    <string name="offline">Offline</string>
+    <string name="ok">OK</string>
+    <string name="online">Online</string>
+    <string name="oseias">Oséias</string>
+    <string name="pacote_parse">com.parse.Data</string>
+    <string name="pacote_whatsapp">com.whatsapp</string>
+    <string name="param_celula_clicada">celulaClicada</string>
+    <string name="param_data_evento">dataEvento</string>
+    <string name="param_foto_evento">fotoEvento</string>
+    <string name="param_foto_membro">fotoMembro</string>
+    <string name="param_membro_clicado">membroClicado</string>
+    <string name="param_nome">nome</string>
+    <string name="param_regiao">regiao</string>
+    <string name="presenca">Presença Célula</string>
+    <string name="presenca_nunca_esqueca">Nunca esqueça de marcar a presença dos membros nas células, é com base nisso que são geradas todas as informações.</string>
+    <string name="primeiro_acesso_sem_internet">Sem conexão com a internet. Conecte-se para o primeiro acesso. O sistema será fechado dentro de alguns segundos"</string>
+    <string name="proc_cep">"procurando CEP..."</string>
+    <string name="programacao_igreja">Fique de olho na programação da igreja. Elas são apresentadas no telão nos cultos.</string>
+    <string name="propria_celula">Você só pode inserir novos membros em sua própria célula !</string>
+    <string name="proverbios">Provérbios</string>
+    <string name="proximo">Próximo</string>
+    <string name="push_app_id">RrygdPWu7rpZIhppJfJirGAWHpi1eSZaosK06kiW</string>
+    <string name="push_client_key">nHvazHZVVpeVoLBXcH9moycPMZltsDOLpuCBGwfZ</string>
+    <string name="put_extra_celula_relacionada">celulaRelacionada</string>
+    <string name="put_extra_push">dadosBroadcastParse</string>
+    <string name="put_extra_senha">senha</string>
+    <string name="put_extra_usuario">usuario</string>
+    <string name="radio">Maanaim Rádio</string>
+    <string name="regex">([a-zA-Z0-9\\.\\s\\;\\?\\õ\\é\\í\\ê\\ó\\ô\\ú\\á\\à\\É\\Í\\Ó\\Ú\\Ã\\Á\\À\\Ê\\Ô\\Õ\\Ç\\Â\\ã\\â\\,\\-\\ç\\!\\:\\_\\)\\(])+</string>
+    <string name="regiao">Região</string>
+    <string name="relatorio_nomelider_value_hint">nome do líder</string>
+    <string name="romanos">Romanos</string>
+    <string name="rupervisores_regiao">Supervisores Região</string>
+    <string name="rute">Rute</string>
+    <string name="sair_sistema">Sair do sistema</string>
+    <string name="salmos">Salmos</string>
+    <string name="search">Digite o nome do membro...</string>
+    <string name="selecao_atividades">Selecão de atividades da semana</string>
+    <string name="selecione_celula">Selecione a célula</string>
+    <string name="selecione_evento">Selecione um evento</string>
+    <string name="selecione_membro">Selecione ao menos um membro</string>
+    <string name="selecione_o_membro">Selecione o Membro</string>
+    <string name="sim">sim</string>
+    <string name="sms">SMS</string>
+    <string name="sobre">Sobre</string>
+    <string name="sofonias">Sofonias</string>
+    <string name="splash1">Encontre a célula mais próxima</string>
+    <string name="splash2">Fique por dentro dos eventos e notícias da Comunidade</string>
+    <string name="splash3">Leia a bíblia onde estiver com facilidade</string>
+    <string name="splash4">Assista as ministrações da Comunidade Batista Maanaim</string>
+    <string name="splash5">Bem-vindo ao Maanaim app !</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sugestao_pc">"Você também pode mandar sua sugestão pelo computador, através do e-mail </string>
+    <string name="sugestoes">Sugestões</string>
+    <string name="supervisor_alterar_membro_celula">Somente supervisores podem mover membros para outras células !</string>
+    <string name="tadel">Toda Terça-feira: TADEL - As 20:00Hrs</string>
+    <string name="telefone">Telefone</string>
+    <string name="text_plain">text/plain</string>
+    <string name="tiago">Tiago</string>
+    <string name="title_section1">Início</string>
+    <string name="title_section2">Relatório</string>
+    <string name="title_section3">Células</string>
+    <string name="title_section4">Membros</string>
+    <string name="title_section5">Maps</string>
+    <string name="title_template_step">Step <ns2:g id="step_number">%1$d</ns2:g>: Lorem Ipsum</string>
+    <string name="tito">Tito</string>
+    <string name="titulo_video">Faça uma surpresa para Jesus. Pr. Gerson Rodrigues</string>
+    <string name="todo_tadel">As reuniões de regiões acontecem sempre ao término do TADEL. Não saia sem participar dela !</string>
+    <string name="update_celula_success">Célula atualizada com sucesso</string>
+    <string name="update_membro_success">Membro atualizado com sucesso</string>
+    <string name="usuario">Usuário</string>
+    <string name="usuario_ou_senha_inv">Usuário ou senha inválidos.</string>
+    <string name="validacao_campos_vazios">Não podem haver campos vazios</string>
+    <string name="verifique_dados">Verifique os dados</string>
+    <string name="versao">Versão</string>
+    <string name="versaoACF">BibliaACF</string>
+    <string name="versaoARA">BibliaARA</string>
+    <string name="versaoARC">BibliaARC</string>
+    <string name="versaoNTLH">BibliaNTLH</string>
+    <string name="versaoNVI">BibliaNVI</string>
+    <string name="versao_minusculo">versao</string>
+    <string name="versiculo_install">Instalando versículos de</string>
+    <string name="visualizar_maps">Visualizar as células no maps pode demorar dependendo do seu dispositivo. Você tem certeza disso ?</string>
+    <string name="voce_nao_internet">Você não está conectado a internet !</string>
+    <string name="voltar">Voltar</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="whatsapp_nao_instalado">O WhatsApp não está instalado !</string>
+    <string name="youtube_maanaim">YouTube Maanaim</string>
+    <string name="zacarias">Zacarias</string>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+    <style name="LiveloPontosTheme.TextView" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LiveloPontosTheme.TextView.Loading" parent="LiveloPontosTheme.TextView">
+        <item name="android:layout_marginTop">34dp</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textSize">13.3dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/laranja</item>
+    </style>
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+</resources>

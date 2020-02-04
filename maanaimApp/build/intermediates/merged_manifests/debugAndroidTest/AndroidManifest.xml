@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.igreja.cellapp.test">
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <application android:debuggable="true">
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation
+        android:name="com.android.test.runner.MultiDexTestRunner"
+        android:targetPackage="br.com.igreja.cellapp"
+        android:handleProfiling="false"
+        android:functionalTest="false"
+        android:label="Tests for br.com.igreja.cellapp" />
+</manifest>

@@ -4,7 +4,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.com.igreja.cellapp.mainMenu.Inicio" >
+    tools:context="br.com.igreja.cellapp.mainMenu.Inicio">
 
     <!--
          As the main content view, the view below consumes the entire
@@ -28,17 +28,17 @@
          the container.
     -->
 
-	<WebView
- 	android:id="@+id/webView1"
- 	android:layout_width="match_parent"
- 	android:layout_height="match_parent" />
-	
-	<TextView 
-	android:id="@+id/textConexao"
- 	android:layout_width="match_parent"
- 	android:layout_height="match_parent"
- 	android:gravity="center_horizontal"
- 	android:text=""/>
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textConexao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="" />
 
     <fragment
         android:id="@+id/navigation_drawer"

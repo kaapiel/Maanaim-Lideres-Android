@@ -10,12 +10,12 @@
     </style>
 
     <style name="Theme.Base.Rbt" parent="@style/Theme.AppCompat.Light">
-  		<item name="android:actionBarStyle">@style/Widget.Rbt.ActionBar</item>
-  		<item name="android:windowActionBar">true</item>
-	</style>
+        <item name="android:actionBarStyle">@style/Widget.Rbt.ActionBar</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
 
-	<style name="Widget.Rbt.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
-  		<item name="android:background">@color/laranja</item>
-	</style>
-    
+    <style name="Widget.Rbt.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/laranja</item>
+    </style>
+
 </resources>

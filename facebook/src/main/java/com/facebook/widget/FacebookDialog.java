@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,18 +25,19 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.v4.app.Fragment;
+
 import com.facebook.*;
 import com.facebook.internal.*;
 import com.facebook.model.GraphObject;
 import com.facebook.model.GraphObjectList;
 import com.facebook.model.OpenGraphAction;
 import com.facebook.model.OpenGraphObject;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.util.*;
 
 /*
  * Provides an interface for presenting dialogs provided by the Facebook application for Android. This class
@@ -305,7 +306,7 @@ public class FacebookDialog {
     private OnPresentCallback onPresentCallback;
 
     private FacebookDialog(Activity activity, Fragment fragment, PendingCall appCall,
-            OnPresentCallback onPresentCallback) {
+                           OnPresentCallback onPresentCallback) {
         this.activity = activity;
         this.fragment = fragment;
         this.appCall = appCall;
@@ -351,7 +352,7 @@ public class FacebookDialog {
      * @return true if the activity result was handled, false if not
      */
     public static boolean handleActivityResult(Context context, PendingCall appCall, int requestCode, Intent data,
-            Callback callback) {
+                                               Callback callback) {
         if (requestCode != appCall.getRequestCode()) {
             return false;
         }
@@ -1256,7 +1257,7 @@ public class FacebookDialog {
          */
         @Deprecated
         public OpenGraphDialogBuilderBase(Activity activity, OpenGraphAction action, String actionType,
-                String previewPropertyName) {
+                                          String previewPropertyName) {
             super(activity);
 
             Validate.notNull(action, "action");
@@ -1356,7 +1357,7 @@ public class FacebookDialog {
          * @return this instance of the builder
          */
         public CONCRETE setImageAttachmentsForAction(List<Bitmap> bitmaps,
-                boolean isUserGenerated) {
+                                                     boolean isUserGenerated) {
             Validate.containsNoNulls(bitmaps, "bitmaps");
             if (action == null) {
                 throw new FacebookException("Can not set attachments prior to setting action.");
@@ -1406,7 +1407,7 @@ public class FacebookDialog {
          * @return this instance of the builder
          */
         public CONCRETE setImageAttachmentFilesForAction(List<File> bitmapFiles,
-                boolean isUserGenerated) {
+                                                         boolean isUserGenerated) {
             Validate.containsNoNulls(bitmapFiles, "bitmapFiles");
             if (action == null) {
                 throw new FacebookException("Can not set attachments prior to setting action.");
@@ -1492,7 +1493,7 @@ public class FacebookDialog {
          * @return this instance of the builder
          */
         public CONCRETE setImageAttachmentsForObject(String objectProperty, List<Bitmap> bitmaps,
-                boolean isUserGenerated) {
+                                                     boolean isUserGenerated) {
             Validate.notNull(objectProperty, "objectProperty");
             Validate.containsNoNulls(bitmaps, "bitmaps");
             if (action == null) {
@@ -1528,7 +1529,7 @@ public class FacebookDialog {
          * @return this instance of the builder
          */
         public CONCRETE setImageAttachmentFilesForObject(String objectProperty,
-                List<File> bitmapFiles) {
+                                                         List<File> bitmapFiles) {
             return setImageAttachmentFilesForObject(objectProperty, bitmapFiles, false);
         }
 
@@ -1557,7 +1558,7 @@ public class FacebookDialog {
          * @return this instance of the builder
          */
         public CONCRETE setImageAttachmentFilesForObject(String objectProperty,
-                List<File> bitmapFiles, boolean isUserGenerated) {
+                                                         List<File> bitmapFiles, boolean isUserGenerated) {
             Validate.notNull(objectProperty, "objectProperty");
             Validate.containsNoNulls(bitmapFiles, "bitmapFiles");
             if (action == null) {
@@ -1716,7 +1717,7 @@ public class FacebookDialog {
          */
         @Deprecated
         public OpenGraphActionDialogBuilder(Activity activity, OpenGraphAction action, String actionType,
-                String previewPropertyName) {
+                                            String previewPropertyName) {
             super(activity, action, actionType, previewPropertyName);
         }
 

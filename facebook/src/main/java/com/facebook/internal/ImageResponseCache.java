@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,6 +18,7 @@ package com.facebook.internal;
 
 import android.content.Context;
 import android.util.Log;
+
 import com.facebook.LoggingBehavior;
 
 import java.io.BufferedInputStream;
@@ -33,7 +34,7 @@ class ImageResponseCache {
 
     private volatile static FileLruCache imageCache;
 
-    synchronized static FileLruCache getCache(Context context) throws IOException{
+    synchronized static FileLruCache getCache(Context context) throws IOException {
         if (imageCache == null) {
             imageCache = new FileLruCache(context.getApplicationContext(), TAG, new FileLruCache.Limits());
         }
@@ -75,13 +76,13 @@ class ImageResponseCache {
             } catch (IOException e) {
                 // Caching is best effort
             } catch (URISyntaxException e) {
-            // Caching is best effort
+                // Caching is best effort
             }
         }
         return stream;
     }
 
-   private static boolean isCDNURL(URI url) {
+    private static boolean isCDNURL(URI url) {
         if (url != null) {
             String uriHost = url.getHost();
 
@@ -107,6 +108,7 @@ class ImageResponseCache {
 
     private static class BufferedHttpInputStream extends BufferedInputStream {
         HttpURLConnection connection;
+
         BufferedHttpInputStream(InputStream stream, HttpURLConnection connection) {
             super(stream, Utility.DEFAULT_STREAM_BUFFER_SIZE);
             this.connection = connection;

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "306"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "517",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "646"
+                    }
+                },
+                {
+                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-v11/strings.xml",
+                    "from": {
+                        "startLines": "8,6,7,3,4,2,5",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "419,243,356,95,143,55,195",
+                        "endColumns": "97,112,62,47,51,39,47",
+                        "endOffsets": "512,351,414,138,190,90,238"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,266,329,377,429,469",
+                        "endColumns": "97,112,62,47,51,39,47",
+                        "endOffsets": "148,261,324,372,424,464,512"
+                    }
+                }
+            ]
+        }
+    ]
+}

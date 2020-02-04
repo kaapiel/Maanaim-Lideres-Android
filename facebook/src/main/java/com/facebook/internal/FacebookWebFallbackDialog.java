@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,14 +23,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.webkit.WebView;
+
 import com.facebook.FacebookException;
-import com.facebook.android.Util;
 import com.facebook.widget.FacebookDialog;
 import com.facebook.widget.WebDialog;
+
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.EnumSet;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for Android. Use of
@@ -149,10 +148,10 @@ public class FacebookWebFallbackDialog extends WebDialog {
         // Now fire off the event that will tell the dialog to wind down.
         String eventJS =
                 "(function() {" +
-                "  var event = document.createEvent('Event');" +
-                "  event.initEvent('fbPlatformDialogMustClose',true,true);" +
-                "  document.dispatchEvent(event);" +
-                "})();";
+                        "  var event = document.createEvent('Event');" +
+                        "  event.initEvent('fbPlatformDialogMustClose',true,true);" +
+                        "  document.dispatchEvent(event);" +
+                        "})();";
         webView.loadUrl("javascript:" + eventJS);
 
         // Set up a timeout for the dialog to respond. If the timer expires, we need to honor the user's desire to

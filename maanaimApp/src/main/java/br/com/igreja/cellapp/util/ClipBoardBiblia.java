@@ -30,7 +30,7 @@ public class ClipBoardBiblia {
                 android.content.ClipboardManager clipboard = (android.content.ClipboardManager) context
                         .getSystemService(context.CLIPBOARD_SERVICE);
                 android.content.ClipData clip = android.content.ClipData
-                        .newPlainText("Texto do clip", cap+":"+text);
+                        .newPlainText("Texto do clip", cap + ":" + text);
                 clipboard.setPrimaryClip(clip);
 
             }

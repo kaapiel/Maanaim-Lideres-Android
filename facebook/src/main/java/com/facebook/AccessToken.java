@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -20,6 +20,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+
 import com.facebook.internal.NativeProtocol;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
@@ -27,7 +28,6 @@ import com.facebook.internal.Validate;
 import java.io.InvalidObjectException;
 import java.io.ObjectInputStream;
 import java.io.Serializable;
-import java.util.*;
 
 /**
  * This class represents an access token returned by the Facebook Login service, along with associated
@@ -152,7 +152,7 @@ public final class AccessToken implements Serializable {
      * @return a new AccessToken
      */
     public static AccessToken createFromExistingAccessToken(String accessToken, Date expirationTime,
-            Date lastRefreshTime, AccessTokenSource accessTokenSource, List<String> permissions) {
+                                                            Date lastRefreshTime, AccessTokenSource accessTokenSource, List<String> permissions) {
         if (expirationTime == null) {
             expirationTime = DEFAULT_EXPIRATION_TIME;
         }
@@ -221,7 +221,7 @@ public final class AccessToken implements Serializable {
         // With Login v4, we now get back the actual permissions granted, so update the permissions to be the real thing
         String grantedPermissions = bundle.getString("granted_scopes");
         if (!Utility.isNullOrEmpty(grantedPermissions)) {
-            requestedPermissions =  new ArrayList<String>(Arrays.asList(grantedPermissions.split(",")));
+            requestedPermissions = new ArrayList<String>(Arrays.asList(grantedPermissions.split(",")));
         }
         String deniedPermissions = bundle.getString("denied_scopes");
         List<String> declinedPermissions = null;
@@ -307,8 +307,8 @@ public final class AccessToken implements Serializable {
     }
 
     private static AccessToken createFromBundle(List<String> requestedPermissions, Bundle bundle,
-            AccessTokenSource source,
-            Date expirationBase) {
+                                                AccessTokenSource source,
+                                                Date expirationBase) {
         String token = bundle.getString(ACCESS_TOKEN_KEY);
         Date expires = getBundleLongAsDate(bundle, EXPIRES_IN_KEY, expirationBase);
 
@@ -349,7 +349,7 @@ public final class AccessToken implements Serializable {
         private final Date lastRefresh;
 
         private SerializationProxyV1(String token, Date expires,
-                List<String> permissions, AccessTokenSource source, Date lastRefresh) {
+                                     List<String> permissions, AccessTokenSource source, Date lastRefresh) {
             this.expires = expires;
             this.permissions = permissions;
             this.token = token;

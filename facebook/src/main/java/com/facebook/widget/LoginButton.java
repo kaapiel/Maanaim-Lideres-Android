@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -33,6 +33,7 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+
 import com.facebook.*;
 import com.facebook.android.R;
 import com.facebook.internal.AnalyticsEvents;
@@ -58,19 +59,19 @@ import java.util.List;
  * the {@link #setSession(com.facebook.Session)} method.
  */
 public class LoginButton extends Button {
-    
+
     public static enum ToolTipMode {
         /**
          * Default display mode. A server query will determine if the tool tip should be displayed
          * and, if so, what the string shown to the user should be.
          */
         DEFAULT,
-        
+
         /**
          * Display the tool tip with a local string--regardless of what the server returns 
          */
         DISPLAY_ALWAYS,
-        
+
         /**
          * Never display the tool tip--regardless of what the server says
          */
@@ -144,7 +145,7 @@ public class LoginButton extends Button {
         }
 
         private boolean validatePermissions(List<String> permissions,
-                SessionAuthorizationType authType, Session currentSession) {
+                                            SessionAuthorizationType authType, Session currentSession) {
             if (SessionAuthorizationType.PUBLISH.equals(authType)) {
                 if (Utility.isNullOrEmpty(permissions)) {
                     throw new IllegalArgumentException("Permissions for publish actions cannot be null or empty.");
@@ -258,7 +259,7 @@ public class LoginButton extends Button {
         parseAttributes(attrs);
         if (!isInEditMode()) {
             initializeActiveSessionWithCachedToken(context);
-        }        
+        }
     }
 
     /**
@@ -490,13 +491,12 @@ public class LoginButton extends Button {
     /**
      * Sets the callback interface that will be called whenever the status of the Session
      * associated with this LoginButton changes.
-
      * @return the callback interface
      */
     public Session.StatusCallback getSessionStatusCallback() {
         return properties.getSessionStatusCallback();
     }
-    
+
     /**
      * Sets the style (background) of the Tool Tip popup. Currently a blue style and a black
      * style are supported. Blue is default
@@ -505,7 +505,7 @@ public class LoginButton extends Button {
     public void setToolTipStyle(ToolTipPopup.Style nuxStyle) {
         this.nuxStyle = nuxStyle;
     }
-    
+
     /**
      * Sets the mode of the Tool Tip popup. Currently supported modes are default (normal
      * behavior), always_on (popup remains up until forcibly dismissed), and always_off (popup
@@ -515,7 +515,7 @@ public class LoginButton extends Button {
     public void setToolTipMode(ToolTipMode nuxMode) {
         this.nuxMode = nuxMode;
     }
-    
+
     /**
      * Return the current {@link ToolTipMode} for this LoginButton
      * @return The {@link ToolTipMode}
@@ -523,7 +523,7 @@ public class LoginButton extends Button {
     public ToolTipMode getToolTipMode() {
         return nuxMode;
     }
-    
+
     /**
      * Sets the amount of time (in milliseconds) that the tool tip will be shown to the user. The 
      * default is {@value ToolTipPopup#DEFAULT_POPUP_DISPLAY_TIME}. Any value that is less than or
@@ -534,7 +534,7 @@ public class LoginButton extends Button {
     public void setToolTipDisplayTime(long displayTime) {
         this.nuxDisplayTime = displayTime;
     }
-    
+
     /**
      * Gets the current amount of time (in ms) that the tool tip will be displayed to the user
      * @return
@@ -579,7 +579,7 @@ public class LoginButton extends Button {
     public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
         Session session = sessionTracker.getSession();
         if (session != null) {
-            return session.onActivityResult((Activity)getContext(), requestCode,
+            return session.onActivityResult((Activity) getContext(), requestCode,
                     resultCode, data);
         } else {
             return false;
@@ -639,7 +639,7 @@ public class LoginButton extends Button {
             setButtonText();
         }
     }
-    
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -649,21 +649,21 @@ public class LoginButton extends Button {
             checkNuxSettings();
         }
     }
-    
+
     private void showNuxPerSettings(FetchedAppSettings settings) {
         if (settings != null && settings.getNuxEnabled() && getVisibility() == View.VISIBLE) {
             String nuxString = settings.getNuxContent();
             displayNux(nuxString);
         }
     }
-    
+
     private void displayNux(String nuxString) {
         nuxPopup = new ToolTipPopup(nuxString, this);
         nuxPopup.setStyle(nuxStyle);
         nuxPopup.setNuxDisplayTime(nuxDisplayTime);
         nuxPopup.show();
     }
-    
+
     private void checkNuxSettings() {
         if (nuxMode == ToolTipMode.DISPLAY_ALWAYS) {
             String nuxString = getResources().getString(R.string.com_facebook_tooltip_default);
@@ -683,7 +683,7 @@ public class LoginButton extends Button {
                     showNuxPerSettings(result);
                 }
             };
-            task.execute((Void[])null);
+            task.execute((Void[]) null);
         }
 
     }
@@ -763,7 +763,7 @@ public class LoginButton extends Button {
                 if (currentSession != userInfoSession) {
                     Request request = Request.newMeRequest(currentSession, new Request.GraphUserCallback() {
                         @Override
-                        public void onCompleted(GraphUser me,  Response response) {
+                        public void onCompleted(GraphUser me, Response response) {
                             if (currentSession == sessionTracker.getOpenSession()) {
                                 user = me;
                                 if (userInfoChangedCallback != null) {
@@ -818,13 +818,13 @@ public class LoginButton extends Button {
                     }
                     AlertDialog.Builder builder = new AlertDialog.Builder(context);
                     builder.setMessage(message)
-                           .setCancelable(true)
-                           .setPositiveButton(logout, new DialogInterface.OnClickListener() {
-                               public void onClick(DialogInterface dialog, int which) {
-                                   openSession.closeAndClearTokenInformation();
-                               }
-                           })
-                           .setNegativeButton(cancel, null);
+                            .setCancelable(true)
+                            .setPositiveButton(logout, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    openSession.closeAndClearTokenInformation();
+                                }
+                            })
+                            .setNegativeButton(cancel, null);
                     builder.create().show();
                 } else {
                     openSession.closeAndClearTokenInformation();
@@ -842,7 +842,7 @@ public class LoginButton extends Button {
                     if (parentFragment != null) {
                         openRequest = new Session.OpenRequest(parentFragment);
                     } else if (context instanceof Activity) {
-                        openRequest = new Session.OpenRequest((Activity)context);
+                        openRequest = new Session.OpenRequest((Activity) context);
                     }
 
                     if (openRequest != null) {
@@ -887,12 +887,14 @@ public class LoginButton extends Button {
                 handleError(exception);
             }
         }
-    };
+    }
+
+    ;
 
     void handleError(Exception exception) {
         if (properties.onErrorListener != null) {
             if (exception instanceof FacebookException) {
-                properties.onErrorListener.onError((FacebookException)exception);
+                properties.onErrorListener.onError((FacebookException) exception);
             } else {
                 properties.onErrorListener.onError(new FacebookException(exception));
             }

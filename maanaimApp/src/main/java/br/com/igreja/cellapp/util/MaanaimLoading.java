@@ -10,7 +10,7 @@ import br.com.igreja.cellapp.R;
 /**
  * Created by vilmar.filho on 1/5/16.
  */
-public class MaanaimLoading extends ImageView{
+public class MaanaimLoading extends ImageView {
 
     public MaanaimLoading(Context context) {
         super(context);
@@ -26,7 +26,7 @@ public class MaanaimLoading extends ImageView{
         setupLoading();
     }
 
-    private void setupLoading(){
+    private void setupLoading() {
         setBackgroundResource(R.drawable.loading_animated);
 
         post(new Runnable() {

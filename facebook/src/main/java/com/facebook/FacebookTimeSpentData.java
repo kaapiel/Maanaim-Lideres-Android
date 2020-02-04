@@ -20,27 +20,27 @@ class FacebookTimeSpentData implements Serializable {
 
     // Should be kept in sync with the iOS sdk
     private static final long[] INACTIVE_SECONDS_QUANTA =
-        new long[] {
-            5 * DateUtils.MINUTE_IN_MILLIS,
-            15 * DateUtils.MINUTE_IN_MILLIS,
-            30 * DateUtils.MINUTE_IN_MILLIS,
-            1 * DateUtils.HOUR_IN_MILLIS,
-            6 * DateUtils.HOUR_IN_MILLIS,
-            12 * DateUtils.HOUR_IN_MILLIS,
-            1 * DateUtils.DAY_IN_MILLIS,
-            2 * DateUtils.DAY_IN_MILLIS,
-            3 * DateUtils.DAY_IN_MILLIS,
-            7 * DateUtils.DAY_IN_MILLIS,
-            14 * DateUtils.DAY_IN_MILLIS,
-            21 * DateUtils.DAY_IN_MILLIS,
-            28 * DateUtils.DAY_IN_MILLIS,
-            60 * DateUtils.DAY_IN_MILLIS,
-            90 * DateUtils.DAY_IN_MILLIS,
-            120 * DateUtils.DAY_IN_MILLIS,
-            150 * DateUtils.DAY_IN_MILLIS,
-            180 * DateUtils.DAY_IN_MILLIS,
-            365 * DateUtils.DAY_IN_MILLIS,
-        };
+            new long[]{
+                    5 * DateUtils.MINUTE_IN_MILLIS,
+                    15 * DateUtils.MINUTE_IN_MILLIS,
+                    30 * DateUtils.MINUTE_IN_MILLIS,
+                    1 * DateUtils.HOUR_IN_MILLIS,
+                    6 * DateUtils.HOUR_IN_MILLIS,
+                    12 * DateUtils.HOUR_IN_MILLIS,
+                    1 * DateUtils.DAY_IN_MILLIS,
+                    2 * DateUtils.DAY_IN_MILLIS,
+                    3 * DateUtils.DAY_IN_MILLIS,
+                    7 * DateUtils.DAY_IN_MILLIS,
+                    14 * DateUtils.DAY_IN_MILLIS,
+                    21 * DateUtils.DAY_IN_MILLIS,
+                    28 * DateUtils.DAY_IN_MILLIS,
+                    60 * DateUtils.DAY_IN_MILLIS,
+                    90 * DateUtils.DAY_IN_MILLIS,
+                    120 * DateUtils.DAY_IN_MILLIS,
+                    150 * DateUtils.DAY_IN_MILLIS,
+                    180 * DateUtils.DAY_IN_MILLIS,
+                    365 * DateUtils.DAY_IN_MILLIS,
+            };
 
     private boolean isWarmLaunch;
     private boolean isAppActive;
@@ -68,10 +68,10 @@ class FacebookTimeSpentData implements Serializable {
         private final int interruptionCount;
 
         SerializationProxyV1(
-            long lastResumeTime,
-            long lastSuspendTime,
-            long millisecondsSpentInSession,
-            int interruptionCount
+                long lastResumeTime,
+                long lastSuspendTime,
+                long millisecondsSpentInSession,
+                int interruptionCount
         ) {
             this.lastResumeTime = lastResumeTime;
             this.lastSuspendTime = lastSuspendTime;
@@ -81,10 +81,10 @@ class FacebookTimeSpentData implements Serializable {
 
         private Object readResolve() {
             return new FacebookTimeSpentData(
-                lastResumeTime,
-                lastSuspendTime,
-                millisecondsSpentInSession,
-                interruptionCount);
+                    lastResumeTime,
+                    lastSuspendTime,
+                    millisecondsSpentInSession,
+                    interruptionCount);
         }
     }
 
@@ -154,11 +154,11 @@ class FacebookTimeSpentData implements Serializable {
      * Constructor to be used for V2 serialization only, DO NOT CHANGE.
      */
     private FacebookTimeSpentData(
-        long lastResumeTime,
-        long lastSuspendTime,
-        long millisecondsSpentInSession,
-        int interruptionCount,
-        String firstOpenSourceApplication
+            long lastResumeTime,
+            long lastSuspendTime,
+            long millisecondsSpentInSession,
+            int interruptionCount,
+            String firstOpenSourceApplication
     ) {
         resetSession();
         this.lastResumeTime = lastResumeTime;
@@ -203,7 +203,7 @@ class FacebookTimeSpentData implements Serializable {
         // If this is a cold launch, always log the event. Otherwise, use the last
         // event log time to determine if the app activate should be suppressed or not.
         if (isColdLaunch() ||
-            ((now - lastActivateEventLoggedTime) > APP_ACTIVATE_SUPPRESSION_PERIOD_IN_MILLISECONDS)) {
+                ((now - lastActivateEventLoggedTime) > APP_ACTIVATE_SUPPRESSION_PERIOD_IN_MILLISECONDS)) {
             Bundle eventParams = new Bundle();
             eventParams.putString(
                     AppEventsConstants.EVENT_PARAM_SOURCE_APPLICATION,
@@ -215,14 +215,14 @@ class FacebookTimeSpentData implements Serializable {
         // If this is an application that's not calling onSuspend yet, log and return. We can't
         // track time spent for this application as there are no calls to onSuspend.
         if (isAppActive) {
-          Logger.log(LoggingBehavior.APP_EVENTS, TAG, "Resume for active app");
-          return;
+            Logger.log(LoggingBehavior.APP_EVENTS, TAG, "Resume for active app");
+            return;
         }
 
         long interruptionDurationMillis = wasSuspendedEver() ? now - lastSuspendTime : 0;
         if (interruptionDurationMillis < 0) {
-          Logger.log(LoggingBehavior.APP_EVENTS, TAG, "Clock skew detected");
-          interruptionDurationMillis = 0;
+            Logger.log(LoggingBehavior.APP_EVENTS, TAG, "Clock skew detected");
+            interruptionDurationMillis = 0;
         }
 
         // If interruption duration is > new session threshold, then log old session
@@ -261,7 +261,7 @@ class FacebookTimeSpentData implements Serializable {
                 firstOpenSourceApplication);
         logger.logEvent(
                 AppEventsConstants.EVENT_NAME_DEACTIVATED_APP,
-                (millisecondsSpentInSession/DateUtils.SECOND_IN_MILLIS),
+                (millisecondsSpentInSession / DateUtils.SECOND_IN_MILLIS),
                 eventParams);
         resetSession();
     }
@@ -270,8 +270,8 @@ class FacebookTimeSpentData implements Serializable {
         int quantaIndex = 0;
 
         while (
-            quantaIndex < INACTIVE_SECONDS_QUANTA.length &&
-            INACTIVE_SECONDS_QUANTA[quantaIndex] < timeBetweenSessions
+                quantaIndex < INACTIVE_SECONDS_QUANTA.length &&
+                        INACTIVE_SECONDS_QUANTA[quantaIndex] < timeBetweenSessions
         ) {
             ++quantaIndex;
         }

@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,6 +25,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
 import com.facebook.*;
 import com.facebook.android.R;
 import com.facebook.internal.AnalyticsEvents;
@@ -55,8 +56,8 @@ public class UserSettingsFragment extends FacebookFragment {
     private static final String ID = "id";
     private static final String PICTURE = "picture";
     private static final String FIELDS = "fields";
-    
-    private static final String REQUEST_FIELDS = TextUtils.join(",", new String[] {ID, NAME, PICTURE});
+
+    private static final String REQUEST_FIELDS = TextUtils.join(",", new String[]{ID, NAME, PICTURE});
 
     private LoginButton loginButton;
     private LoginButton.LoginButtonProperties loginButtonProperties = new LoginButton.LoginButtonProperties();
@@ -80,7 +81,7 @@ public class UserSettingsFragment extends FacebookFragment {
             loginButton.setSession(session);
         }
         connectedStateLabel = (TextView) view.findViewById(R.id.com_facebook_usersettingsfragment_profile_name);
-        
+
         // if no background is set for some reason, then default to Facebook blue
         if (view.getBackground() == null) {
             view.setBackgroundColor(getResources().getColor(R.color.com_facebook_blue));
@@ -317,7 +318,6 @@ public class UserSettingsFragment extends FacebookFragment {
     /**
      * Sets the callback interface that will be called whenever the status of the Session
      * associated with this LoginButton changes.
-
      * @return the callback interface
      */
     public Session.StatusCallback getSessionStatusCallback() {
@@ -365,7 +365,7 @@ public class UserSettingsFragment extends FacebookFragment {
             user = null;
         }
     }
-    
+
     private void updateUI() {
         if (!isAdded()) {
             return;
@@ -374,7 +374,7 @@ public class UserSettingsFragment extends FacebookFragment {
             connectedStateLabel.setTextColor(getResources().getColor(R.color.com_facebook_usersettingsfragment_connected_text_color));
             connectedStateLabel.setShadowLayer(1f, 0f, -1f,
                     getResources().getColor(R.color.com_facebook_usersettingsfragment_connected_shadow_color));
-            
+
             if (user != null) {
                 ImageRequest request = getImageRequest();
                 if (request != null) {

@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,6 +22,7 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+
 import com.facebook.AppEventsLogger;
 import com.facebook.FacebookException;
 import com.facebook.Request;
@@ -29,8 +30,6 @@ import com.facebook.Session;
 import com.facebook.android.R;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.model.GraphUser;
-
-import java.util.*;
 
 /**
  * Provides a Fragment that displays a list of a user's friends and allows one or more of the
@@ -180,7 +179,7 @@ public class FriendPickerFragment extends PickerFragment<GraphUser> {
      */
     public void setSelection(List<GraphUser> graphUsers) {
         List<String> userIds = new ArrayList<String>();
-        for(GraphUser graphUser: graphUsers) {
+        for (GraphUser graphUser : graphUsers) {
             userIds.add(graphUser.getId());
         }
         setSelectionByIds(userIds);
@@ -329,7 +328,7 @@ public class FriendPickerFragment extends PickerFragment<GraphUser> {
     private class ImmediateLoadingStrategy extends LoadingStrategy {
         @Override
         protected void onLoadFinished(GraphObjectPagingLoader<GraphUser> loader,
-                SimpleGraphObjectCursor<GraphUser> data) {
+                                      SimpleGraphObjectCursor<GraphUser> data) {
             super.onLoadFinished(loader, data);
 
             // We could be called in this state if we are clearing data or if we are being re-attached

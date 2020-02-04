@@ -5,7 +5,6 @@
         android:id="@+id/item_copiar"
         android:icon="@drawable/mapp_ic_anotacao"
         android:title="Copiar"
-        android:titleCondensed="Copiar">
-    </item>
+        android:titleCondensed="Copiar"></item>
 
 </menu>

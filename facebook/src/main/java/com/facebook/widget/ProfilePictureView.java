@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -27,6 +27,7 @@ import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+
 import com.facebook.FacebookException;
 import com.facebook.LoggingBehavior;
 import com.facebook.android.R;
@@ -243,7 +244,7 @@ public class ProfilePictureView extends FrameLayout {
      * @param onErrorListener The Listener object to set
      */
     public final void setOnErrorListener(OnErrorListener onErrorListener) {
-      this.onErrorListener = onErrorListener;
+        this.onErrorListener = onErrorListener;
     }
 
     /**
@@ -337,7 +338,7 @@ public class ProfilePictureView extends FrameLayout {
         if (state.getClass() != Bundle.class) {
             super.onRestoreInstanceState(state);
         } else {
-            Bundle instanceState = (Bundle)state;
+            Bundle instanceState = (Bundle) state;
             super.onRestoreInstanceState(instanceState.getParcelable(SUPER_STATE_KEY));
 
             profileId = instanceState.getString(PROFILE_ID_KEY);
@@ -346,7 +347,7 @@ public class ProfilePictureView extends FrameLayout {
             queryWidth = instanceState.getInt(BITMAP_WIDTH_KEY);
             queryHeight = instanceState.getInt(BITMAP_HEIGHT_KEY);
 
-            setImageBitmap((Bitmap)instanceState.getParcelable(BITMAP_KEY));
+            setImageBitmap((Bitmap) instanceState.getParcelable(BITMAP_KEY));
 
             if (instanceState.getBoolean(PENDING_REFRESH_KEY)) {
                 refreshImage(true);
@@ -403,17 +404,17 @@ public class ProfilePictureView extends FrameLayout {
 
     private void setBlankProfilePicture() {
         if (customizedDefaultProfilePicture == null) {
-          int blankImageResource = isCropped() ?
-                  R.drawable.com_facebook_profile_picture_blank_square :
-                  R.drawable.com_facebook_profile_picture_blank_portrait;
-          setImageBitmap( BitmapFactory.decodeResource(getResources(), blankImageResource));
-	} else {
-          // Update profile image dimensions.
-          updateImageQueryParameters();
-          // Resize inputBitmap to new dimensions of queryWidth and queryHeight.
-          Bitmap scaledBitmap = Bitmap.createScaledBitmap(customizedDefaultProfilePicture, queryWidth, queryHeight, false);
-          setImageBitmap(scaledBitmap);
-	}
+            int blankImageResource = isCropped() ?
+                    R.drawable.com_facebook_profile_picture_blank_square :
+                    R.drawable.com_facebook_profile_picture_blank_portrait;
+            setImageBitmap(BitmapFactory.decodeResource(getResources(), blankImageResource));
+        } else {
+            // Update profile image dimensions.
+            updateImageQueryParameters();
+            // Resize inputBitmap to new dimensions of queryWidth and queryHeight.
+            Bitmap scaledBitmap = Bitmap.createScaledBitmap(customizedDefaultProfilePicture, queryWidth, queryHeight, false);
+            setImageBitmap(scaledBitmap);
+        }
     }
 
     private void setImageBitmap(Bitmap imageBitmap) {
@@ -427,17 +428,17 @@ public class ProfilePictureView extends FrameLayout {
         try {
             ImageRequest.Builder requestBuilder = new ImageRequest.Builder(
                     getContext(),
-                    ImageRequest.getProfilePictureUrl(profileId, queryWidth,  queryHeight));
+                    ImageRequest.getProfilePictureUrl(profileId, queryWidth, queryHeight));
 
             ImageRequest request = requestBuilder.setAllowCachedRedirects(allowCachedResponse)
                     .setCallerTag(this)
                     .setCallback(
-                    new ImageRequest.Callback() {
-                        @Override
-                        public void onCompleted(ImageResponse response) {
-                            processResponse(response);
-                        }
-                    })
+                            new ImageRequest.Callback() {
+                                @Override
+                                public void onCompleted(ImageResponse response) {
+                                    processResponse(response);
+                                }
+                            })
                     .build();
 
             // Make sure to cancel the old request before sending the new one to prevent

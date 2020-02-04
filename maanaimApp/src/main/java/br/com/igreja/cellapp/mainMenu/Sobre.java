@@ -1,38 +1,38 @@
 package br.com.igreja.cellapp.mainMenu;
 
 
-import br.com.igreja.cellapp.R;
-import butterknife.BindView;
-import butterknife.ButterKnife;
-
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Sobre extends Activity{
+import br.com.igreja.cellapp.R;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
-	@BindView(R.id.txtVersao) TextView txtVersao;
-	private String versionName;
+public class Sobre extends Activity {
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.versao);
-		ButterKnife.bind(this);
+    @BindView(R.id.txtVersao)
+    TextView txtVersao;
+    private String versionName;
 
-		setUIelements();
-	}
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.versao);
+        ButterKnife.bind(this);
 
-	private void setUIelements() {
-		try{
-			PackageInfo pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
-			versionName = pInfo.versionName;
-		} catch (Exception e){
-			e.printStackTrace();
-		}
+        setUIelements();
+    }
 
-		txtVersao.setText(getString(R.string.versao)+": v"+versionName);
-	}
+    private void setUIelements() {
+        try {
+            PackageInfo pInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            versionName = pInfo.versionName;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        txtVersao.setText(getString(R.string.versao) + ": v" + versionName);
+    }
 }

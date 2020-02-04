@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,14 +19,13 @@ package com.facebook.model;
 import com.facebook.FacebookGraphObjectException;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.lang.reflect.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
 
 /**
  * GraphObject is the primary interface used by the Facebook SDK for Android to represent objects in the Facebook
@@ -110,9 +109,9 @@ public interface GraphObject {
      */
     final class Factory {
         private static final HashSet<Class<?>> verifiedGraphObjectClasses = new HashSet<Class<?>>();
-        private static final SimpleDateFormat[] dateFormats = new SimpleDateFormat[] {
+        private static final SimpleDateFormat[] dateFormats = new SimpleDateFormat[]{
                 new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ", Locale.US),
-                new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US), new SimpleDateFormat("yyyy-MM-dd", Locale.US), };
+                new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss", Locale.US), new SimpleDateFormat("yyyy-MM-dd", Locale.US),};
 
         // No objects of this type should exist.
         private Factory() {
@@ -215,7 +214,7 @@ public interface GraphObject {
         private static <T extends GraphObject> T createGraphObjectProxy(Class<T> graphObjectClass, JSONObject state) {
             verifyCanProxyClass(graphObjectClass);
 
-            Class<?>[] interfaces = new Class<?>[] { graphObjectClass };
+            Class<?>[] interfaces = new Class<?>[]{graphObjectClass};
             GraphObjectProxy graphObjectProxy = new GraphObjectProxy(state, graphObjectClass);
 
             @SuppressWarnings("unchecked")
@@ -296,7 +295,7 @@ public interface GraphObject {
         // If expectedType is a generic type, expectedTypeAsParameterizedType must be provided in order to determine
         // generic parameter types.
         static <U> U coerceValueToExpectedType(Object value, Class<U> expectedType,
-                ParameterizedType expectedTypeAsParameterizedType) {
+                                               ParameterizedType expectedTypeAsParameterizedType) {
             if (value == null) {
                 if (boolean.class.equals(expectedType)) {
                     @SuppressWarnings("unchecked")
@@ -421,9 +420,9 @@ public interface GraphObject {
             } else if (Iterable.class.isAssignableFrom(objClass)) {
                 JSONArray jsonArray = new JSONArray();
                 Iterable<?> iterable = (Iterable<?>) obj;
-                for (Object o : iterable ) {
+                for (Object o : iterable) {
                     if (GraphObject.class.isAssignableFrom(o.getClass())) {
-                        jsonArray.put(((GraphObject)o).getInnerJSONObject());
+                        jsonArray.put(((GraphObject) o).getInnerJSONObject());
                     } else {
                         jsonArray.put(o);
                     }
@@ -601,7 +600,7 @@ public interface GraphObject {
                     ParameterizedType parameterizedType = new ParameterizedType() {
                         @Override
                         public Type[] getActualTypeArguments() {
-                            return new Type[]{ expectedType };
+                            return new Type[]{expectedType};
                         }
 
                         @Override
@@ -632,7 +631,7 @@ public interface GraphObject {
                     if (List.class.isAssignableFrom(value.getClass())) {
                         GraphObjectList<GraphObject> graphObjects = GraphObject.Factory.createList(GraphObject.class);
                         @SuppressWarnings("unchecked")
-                        List<Object> values = (List<Object>)value;
+                        List<Object> values = (List<Object>) value;
                         for (Object obj : values) {
                             GraphObject graphObject = GraphObject.Factory.create();
                             graphObject.setProperty(propertyName, obj);
@@ -784,7 +783,7 @@ public interface GraphObject {
                 if (GraphObject.class.isAssignableFrom(itemType)) {
                     if (graphObjectClass.isAssignableFrom(itemType)) {
                         @SuppressWarnings("unchecked")
-                        GraphObjectList<U> result = (GraphObjectList<U>)this;
+                        GraphObjectList<U> result = (GraphObjectList<U>) this;
                         return result;
                     }
 

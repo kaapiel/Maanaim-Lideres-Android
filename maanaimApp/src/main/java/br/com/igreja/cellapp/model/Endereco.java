@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Inmetrics on 19/08/2016.
  */
-public class Endereco implements Serializable{
+public class Endereco implements Serializable {
 
     private String bairro;
     private String cep;

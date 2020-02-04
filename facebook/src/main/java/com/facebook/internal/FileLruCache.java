@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,13 +18,14 @@ package com.facebook.internal;
 
 import android.content.Context;
 import android.util.Log;
+
 import com.facebook.LoggingBehavior;
 import com.facebook.Settings;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-import java.io.*;
 import java.security.InvalidParameterException;
 import java.util.Date;
 import java.util.PriorityQueue;
@@ -287,7 +288,7 @@ public final class FileLruCache {
             PriorityQueue<ModifiedFile> heap = new PriorityQueue<ModifiedFile>();
             long size = 0;
             long count = 0;
-            File[] filesToTrim =this.directory.listFiles(BufferFile.excludeBufferFiles());
+            File[] filesToTrim = this.directory.listFiles(BufferFile.excludeBufferFiles());
             if (filesToTrim != null) {
                 for (File file : filesToTrim) {
                     ModifiedFile modified = new ModifiedFile(file);
@@ -543,7 +544,7 @@ public final class FileLruCache {
             byte[] buffer = new byte[1024];
             long total = 0;
             while (total < byteCount) {
-                int count = read(buffer, 0, (int)Math.min(byteCount - total, buffer.length));
+                int count = read(buffer, 0, (int) Math.min(byteCount - total, buffer.length));
                 if (count < 0) {
                     return total;
                 }
@@ -628,7 +629,7 @@ public final class FileLruCache {
         public boolean equals(Object another) {
             return
                     (another instanceof ModifiedFile) &&
-                    (compareTo((ModifiedFile)another) == 0);
+                            (compareTo((ModifiedFile) another) == 0);
         }
 
         @Override

@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,16 +18,17 @@ package com.facebook;
 
 import android.net.Uri;
 import android.os.Bundle;
-import bolts.AppLink;
-import bolts.AppLinkResolver;
-import bolts.Continuation;
-import bolts.Task;
+
 import com.facebook.model.GraphObject;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.*;
+import bolts.AppLink;
+import bolts.AppLinkResolver;
+import bolts.Continuation;
+import bolts.Task;
 
 /**
  * Provides an implementation for the {@link AppLinkResolver AppLinkResolver} interface that uses the Facebook App Link
@@ -213,7 +214,7 @@ public class FacebookAppLinkResolver implements AppLinkResolver {
             }
 
             // If we weren't able to parse a url from the web target, use the source url
-            return webUri != null ? webUri: sourceUrl;
+            return webUri != null ? webUri : sourceUrl;
         } catch (JSONException e) {
             // If we were missing a web target, just use the source as the web url
             return sourceUrl;
@@ -223,7 +224,7 @@ public class FacebookAppLinkResolver implements AppLinkResolver {
     private static String tryGetStringFromJson(JSONObject json, String propertyName, String defaultValue) {
         try {
             return json.getString(propertyName);
-        } catch(JSONException e) {
+        } catch (JSONException e) {
             return defaultValue;
         }
     }

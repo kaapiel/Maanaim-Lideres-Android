@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -24,19 +24,19 @@ import android.os.*;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
+
 import com.facebook.internal.*;
 import com.facebook.model.*;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
-import java.util.*;
 import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -259,7 +259,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newPostRequest(Session session, String graphPath, GraphObject graphObject, Callback callback) {
-        Request request = new Request(session, graphPath, null, HttpMethod.POST , callback);
+        Request request = new Request(session, graphPath, null, HttpMethod.POST, callback);
         request.setGraphObject(graphObject);
         return request;
     }
@@ -334,7 +334,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newUploadPhotoRequest(Session session, File file,
-            Callback callback) throws FileNotFoundException {
+                                                Callback callback) throws FileNotFoundException {
         ParcelFileDescriptor descriptor = ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY);
         Bundle parameters = new Bundle(1);
         parameters.putParcelable(PICTURE_PARAM, descriptor);
@@ -352,7 +352,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newUploadVideoRequest(Session session, File file,
-            Callback callback) throws FileNotFoundException {
+                                                Callback callback) throws FileNotFoundException {
         ParcelFileDescriptor descriptor = ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY);
         Bundle parameters = new Bundle(1);
         parameters.putParcelable(file.getName(), descriptor);
@@ -398,7 +398,7 @@ public class Request {
      * @throws FacebookException If neither location nor searchText is specified
      */
     public static Request newPlacesSearchRequest(Session session, Location location, int radiusInMeters,
-            int resultsLimit, String searchText, final GraphPlaceListCallback callback) {
+                                                 int resultsLimit, String searchText, final GraphPlaceListCallback callback) {
         if (location == null && Utility.isNullOrEmpty(searchText)) {
             throw new FacebookException("Either location or searchText must be specified.");
         }
@@ -439,7 +439,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newStatusUpdateRequest(Session session, String message, Callback callback) {
-        return newStatusUpdateRequest(session, message, (String)null, null, callback);
+        return newStatusUpdateRequest(session, message, (String) null, null, callback);
     }
 
     /**
@@ -458,7 +458,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     private static Request newStatusUpdateRequest(Session session, String message, String placeId, List<String> tagIds,
-            Callback callback) {
+                                                  Callback callback) {
 
         Bundle parameters = new Bundle();
         parameters.putString("message", message);
@@ -491,12 +491,12 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newStatusUpdateRequest(Session session, String message, GraphPlace place,
-            List<GraphUser> tags, Callback callback) {
+                                                 List<GraphUser> tags, Callback callback) {
 
         List<String> tagIds = null;
         if (tags != null) {
             tagIds = new ArrayList<String>(tags.size());
-            for (GraphUser tag: tags) {
+            for (GraphUser tag : tags) {
                 tagIds.add(tag.getId());
             }
         }
@@ -574,7 +574,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newCustomAudienceThirdPartyIdRequest(Session session,
-            Context context, String applicationId, Callback callback) {
+                                                               Context context, String applicationId, Callback callback) {
 
         // if provided session or activeSession is opened, use it.
         if (session == null) {
@@ -605,8 +605,8 @@ public class Request {
             // Only use the attributionID if we don't have an open session.  If we do have an open session, then
             // the user token will be used to identify the user, and is more reliable than the attributionID.
             String udid = attributionIdentifiers.getAttributionId() != null
-                ? attributionIdentifiers.getAttributionId()
-                : attributionIdentifiers.getAndroidAdvertiserId();
+                    ? attributionIdentifiers.getAttributionId()
+                    : attributionIdentifiers.getAndroidAdvertiserId();
             if (attributionIdentifiers.getAttributionId() != null) {
                 parameters.putString("udid", udid);
             }
@@ -636,7 +636,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newUploadStagingResourceWithImageRequest(Session session,
-            Bitmap image, Callback callback) {
+                                                                   Bitmap image, Callback callback) {
         Bundle parameters = new Bundle(1);
         parameters.putParcelable(STAGING_PARAM, image);
 
@@ -658,7 +658,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newUploadStagingResourceWithImageRequest(Session session,
-            File file, Callback callback) throws FileNotFoundException {
+                                                                   File file, Callback callback) throws FileNotFoundException {
         ParcelFileDescriptor descriptor = ParcelFileDescriptor.open(file, ParcelFileDescriptor.MODE_READ_ONLY);
         ParcelFileDescriptorWithMimeType descriptorWithMimeType = new ParcelFileDescriptorWithMimeType(descriptor, "image/png");
         Bundle parameters = new Bundle(1);
@@ -679,7 +679,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newPostOpenGraphObjectRequest(Session session,
-            OpenGraphObject openGraphObject, Callback callback) {
+                                                        OpenGraphObject openGraphObject, Callback callback) {
         if (openGraphObject == null) {
             throw new FacebookException("openGraphObject cannot be null");
         }
@@ -719,7 +719,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newPostOpenGraphObjectRequest(Session session, String type, String title, String imageUrl,
-            String url, String description, GraphObject objectProperties, Callback callback) {
+                                                        String url, String description, GraphObject objectProperties, Callback callback) {
         OpenGraphObject openGraphObject = OpenGraphObject.Factory.createForPost(OpenGraphObject.class, type, title,
                 imageUrl, url, description);
         if (objectProperties != null) {
@@ -741,7 +741,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newPostOpenGraphActionRequest(Session session, OpenGraphAction openGraphAction,
-            Callback callback) {
+                                                        Callback callback) {
         if (openGraphAction == null) {
             throw new FacebookException("openGraphAction cannot be null");
         }
@@ -780,7 +780,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newUpdateOpenGraphObjectRequest(Session session, OpenGraphObject openGraphObject,
-            Callback callback) {
+                                                          Callback callback) {
         if (openGraphObject == null) {
             throw new FacebookException("openGraphObject cannot be null");
         }
@@ -817,7 +817,7 @@ public class Request {
      * @return a Request that is ready to execute
      */
     public static Request newUpdateOpenGraphObjectRequest(Session session, String id, String title, String imageUrl,
-            String url, String description, GraphObject objectProperties, Callback callback) {
+                                                          String url, String description, GraphObject objectProperties, Callback callback) {
         OpenGraphObject openGraphObject = OpenGraphObject.Factory.createForPost(OpenGraphObject.class, null, title,
                 imageUrl, url, description);
         openGraphObject.setId(id);
@@ -882,7 +882,7 @@ public class Request {
     public final void setHttpMethod(HttpMethod httpMethod) {
         if (overriddenURL != null && httpMethod != HttpMethod.GET) {
             throw new FacebookException("Can't change HTTP method on request with overridden URL.");
-            }
+        }
         this.httpMethod = (httpMethod != null) ? httpMethod : HttpMethod.GET;
     }
 
@@ -1103,7 +1103,7 @@ public class Request {
      */
     @Deprecated
     public static RequestAsyncTask executePostRequestAsync(Session session, String graphPath, GraphObject graphObject,
-            Callback callback) {
+                                                           Callback callback) {
         return newPostRequest(session, graphPath, graphObject, callback).executeAsync();
     }
 
@@ -1178,7 +1178,7 @@ public class Request {
      */
     @Deprecated
     public static RequestAsyncTask executeUploadPhotoRequestAsync(Session session, File file,
-            Callback callback) throws FileNotFoundException {
+                                                                  Callback callback) throws FileNotFoundException {
         return newUploadPhotoRequest(session, file, callback).executeAsync();
     }
 
@@ -1229,7 +1229,7 @@ public class Request {
      */
     @Deprecated
     public static RequestAsyncTask executePlacesSearchRequestAsync(Session session, Location location,
-            int radiusInMeters, int resultsLimit, String searchText, GraphPlaceListCallback callback) {
+                                                                   int radiusInMeters, int resultsLimit, String searchText, GraphPlaceListCallback callback) {
         return newPlacesSearchRequest(session, location, radiusInMeters, resultsLimit, searchText, callback)
                 .executeAsync();
     }
@@ -1625,7 +1625,7 @@ public class Request {
      * @return a RequestAsyncTask that is executing the request
      */
     public static RequestAsyncTask executeConnectionAsync(Handler callbackHandler, HttpURLConnection connection,
-            RequestBatch requests) {
+                                                          RequestBatch requests) {
         Validate.notNull(connection, "connection");
 
         RequestAsyncTask asyncTask = new RequestAsyncTask(connection, requests);
@@ -1737,7 +1737,7 @@ public class Request {
             } else {
                 if (httpMethod == HttpMethod.GET) {
                     throw new IllegalArgumentException(String.format("Unsupported parameter type for GET request: %s",
-                                    value.getClass().getSimpleName()));
+                            value.getClass().getSimpleName()));
                 }
                 continue;
             }
@@ -1871,7 +1871,7 @@ public class Request {
     }
 
     final static void serializeToUrlConnection(RequestBatch requests, HttpURLConnection connection)
-    throws IOException, JSONException {
+            throws IOException, JSONException {
         Logger logger = new Logger(LoggingBehavior.REQUESTS, "Request");
 
         int numRequests = requests.size();
@@ -1912,14 +1912,12 @@ public class Request {
 
                 BufferedOutputStream buffered = new BufferedOutputStream(connection.getOutputStream());
                 outputStream = new ProgressOutputStream(buffered, requests, progressMap, max);
-            }
-            else {
+            } else {
                 outputStream = new BufferedOutputStream(connection.getOutputStream());
             }
 
             processRequest(requests, logger, numRequests, url, outputStream);
-        }
-        finally {
+        } finally {
             if (outputStream != null) {
                 outputStream.close();
             }
@@ -1929,15 +1927,14 @@ public class Request {
     }
 
     private static void processRequest(RequestBatch requests, Logger logger, int numRequests, URL url, OutputStream outputStream)
-            throws IOException, JSONException
-    {
+            throws IOException, JSONException {
         Serializer serializer = new Serializer(outputStream, logger);
 
         if (numRequests == 1) {
             Request request = requests.get(0);
 
             Map<String, Attachment> attachments = new HashMap<String, Attachment>();
-            for(String key : request.parameters.keySet()) {
+            for (String key : request.parameters.keySet()) {
                 Object value = request.parameters.get(key);
                 if (isSupportedAttachmentType(value)) {
                     attachments.put(key, new Attachment(request, value));
@@ -2013,7 +2010,7 @@ public class Request {
     }
 
     private static void processGraphObjectProperty(String key, Object value, KeyValueSerializer serializer,
-            boolean passByValue) throws IOException {
+                                                   boolean passByValue) throws IOException {
         Class<?> valueClass = value.getClass();
         if (GraphObject.class.isAssignableFrom(valueClass)) {
             value = ((GraphObject) value).getInnerJSONObject();
@@ -2200,7 +2197,7 @@ public class Request {
 
         public void writeRequestsAsJson(String key, JSONArray requestJsonArray, Collection<Request> requests)
                 throws IOException, JSONException {
-            if (! (outputStream instanceof RequestOutputStream)) {
+            if (!(outputStream instanceof RequestOutputStream)) {
                 writeString(key, requestJsonArray.toString());
                 return;
             }
@@ -2270,8 +2267,7 @@ public class Request {
             if (outputStream instanceof ProgressNoopOutputStream) {
                 // If we are only counting bytes then skip reading the file
                 ((ProgressNoopOutputStream) outputStream).addProgress(descriptor.getStatSize());
-            }
-            else {
+            } else {
                 ParcelFileDescriptor.AutoCloseInputStream inputStream = null;
                 BufferedInputStream bufferedInputStream = null;
                 try {

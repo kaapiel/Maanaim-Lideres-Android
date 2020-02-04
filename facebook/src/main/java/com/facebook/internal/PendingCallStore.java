@@ -1,7 +1,7 @@
 package com.facebook.internal;
 
-import android.content.Context;
 import android.os.Bundle;
+
 import com.facebook.widget.FacebookDialog;
 
 import java.util.ArrayList;
@@ -59,7 +59,7 @@ public class PendingCallStore {
         ArrayList<String> callIds = new ArrayList<String>(pendingCallMap.keySet());
         outState.putStringArrayList(CALL_ID_ARRAY_KEY, callIds);
 
-        for(FacebookDialog.PendingCall pendingCall : pendingCallMap.values()) {
+        for (FacebookDialog.PendingCall pendingCall : pendingCallMap.values()) {
             String stateKey = getSavedStateKeyForPendingCallId(pendingCall.getCallId().toString());
             outState.putParcelable(stateKey, pendingCall);
         }

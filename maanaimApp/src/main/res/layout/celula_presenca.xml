@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content">
 
     <Button
         android:id="@+id/botaoEnviarPresenca"
@@ -14,7 +14,6 @@
         android:background="@drawable/button_states_orange"
         android:text="Enviar"
         tools:ignore="HardcodedText" />
-
 
 
 </RelativeLayout>

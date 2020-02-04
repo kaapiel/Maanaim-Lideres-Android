@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -19,12 +19,14 @@ package com.facebook.android;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.os.Bundle;
+
 import com.facebook.internal.Utility;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
+import java.net.MalformedURLException;
 
 /**
  * Utility class supporting the Facebook Object.
@@ -48,7 +50,7 @@ public final class Util {
     /**
      * Generate the multi-part post body providing the parameters and boundary
      * string
-     * 
+     *
      * @param parameters the parameters need to be posted
      * @param boundary the random string as boundary
      * @return a string of the post body
@@ -65,7 +67,7 @@ public final class Util {
             }
 
             sb.append("Content-Disposition: form-data; name=\"" + key +
-                    "\"\r\n\r\n" + (String)parameter);
+                    "\"\r\n\r\n" + (String) parameter);
             sb.append("\r\n" + "--" + boundary + "\r\n");
         }
 
@@ -86,9 +88,10 @@ public final class Util {
                 continue;
             }
 
-            if (first) first = false; else sb.append("&");
+            if (first) first = false;
+            else sb.append("&");
             sb.append(URLEncoder.encode(key) + "=" +
-                      URLEncoder.encode(parameters.getString(key)));
+                    URLEncoder.encode(parameters.getString(key)));
         }
         return sb.toString();
     }
@@ -104,7 +107,7 @@ public final class Util {
                 try {
                     if (v.length == 2) {
                         params.putString(URLDecoder.decode(v[0], UTF8),
-                                         URLDecoder.decode(v[1], UTF8));
+                                URLDecoder.decode(v[1], UTF8));
                     } else if (v.length == 1) {
                         params.putString(URLDecoder.decode(v[0], UTF8), "");
                     }
@@ -136,7 +139,7 @@ public final class Util {
         }
     }
 
-    
+
     /**
      * Connect to an HTTP URL and return the response as a string.
      *
@@ -152,7 +155,7 @@ public final class Util {
      */
     @Deprecated
     public static String openUrl(String url, String method, Bundle params)
-          throws MalformedURLException, IOException {
+            throws MalformedURLException, IOException {
         // random string as boundary for multi-part http post
         String strBoundary = "3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f";
         String endLine = "\r\n";
@@ -164,7 +167,7 @@ public final class Util {
         }
         Utility.logd("Facebook-Util", method + " URL: " + url);
         HttpURLConnection conn =
-            (HttpURLConnection) new URL(url).openConnection();
+                (HttpURLConnection) new URL(url).openConnection();
         conn.setRequestProperty("User-Agent", System.getProperties().
                 getProperty("http.agent") + " FacebookAndroidSDK");
         if (!method.equals("GET")) {
@@ -172,7 +175,7 @@ public final class Util {
             for (String key : params.keySet()) {
                 Object parameter = params.get(key);
                 if (parameter instanceof byte[]) {
-                    dataparams.putByteArray(key, (byte[])parameter);
+                    dataparams.putByteArray(key, (byte[]) parameter);
                 }
             }
 
@@ -183,14 +186,14 @@ public final class Util {
 
             if (params.containsKey("access_token")) {
                 String decoded_token =
-                    URLDecoder.decode(params.getString("access_token"));
+                        URLDecoder.decode(params.getString("access_token"));
                 params.putString("access_token", decoded_token);
             }
 
             conn.setRequestMethod("POST");
             conn.setRequestProperty(
                     "Content-Type",
-                    "multipart/form-data;boundary="+strBoundary);
+                    "multipart/form-data;boundary=" + strBoundary);
             conn.setDoOutput(true);
             conn.setDoInput(true);
             conn.setRequestProperty("Connection", "Keep-Alive");
@@ -199,13 +202,13 @@ public final class Util {
             os = new BufferedOutputStream(conn.getOutputStream());
 
             try {
-                os.write(("--" + strBoundary +endLine).getBytes());
+                os.write(("--" + strBoundary + endLine).getBytes());
                 os.write((encodePostBody(params, strBoundary)).getBytes());
                 os.write((endLine + "--" + strBoundary + endLine).getBytes());
 
                 if (!dataparams.isEmpty()) {
 
-                    for (String key: dataparams.keySet()){
+                    for (String key : dataparams.keySet()) {
                         os.write(("Content-Disposition: form-data; filename=\"" + key + "\"" + endLine).getBytes());
                         os.write(("Content-Type: content/unknown" + endLine + endLine).getBytes());
                         os.write(dataparams.getByteArray(key));
@@ -257,7 +260,7 @@ public final class Util {
      */
     @Deprecated
     public static JSONObject parseJson(String response)
-          throws JSONException, FacebookError {
+            throws JSONException, FacebookError {
         // Edge case: when sending a POST request to /[post_id]/likes
         // the return value is 'true' or 'false'. Unfortunately
         // these values cause the JSONObject constructor to throw

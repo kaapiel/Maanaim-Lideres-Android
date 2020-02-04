@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -17,12 +17,14 @@
 package com.facebook;
 
 import android.content.Context;
+
 import com.facebook.internal.CacheableRequestBatch;
 import com.facebook.internal.FileLruCache;
 import com.facebook.internal.Logger;
 import com.facebook.internal.Utility;
 import com.facebook.model.GraphObject;
 import com.facebook.model.GraphObjectList;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -73,7 +75,7 @@ public class Response {
     }
 
     Response(Request request, HttpURLConnection connection, String rawResponse, GraphObjectList<GraphObject> graphObjects,
-            boolean isFromCache) {
+             boolean isFromCache) {
         this(request, connection, rawResponse, null, graphObjects, isFromCache, null);
     }
 
@@ -340,7 +342,7 @@ public class Response {
     }
 
     static List<Response> createResponsesFromStream(InputStream stream, HttpURLConnection connection,
-            RequestBatch requests, boolean isFromCache) throws FacebookException, JSONException, IOException {
+                                                    RequestBatch requests, boolean isFromCache) throws FacebookException, JSONException, IOException {
 
         String responseString = Utility.readStreamToString(stream);
         Logger.log(LoggingBehavior.INCLUDE_RAW_RESPONSES, RESPONSE_LOG_TAG,
@@ -351,7 +353,7 @@ public class Response {
     }
 
     static List<Response> createResponsesFromString(String responseString, HttpURLConnection connection,
-            RequestBatch requests, boolean isFromCache) throws FacebookException, JSONException, IOException {
+                                                    RequestBatch requests, boolean isFromCache) throws FacebookException, JSONException, IOException {
         JSONTokener tokener = new JSONTokener(responseString);
         Object resultObject = tokener.nextValue();
 
@@ -363,7 +365,7 @@ public class Response {
     }
 
     private static List<Response> createResponsesFromObject(HttpURLConnection connection, List<Request> requests,
-            Object object, boolean isFromCache) throws FacebookException, JSONException {
+                                                            Object object, boolean isFromCache) throws FacebookException, JSONException {
         assert (connection != null) || isFromCache;
 
         int numRequests = requests.size();
@@ -416,7 +418,7 @@ public class Response {
     }
 
     private static Response createResponseFromObject(Request request, HttpURLConnection connection, Object object,
-            boolean isFromCache, Object originalResult) throws JSONException {
+                                                     boolean isFromCache, Object originalResult) throws JSONException {
         if (object instanceof JSONObject) {
             JSONObject jsonObject = (JSONObject) object;
 
@@ -447,7 +449,7 @@ public class Response {
         }
 
         if (object == JSONObject.NULL) {
-            return new Response(request, connection, object.toString(), (GraphObject)null, isFromCache);
+            return new Response(request, connection, object.toString(), (GraphObject) null, isFromCache);
         } else {
             throw new FacebookException("Got unexpected object type in response, class: "
                     + object.getClass().getSimpleName());
@@ -455,7 +457,7 @@ public class Response {
     }
 
     static List<Response> constructErrorResponses(List<Request> requests, HttpURLConnection connection,
-            FacebookException error) {
+                                                  FacebookException error) {
         int count = requests.size();
         List<Response> responses = new ArrayList<Response>(count);
         for (int i = 0; i < count; ++i) {

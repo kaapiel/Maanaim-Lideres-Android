@@ -1,9 +1,5 @@
 package br.com.igreja.cellapp.util;
 
-import android.content.Intent;
-
-import br.com.igreja.cellapp.listagens.Celulas;
-
 /**
  * Created by Inmetrics on 19/08/2016.
  */

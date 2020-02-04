@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -17,6 +17,7 @@
 package com.facebook;
 
 import android.os.Bundle;
+
 import com.facebook.internal.Validate;
 
 import java.util.ArrayList;
@@ -102,7 +103,7 @@ public abstract class TokenCachingStrategy {
      * from a later call to load.  Some implementations may choose to store
      * bundle beyond the scope of this call, so the caller should keep no
      * references to the bundle to ensure that it is not modified later.
-     * 
+     *
      * @param bundle
      *            A Bundle that represents the token state to be saved.
      */
@@ -119,7 +120,7 @@ public abstract class TokenCachingStrategy {
     /**
      * Returns a boolean indicating whether a Bundle contains properties that
      * could be a valid saved token.
-     * 
+     *
      * @param bundle
      *            A Bundle to check for token information.
      * @return a boolean indicating whether a Bundle contains properties that
@@ -145,7 +146,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Gets the cached token value from a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the token value was stored.
      * @return the cached token value, or null.
@@ -159,7 +160,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Puts the token value into a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the token value should be stored.
      * @param value
@@ -175,7 +176,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Gets the cached expiration date from a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the expiration date was stored.
      * @return the cached expiration date, or null.
@@ -189,7 +190,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Puts the expiration date into a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the expiration date should be stored.
      * @param value
@@ -205,7 +206,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Gets the cached expiration date from a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the expiration date was stored.
      * @return the long representing the cached expiration date in milliseconds
@@ -220,7 +221,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Puts the expiration date into a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the expiration date should be stored.
      * @param value
@@ -236,7 +237,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Gets the cached list of permissions from a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the list of permissions was stored.
      * @return the cached list of permissions.
@@ -250,7 +251,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Puts the list of permissions into a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the list of permissions should be stored.
      * @param value
@@ -315,6 +316,7 @@ public abstract class TokenCachingStrategy {
             return isSSO ? AccessTokenSource.FACEBOOK_APPLICATION_WEB : AccessTokenSource.WEB_VIEW;
         }
     }
+
     /**
      * Puts the enum indicating the source of the token into a Bundle.
      *
@@ -332,7 +334,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Gets the cached last refresh date from a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the last refresh date was stored.
      * @return the cached last refresh Date, or null.
@@ -346,7 +348,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Puts the last refresh date into a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the last refresh date should be stored.
      * @param value
@@ -362,7 +364,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Gets the cached last refresh date from a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the last refresh date was stored.
      * @return the cached last refresh date in milliseconds since the epoch.
@@ -376,7 +378,7 @@ public abstract class TokenCachingStrategy {
 
     /**
      * Puts the last refresh date into a Bundle.
-     * 
+     *
      * @param bundle
      *            A Bundle in which the last refresh date should be stored.
      * @param value

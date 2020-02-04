@@ -1,12 +1,12 @@
 /**
  * Copyright 2010-present Facebook.
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,7 +16,6 @@
 
 package com.facebook;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.*;
 import android.content.pm.ResolveInfo;
@@ -25,6 +24,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
+
 import com.facebook.internal.NativeProtocol;
 import com.facebook.internal.SessionAuthorizationType;
 import com.facebook.internal.Utility;
@@ -32,12 +32,11 @@ import com.facebook.internal.Validate;
 import com.facebook.model.GraphMultiResult;
 import com.facebook.model.GraphObject;
 import com.facebook.model.GraphObjectList;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.*;
 import java.lang.ref.WeakReference;
-import java.util.*;
 
 /**
  * <p>
@@ -170,8 +169,8 @@ public class Session implements Serializable {
         private final AuthorizationRequest pendingAuthorizationRequest;
 
         SerializationProxyV1(String applicationId, SessionState state,
-                AccessToken tokenInfo, Date lastAttemptedTokenExtendDate,
-                boolean shouldAutoPublish, AuthorizationRequest pendingAuthorizationRequest) {
+                             AccessToken tokenInfo, Date lastAttemptedTokenExtendDate,
+                             boolean shouldAutoPublish, AuthorizationRequest pendingAuthorizationRequest) {
             this.applicationId = applicationId;
             this.state = state;
             this.tokenInfo = tokenInfo;
@@ -226,8 +225,8 @@ public class Session implements Serializable {
      * Used by version 1 of the serialization proxy, do not modify.
      */
     private Session(String applicationId, SessionState state,
-            AccessToken tokenInfo, Date lastAttemptedTokenExtendDate,
-            boolean shouldAutoPublish, AuthorizationRequest pendingAuthorizationRequest) {
+                    AccessToken tokenInfo, Date lastAttemptedTokenExtendDate,
+                    boolean shouldAutoPublish, AuthorizationRequest pendingAuthorizationRequest) {
         this.applicationId = applicationId;
         this.state = state;
         this.tokenInfo = tokenInfo;
@@ -644,6 +643,7 @@ public class Session implements Serializable {
             return declinedPermissions;
         }
     }
+
     /**
      * This parses a server response to a call to me/permissions.  It will return the list of granted permissions.
      * It will optionally update a session with the requested permissions.  It also handles the distinction between
@@ -678,7 +678,7 @@ public class Session implements Serializable {
                     continue;
                 }
                 String status = (String) graphObject.getProperty("status");
-                if(status.equals("granted")) {
+                if (status.equals("granted")) {
                     grantedPermissions.add(permission);
                 } else if (status.equals("declined")) {
                     declinedPermissions.add(permission);
@@ -690,7 +690,7 @@ public class Session implements Serializable {
                 if (entry.getKey().equals("installed")) {
                     continue;
                 }
-                if ((Integer)entry.getValue() == 1) {
+                if ((Integer) entry.getValue() == 1) {
                     grantedPermissions.add(entry.getKey());
                 }
             }
@@ -1013,7 +1013,7 @@ public class Session implements Serializable {
      * @return The new Session or null if one could not be created
      */
     public static Session openActiveSession(Activity activity, boolean allowLoginUI,
-            StatusCallback callback) {
+                                            StatusCallback callback) {
         return openActiveSession(activity, allowLoginUI, new OpenRequest(activity).setCallback(callback));
     }
 
@@ -1037,13 +1037,13 @@ public class Session implements Serializable {
      * @return The new Session or null if one could not be created
      */
     public static Session openActiveSession(Activity activity, boolean allowLoginUI,
-            List<String> permissions, StatusCallback callback) {
+                                            List<String> permissions, StatusCallback callback) {
         return openActiveSession(
-                activity, 
-                allowLoginUI, 
+                activity,
+                allowLoginUI,
                 new OpenRequest(activity).setCallback(callback).setPermissions(permissions));
     }
-    
+
     /**
      * If allowLoginUI is true, this will create a new Session, make it active, and
      * open it. If the default token cache is not available, then this will request
@@ -1063,10 +1063,10 @@ public class Session implements Serializable {
      * @return The new Session or null if one could not be created
      */
     public static Session openActiveSession(Context context, Fragment fragment,
-            boolean allowLoginUI, StatusCallback callback) {
+                                            boolean allowLoginUI, StatusCallback callback) {
         return openActiveSession(context, allowLoginUI, new OpenRequest(fragment).setCallback(callback));
     }
-    
+
     /**
      * If allowLoginUI is true, this will create a new Session, make it active, and
      * open it. If the default token cache is not available, then this will request
@@ -1088,10 +1088,10 @@ public class Session implements Serializable {
      * @return The new Session or null if one could not be created
      */
     public static Session openActiveSession(Context context, Fragment fragment,
-            boolean allowLoginUI, List<String> permissions, StatusCallback callback) {
+                                            boolean allowLoginUI, List<String> permissions, StatusCallback callback) {
         return openActiveSession(
-                context, 
-                allowLoginUI, 
+                context,
+                allowLoginUI,
                 new OpenRequest(fragment).setCallback(callback).setPermissions(permissions));
     }
 
@@ -1117,7 +1117,7 @@ public class Session implements Serializable {
      * @return The new Session or null if one could not be created
      */
     public static Session openActiveSessionWithAccessToken(Context context, AccessToken accessToken,
-            StatusCallback callback) {
+                                                           StatusCallback callback) {
         Session session = new Session(context, null, null, false);
 
         setActiveSession(session);
@@ -1354,7 +1354,7 @@ public class Session implements Serializable {
     }
 
     private void logAuthorizationComplete(AuthorizationClient.Result.Code result, Map<String, String> resultExtras,
-            Exception exception) {
+                                          Exception exception) {
         Bundle bundle = null;
         if (pendingAuthorizationRequest == null) {
             // We don't expect this to happen, but if it does, log an event for diagnostic purposes.
@@ -1931,8 +1931,8 @@ public class Session implements Serializable {
          * Constructor to be used for V1 serialization only, DO NOT CHANGE.
          */
         private AuthorizationRequest(SessionLoginBehavior loginBehavior, int requestCode,
-                List<String> permissions, String defaultAudience, boolean isLegacy, String applicationId,
-                String validateSameFbidAsToken) {
+                                     List<String> permissions, String defaultAudience, boolean isLegacy, String applicationId,
+                                     String validateSameFbidAsToken) {
             startActivityDelegate = new StartActivityDelegate() {
                 @Override
                 public void startActivityForResult(Intent intent, int requestCode) {
@@ -2088,8 +2088,8 @@ public class Session implements Serializable {
             private final String validateSameFbidAsToken;
 
             private AuthRequestSerializationProxyV1(SessionLoginBehavior loginBehavior,
-                    int requestCode, List<String> permissions, String defaultAudience, boolean isLegacy,
-                    String applicationId, String validateSameFbidAsToken) {
+                                                    int requestCode, List<String> permissions, String defaultAudience, boolean isLegacy,
+                                                    String applicationId, String validateSameFbidAsToken) {
                 this.loginBehavior = loginBehavior;
                 this.requestCode = requestCode;
                 this.permissions = permissions;
