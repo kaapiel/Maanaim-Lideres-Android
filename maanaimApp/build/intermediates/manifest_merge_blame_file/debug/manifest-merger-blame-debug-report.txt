@@ -61,7 +61,7 @@
 28-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:26:9-32
 29
 30    <application
-30-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:28:5-150:19
+30-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:28:5-149:19
 31        android:name="br.com.igreja.cellapp.util.Application"
 31-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:29:9-62
 32        android:allowBackup="true"
@@ -84,178 +84,178 @@
 41-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:36:13-36
 42
 43        <meta-data
-43-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:39:9-42:33
+43-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:39:9-41:69
 44            android:name="com.google.android.gms.version"
 44-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:40:13-58
-45            android:value="0" />
-45-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:42:13-30
+45            android:value="@integer/google_play_services_version" />
+45-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:41:13-66
 46        <meta-data
-46-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:44:9-46:47
+46-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:43:9-45:47
 47            android:name="com.google.android.maps.v2.API_KEY"
-47-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:45:13-62
+47-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:44:13-62
 48            android:value="@string/api_key" />
-48-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:46:13-44
+48-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:45:13-44
 49        <meta-data
-49-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:48:9-50:55
+49-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:47:9-49:55
 50            android:name="com.facebook.sdk.ApplicationId"
-50-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:49:13-58
+50-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:48:13-58
 51            android:value="@string/facebook_app_id" />
-51-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:50:13-52
+51-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:49:13-52
 52        <meta-data
-52-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:52:9-54:71
+52-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:51:9-53:71
 53            android:name="android.app.default_searchable"
-53-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:53:13-58
+53-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:52:13-58
 54            android:value="br.com.igreja.cellapp.listagens.Membros" />
-54-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:54:13-68
+54-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:53:13-68
 55        <meta-data
-55-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:56:9-58:50
+55-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:55:9-57:50
 56            android:name="android.app.searchable"
-56-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:57:13-50
+56-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:56:13-50
 57            android:resource="@xml/searchable" />
-57-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:58:13-47
+57-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:57:13-47
 58
 59        <activity
-59-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:60:9-62:66
+59-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:59:9-61:66
 60            android:name="br.com.igreja.cellapp.listagens.MembrosNascimento"
-60-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:61:13-77
+60-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:60:13-77
 61            android:windowSoftInputMode="stateHidden" />
-61-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:62:13-54
+61-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:61:13-54
 62        <activity
-62-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:64:9-66:66
+62-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:63:9-65:66
 63            android:name="br.com.igreja.cellapp.mainMenu.Sobre"
-63-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:65:13-64
+63-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:64:13-64
 64            android:windowSoftInputMode="stateHidden" />
-64-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:66:13-54
+64-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:65:13-54
 65        <activity
-65-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:68:9-70:66
+65-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:67:9-69:66
 66            android:name="br.com.igreja.cellapp.maps.Mapa"
-66-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:69:13-59
+66-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:68:13-59
 67            android:windowSoftInputMode="stateHidden" />
-67-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:70:13-54
+67-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:69:13-54
 68        <activity
-68-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:72:9-83:20
+68-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:71:9-82:20
 69            android:name="br.com.igreja.cellapp.activities.Login"
-69-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:73:13-66
+69-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:72:13-66
 70            android:screenOrientation="portrait"
-70-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:75:13-49
+70-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:74:13-49
 71            android:theme="@style/MyTheme"
-71-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:74:13-43
+71-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:73:13-43
 72            android:windowSoftInputMode="stateHidden" >
-72-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:76:13-54
+72-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:75:13-54
 73            <intent-filter>
-73-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:78:13-81:29
+73-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:77:13-80:29
 74                <action android:name="android.intent.action.MAIN" />
-74-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:17-69
-74-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:25-66
+74-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:78:17-69
+74-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:78:25-66
 75
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:80:17-77
-76-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:80:27-74
+76-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:17-77
+76-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:27-74
 77            </intent-filter>
 78        </activity>
 79        <activity
-79-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:85:9-88:61
+79-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:84:9-87:61
 80            android:name="br.com.igreja.cellapp.mainMenu.Sugestoes"
-80-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:86:13-68
+80-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:85:13-68
 81            android:screenOrientation="portrait"
-81-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:88:13-49
+81-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:87:13-49
 82            android:theme="@style/MyTheme" />
-82-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:87:13-43
+82-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:86:13-43
 83        <activity
-83-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:90:9-93:61
+83-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:89:9-92:61
 84            android:name="br.com.igreja.cellapp.actionBarOptions.GeradorAtividades"
-84-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:91:13-84
+84-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:90:13-84
 85            android:screenOrientation="portrait"
-85-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:93:13-49
+85-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:92:13-49
 86            android:theme="@style/MyTheme" />
-86-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:92:13-43
+86-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:91:13-43
 87        <activity
-87-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:95:9-98:61
+87-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:94:9-97:61
 88            android:name="br.com.igreja.cellapp.listagens.FotoMembro"
-88-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:96:13-70
+88-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:95:13-70
 89            android:screenOrientation="portrait"
-89-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:98:13-49
+89-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:97:13-49
 90            android:theme="@style/MyTheme" />
-90-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:97:13-43
+90-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:96:13-43
 91        <activity
-91-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:100:9-103:61
+91-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:99:9-102:61
 92            android:name="br.com.igreja.cellapp.listagens.Celulas"
-92-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:101:13-67
+92-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:100:13-67
 93            android:screenOrientation="portrait"
-93-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:103:13-49
+93-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:102:13-49
 94            android:theme="@style/MyTheme" />
-94-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:102:13-43
+94-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:101:13-43
 95        <activity
-95-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:105:9-109:61
+95-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:104:9-108:61
 96            android:name="br.com.igreja.cellapp.mainMenu.Relatorios"
-96-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:106:13-69
+96-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:105:13-69
 97            android:screenOrientation="portrait"
-97-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:109:13-49
+97-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:108:13-49
 98            android:theme="@style/MyTheme"
-98-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:108:13-43
+98-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:107:13-43
 99            android:windowSoftInputMode="stateHidden" />
-99-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:107:13-54
+99-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:106:13-54
 100        <activity
-100-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:111:9-114:61
+100-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:110:9-113:61
 101            android:name="br.com.igreja.cellapp.mainMenu.Inicio"
-101-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:112:13-65
+101-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:111:13-65
 102            android:screenOrientation="portrait"
-102-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:114:13-49
+102-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:113:13-49
 103            android:theme="@style/MyTheme" />
-103-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:113:13-43
+103-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:112:13-43
 104        <activity
-104-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:116:9-119:61
+104-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:115:9-118:61
 105            android:name="br.com.igreja.cellapp.listagens.Membros"
-105-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:117:13-67
+105-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:116:13-67
 106            android:screenOrientation="portrait"
-106-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:119:13-49
+106-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:118:13-49
 107            android:theme="@style/MyTheme" />
-107-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:118:13-43
+107-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:117:13-43
 108        <activity
-108-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:121:9-124:61
+108-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:120:9-123:61
 109            android:name="br.com.igreja.cellapp.listagens.CelulaSelecionada"
-109-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:122:13-77
+109-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:121:13-77
 110            android:screenOrientation="portrait"
-110-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:124:13-49
+110-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:123:13-49
 111            android:theme="@style/MyTheme" />
-111-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:123:13-43
+111-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:122:13-43
 112        <activity
-112-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:126:9-128:61
+112-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:125:9-127:61
 113            android:name="br.com.igreja.cellapp.listagens.MembroSelecionado"
-113-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:127:13-77
+113-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:126:13-77
 114            android:screenOrientation="portrait" />
-114-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:128:13-49
+114-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:127:13-49
 115        <activity
-115-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:130:9-132:61
+115-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:129:9-131:61
 116            android:name="br.com.igreja.cellapp.actionBarOptions.EstatisticasCelulas"
-116-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:131:13-86
+116-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:130:13-86
 117            android:screenOrientation="portrait" />
-117-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:132:13-49
+117-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:131:13-49
 118        <activity
-118-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:134:9-136:61
+118-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:133:9-135:61
 119            android:name="br.com.igreja.cellapp.listagens.EditarMembro"
-119-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:135:13-72
+119-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:134:13-72
 120            android:screenOrientation="portrait" />
-120-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:136:13-49
+120-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:135:13-49
 121
 122        <service android:name="br.com.igreja.cellapp.util.MyFirebaseMessagingService" >
-122-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:9-142:19
-122-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:18-86
+122-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:137:9-141:19
+122-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:137:18-86
 123            <intent-filter>
-123-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:13-141:29
+123-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:13-140:29
 124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-124-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:140:17-78
-124-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:140:25-75
+124-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:17-78
+124-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:25-75
 125            </intent-filter>
 126        </service>
 127        <service android:name="br.com.igreja.cellapp.util.MyFirebaseInstanceIdService" >
-127-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:144:9-148:19
-127-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:144:18-87
+127-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:143:9-147:19
+127-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:143:18-87
 128            <intent-filter>
-128-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:145:13-147:29
+128-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:144:13-146:29
 129                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-129-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:146:17-80
-129-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:146:25-77
+129-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:145:17-80
+129-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:145:25-77
 130            </intent-filter>
 131        </service>
 132
@@ -317,10 +317,10 @@
 164            android:exported="false" >
 164-->[com.google.firebase:firebase-messaging:20.1.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/1dc180d8aabbfd2efce63355dfcf6e73/jetified-firebase-messaging-20.1.0/AndroidManifest.xml:30:13-37
 165            <intent-filter android:priority="-500" >
-165-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:13-141:29
+165-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:13-140:29
 166                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-166-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:140:17-78
-166-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:140:25-75
+166-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:17-78
+166-->/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:25-75
 167            </intent-filter>
 168        </service>
 169

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
+INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
+INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
+INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/12ea22a94bec58381e1df3eddf0eadd5/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton:butterknife:10.2.1] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/1c4fc4eb18aefa5ddeca868598afadf7/butterknife-10.2.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/63ff2b77b724cb86a91635557ce42232/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
@@ -64,9 +64,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gfraga/.gr
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/6226a2da01149f280ce38fb817f94e44/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/9dfdfbaa533a4e55c16cdee3c203f335/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/44907a442cdcb3917dfee1338e6a0c70/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
-INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
-INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-152:12
+INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
+INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
+INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:2:1-151:12
 	package
 		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:5:5-36
 		INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml
@@ -170,7 +170,7 @@ MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gfraga/.gr
 	android:required
 		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:26:9-32
 application
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:28:5-150:19
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:28:5-149:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/63ff2b77b724cb86a91635557ce42232/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/63ff2b77b724cb86a91635557ce42232/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.2.1] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/79e1aee9366dfcfcbf27a717ee86dddf/firebase-database-19.2.1/AndroidManifest.xml:28:5-36:19
@@ -230,182 +230,179 @@ ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidMan
 	android:name
 		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:37:13-51
 meta-data#com.google.android.gms.version
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:39:9-42:33
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:39:9-41:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/d9985c9485bb7901e0c76a64ed62d226/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/d9985c9485bb7901e0c76a64ed62d226/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-	tools:replace
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:41:13-42
 	android:value
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:42:13-30
-		REJECTED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gfraga/.gradle/caches/transforms-2/files-2.1/d9985c9485bb7901e0c76a64ed62d226/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:41:13-66
 	android:name
 		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:40:13-58
 meta-data#com.google.android.maps.v2.API_KEY
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:44:9-46:47
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:43:9-45:47
 	android:value
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:46:13-44
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:45:13-44
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:45:13-62
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:44:13-62
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:48:9-50:55
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:47:9-49:55
 	android:value
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:50:13-52
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:49:13-52
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:49:13-58
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:48:13-58
 meta-data#android.app.default_searchable
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:52:9-54:71
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:51:9-53:71
 	android:value
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:54:13-68
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:53:13-68
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:53:13-58
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:52:13-58
 meta-data#android.app.searchable
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:56:9-58:50
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:55:9-57:50
 	android:resource
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:58:13-47
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:57:13-47
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:57:13-50
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:56:13-50
 activity#br.com.igreja.cellapp.listagens.MembrosNascimento
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:60:9-62:66
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:59:9-61:66
 	android:windowSoftInputMode
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:62:13-54
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:61:13-54
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:61:13-77
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:60:13-77
 activity#br.com.igreja.cellapp.mainMenu.Sobre
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:64:9-66:66
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:63:9-65:66
 	android:windowSoftInputMode
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:66:13-54
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:65:13-54
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:65:13-64
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:64:13-64
 activity#br.com.igreja.cellapp.maps.Mapa
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:68:9-70:66
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:67:9-69:66
 	android:windowSoftInputMode
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:70:13-54
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:69:13-54
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:69:13-59
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:68:13-59
 activity#br.com.igreja.cellapp.activities.Login
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:72:9-83:20
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:71:9-82:20
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:75:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:74:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:76:13-54
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:75:13-54
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:74:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:73:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:73:13-66
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:72:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:78:13-81:29
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:77:13-80:29
 action#android.intent.action.MAIN
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:17-69
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:78:17-69
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:25-66
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:78:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:80:17-77
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:17-77
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:80:27-74
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:79:27-74
 activity#br.com.igreja.cellapp.mainMenu.Sugestoes
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:85:9-88:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:84:9-87:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:88:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:87:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:87:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:86:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:86:13-68
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:85:13-68
 activity#br.com.igreja.cellapp.actionBarOptions.GeradorAtividades
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:90:9-93:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:89:9-92:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:93:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:92:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:92:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:91:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:91:13-84
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:90:13-84
 activity#br.com.igreja.cellapp.listagens.FotoMembro
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:95:9-98:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:94:9-97:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:98:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:97:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:97:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:96:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:96:13-70
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:95:13-70
 activity#br.com.igreja.cellapp.listagens.Celulas
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:100:9-103:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:99:9-102:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:103:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:102:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:102:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:101:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:101:13-67
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:100:13-67
 activity#br.com.igreja.cellapp.mainMenu.Relatorios
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:105:9-109:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:104:9-108:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:109:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:108:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:107:13-54
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:106:13-54
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:108:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:107:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:106:13-69
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:105:13-69
 activity#br.com.igreja.cellapp.mainMenu.Inicio
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:111:9-114:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:110:9-113:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:114:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:113:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:113:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:112:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:112:13-65
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:111:13-65
 activity#br.com.igreja.cellapp.listagens.Membros
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:116:9-119:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:115:9-118:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:119:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:118:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:118:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:117:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:117:13-67
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:116:13-67
 activity#br.com.igreja.cellapp.listagens.CelulaSelecionada
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:121:9-124:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:120:9-123:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:124:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:123:13-49
 	android:theme
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:123:13-43
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:122:13-43
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:122:13-77
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:121:13-77
 activity#br.com.igreja.cellapp.listagens.MembroSelecionado
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:126:9-128:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:125:9-127:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:128:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:127:13-49
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:127:13-77
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:126:13-77
 activity#br.com.igreja.cellapp.actionBarOptions.EstatisticasCelulas
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:130:9-132:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:129:9-131:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:132:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:131:13-49
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:131:13-86
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:130:13-86
 activity#br.com.igreja.cellapp.listagens.EditarMembro
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:134:9-136:61
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:133:9-135:61
 	android:screenOrientation
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:136:13-49
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:135:13-49
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:135:13-72
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:134:13-72
 service#br.com.igreja.cellapp.util.MyFirebaseMessagingService
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:9-142:19
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:137:9-141:19
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:18-86
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:137:18-86
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:13-141:29
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:138:13-140:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:140:17-78
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:17-78
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:140:25-75
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:139:25-75
 service#br.com.igreja.cellapp.util.MyFirebaseInstanceIdService
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:144:9-148:19
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:143:9-147:19
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:144:18-87
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:143:18-87
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:145:13-147:29
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:144:13-146:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:146:17-80
+ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:145:17-80
 	android:name
-		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:146:25-77
+		ADDED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml:145:25-77
 uses-sdk
 INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/AndroidManifest.xml
