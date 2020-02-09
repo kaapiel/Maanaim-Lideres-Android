@@ -1,14 +1,15 @@
 ![banner](https://raw.github.com/kaapiel/Raw-content/master/Automation-Python/app.png)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=alert_status)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=ncloc)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=alm-integration-java&metric=security_rating)](https://sonarcloud.io/dashboard?id=alm-integration-java)
-![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/ALMIntegration-Java/master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=security_rating)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
+![CircleCI](https://img.shields.io/circleci/build/github/kaapiel/Maanaim-Lideres-Android/master)
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=26)
 
-A powerful & easy to use library for Android
+# Maanaim Lideres Android
+A powerful & easy to use management app for Android
 
 ## Table of Contents
 1. [Quick Start](#quick-start)
@@ -19,7 +20,7 @@ A powerful & easy to use library for Android
 1. [Creators](#creators)
 
 <h2 id="quick-start">Quick Start :chart_with_upwards_trend:</h2>
-Add the library to your Android project, then check out the examples below!
+Install the app and test it!
 
 <br/>
 
@@ -70,7 +71,4 @@ limitations under the License.
 
 These people rock!
 
-- [Daniel Marques](https://www.linkedin.com/in/dmarques) - Who helped me and encouraged me to take steps further
-- [Rodrigo Franchi](https://www.linkedin.com/in/rodrigo-franchi-817b9339) - Who gave lots of ideas and several ways to solve problems
-- [Rafael Barriento](https://www.linkedin.com/in/rafael-barriento-de-goes-8014b1b1) - Who gave me tons of tech insights to create innovative solutions
-- [Diogo Julião](https://www.linkedin.com/in/diogo-oliveira-4b7a96128) - Who encourage me to whatever ideia i had as an outstading one
+- [Sergio Alexandre](https://www.linkedin.com/in/sergio-alexandre-coelho-menezes-0070b1182) - Who helped me and encouraged me to develop this app
