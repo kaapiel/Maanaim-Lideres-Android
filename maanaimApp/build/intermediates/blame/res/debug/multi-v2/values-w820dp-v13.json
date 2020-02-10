@@ -1,14 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-w820dp/strings.xml",
+                    "source": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/src/main/res/values-w820dp/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "8,6,7,3,4,2,5",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "419,243,356,95,143,55,195",
+                        "endColumns": "97,112,62,47,51,39,47",
+                        "endOffsets": "512,351,414,138,190,90,238"
                     },
                     "to": {
                         "startLines": "4,5,6,7,8,9,10",
@@ -19,11 +21,13 @@
                     }
                 },
                 {
-                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/src/main/res/values-w820dp/dimens.xml",
                     "from": {
-                        "startLines": "-1,-1",
-                        "startColumns": "-1,-1",
-                        "startOffsets": "-1,-1"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
                     },
                     "to": {
                         "startLines": "2,3",

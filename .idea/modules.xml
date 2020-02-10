@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MaanaimApp.iml" filepath="$PROJECT_DIR$/MaanaimApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maanaim-Lideres-Android.iml" filepath="$PROJECT_DIR$/Maanaim-Lideres-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/maanaimApp/maanaimApp.iml" filepath="$PROJECT_DIR$/maanaimApp/maanaimApp.iml" />
     </modules>
   </component>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/src/main/res/values-v11/strings.xml",
+                    "source": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/src/main/res/values-v11/strings.xml",
                     "from": {
                         "startLines": "8,6,7,3,4,2,5",
                         "startColumns": "4,4,4,4,4,4,4",

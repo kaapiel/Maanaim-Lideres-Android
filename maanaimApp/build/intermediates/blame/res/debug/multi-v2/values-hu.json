@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
+            "outputFile": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml",
             "map": [
                 {
-                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/d9985c9485bb7901e0c76a64ed62d226/jetified-play-services-basement-17.0.0/res/values-hu/values.xml",
+                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/fa9edc396d19ce3102d121aa9c8300bc/jetified-play-services-basement-17.0.0/res/values-hu/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -18,6 +18,23 @@
                         "startOffsets": "4097",
                         "endColumns": "235",
                         "endOffsets": "4328"
+                    }
+                },
+                {
+                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/3b113804575814d936ae5d781f85dae1/jetified-firebase-messaging-20.1.0/res/values-hu/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "207",
+                        "endColumns": "99",
+                        "endOffsets": "306"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "5776",
+                        "endColumns": "103",
+                        "endOffsets": "5875"
                     }
                 },
                 {
@@ -35,23 +52,6 @@
                         "startOffsets": "2859,2972,3188,3328,3439,3666,3806,3958,4333,4562,4672,4888,5027,5258,5460,5561,5659",
                         "endColumns": "112,215,139,110,226,139,151,138,228,109,215,138,230,201,100,97,116",
                         "endOffsets": "2967,3183,3323,3434,3661,3801,3953,4092,4557,4667,4883,5022,5253,5455,5556,5654,5771"
-                    }
-                },
-                {
-                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/1dc180d8aabbfd2efce63355dfcf6e73/jetified-firebase-messaging-20.1.0/res/values-hu/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "207",
-                        "endColumns": "99",
-                        "endOffsets": "306"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "5776",
-                        "endColumns": "103",
-                        "endOffsets": "5875"
                     }
                 },
                 {

@@ -91,10 +91,10 @@
     <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.multidex:multidex-instrumentation:2.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/libs/YouTubeAndroidPlayerApi.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/libs/YoutubeModel.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/libs/androidasync-2.0.8.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/libs/Parse-1.9.4.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/libs/YouTubeAndroidPlayerApi.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/libs/YoutubeModel.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/libs/androidasync-2.0.8.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/libs/Parse-1.9.4.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6@jar" level="project" />
     <orderEntry type="library" name="Gradle: javax.annotation:jsr250-api:1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.jakewharton:butterknife-annotations:10.2.1@jar" level="project" />

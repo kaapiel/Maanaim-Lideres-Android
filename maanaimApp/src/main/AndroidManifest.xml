@@ -76,6 +76,7 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
@@ -104,22 +105,22 @@
         <activity
             android:name="br.com.igreja.cellapp.mainMenu.Relatorios"
             android:windowSoftInputMode="stateHidden"
-            android:theme="@style/MyTheme"
+            android:theme="@style/Theme.AppCompat"
             android:screenOrientation="portrait"></activity>
 
         <activity
             android:name="br.com.igreja.cellapp.mainMenu.Inicio"
-            android:theme="@style/MyTheme"
+            android:theme="@style/Theme.AppCompat"
             android:screenOrientation="portrait"></activity>
 
         <activity
             android:name="br.com.igreja.cellapp.listagens.Membros"
-            android:theme="@style/MyTheme"
+            android:theme="@style/Theme.AppCompat"
             android:screenOrientation="portrait"></activity>
 
         <activity
             android:name="br.com.igreja.cellapp.listagens.CelulaSelecionada"
-            android:theme="@style/MyTheme"
+            android:theme="@style/Theme.AppCompat"
             android:screenOrientation="portrait"></activity>
 
         <activity
@@ -137,12 +138,6 @@
         <service android:name="br.com.igreja.cellapp.util.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-
-        <service android:name="br.com.igreja.cellapp.util.MyFirebaseInstanceIdService">
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 

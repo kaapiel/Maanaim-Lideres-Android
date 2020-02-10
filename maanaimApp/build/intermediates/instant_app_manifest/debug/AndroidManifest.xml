@@ -73,6 +73,7 @@
             android:windowSoftInputMode="stateHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -96,20 +97,20 @@
         <activity
             android:name="br.com.igreja.cellapp.mainMenu.Relatorios"
             android:screenOrientation="portrait"
-            android:theme="@style/MyTheme"
+            android:theme="@style/Theme.AppCompat"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="br.com.igreja.cellapp.mainMenu.Inicio"
             android:screenOrientation="portrait"
-            android:theme="@style/MyTheme" />
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="br.com.igreja.cellapp.listagens.Membros"
             android:screenOrientation="portrait"
-            android:theme="@style/MyTheme" />
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="br.com.igreja.cellapp.listagens.CelulaSelecionada"
             android:screenOrientation="portrait"
-            android:theme="@style/MyTheme" />
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name="br.com.igreja.cellapp.listagens.MembroSelecionado"
             android:screenOrientation="portrait" />
@@ -123,11 +124,6 @@
         <service android:name="br.com.igreja.cellapp.util.MyFirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
-        <service android:name="br.com.igreja.cellapp.util.MyFirebaseInstanceIdService" >
-            <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 

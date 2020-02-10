@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/gfraga/Documents/Git/MaanaimApp/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml",
+            "outputFile": "/Users/gfraga/Documents/Git/Maanaim-Lideres-Android/maanaimApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml",
             "map": [
                 {
                     "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/f658cee2971865f8535d91c09201d248/appcompat-1.1.0/res/values-ml/values-ml.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/d9985c9485bb7901e0c76a64ed62d226/jetified-play-services-basement-17.0.0/res/values-ml/values.xml",
+                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/fa9edc396d19ce3102d121aa9c8300bc/jetified-play-services-basement-17.0.0/res/values-ml/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/1dc180d8aabbfd2efce63355dfcf6e73/jetified-firebase-messaging-20.1.0/res/values-ml/values.xml",
+                    "source": "/Users/gfraga/.gradle/caches/transforms-2/files-2.1/3b113804575814d936ae5d781f85dae1/jetified-firebase-messaging-20.1.0/res/values-ml/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
