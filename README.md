@@ -1,6 +1,4 @@
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/menu.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/login.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/about.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/banner.png)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=alert_status)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=kaapiel_Maanaim-lideres&metric=ncloc)](https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres)
@@ -28,9 +26,7 @@ Install the app and test it!
 
 <h2 id="examples">Examples :eyes:</h2>
 
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/cell-search.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/suggestions.png)
-![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/cell-report.png)
+![banner](https://raw.github.com/kaapiel/Raw-content/master/Maanaim-Lideres-Android/example-1.png)
 
 <br/>
 
