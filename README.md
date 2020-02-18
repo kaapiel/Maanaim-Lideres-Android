@@ -11,6 +11,12 @@
 # Maanaim Lideres Android
 A powerful & easy to use management app for Android
 
+### To access SonarCloud data use this link: 
+#### https://sonarcloud.io/dashboard?id=kaapiel_Maanaim-lideres
+
+### To access pipeline and CI data use this link: 
+#### https://circleci.com/gh/kaapiel/Maanaim-Lideres-Android
+
 ## Table of Contents
 1. [Quick Start](#quick-start)
 1. [Example usage](#examples)
